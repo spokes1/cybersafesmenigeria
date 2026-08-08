@@ -1,0 +1,9 @@
+# Static site: no build step, no dependencies.
+# `public` is intentionally a repo-relative path — never an absolute one
+# such as "/public" or "/opt/build/repo/public". Netlify strips the leading
+# slash and then resolves the remainder from the repo root, which produces a
+# path that does not exist and fails the deploy with
+# "Deploy directory ... does not exist".
+# Settings in this file take precedence over the Netlify UI publish directory.
+[build]
+  publish = "public"
