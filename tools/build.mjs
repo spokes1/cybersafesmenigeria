@@ -188,9 +188,9 @@ const pages = [
   hub('/resources', 'Resources | CyberSafe SME Nigeria', 'Guides, checklists, downloads, tools and the Nigerian organisations that handle cyber incidents and data protection.', 'Resources', resourcesIndexBody()),
   art('/resources/security-checklist', 'Security Checklist | CyberSafe SME Nigeria', 'A 16-point security self-check for Nigerian small businesses. Your answers stay in your browser.', 'Resources', 'Security Checklist', checklistPageBody()),
   hub('/resources/guides', 'Guides | CyberSafe SME Nigeria', 'Step-by-step cybersecurity guides written for Nigerian small businesses.', 'Resources', guidesIndexBody()),
-  hub('/resources/organisations', 'Cybersecurity Organisations | CyberSafe SME Nigeria', 'NITDA, ngCERT, NDPC, CBN, EFCC and NCC — what each one does and when to contact them.', 'Resources', organisationsBody()),
+  hub('/resources/organisations', 'Cybersecurity Organisations | CyberSafe SME Nigeria', 'NITDA, ngCERT, NDPC, CBN, EFCC and NCC: what each one does and when to contact them.', 'Resources', organisationsBody()),
   hub('/resources/external', 'External Resources | CyberSafe SME Nigeria', 'Reference material from established international security bodies, useful when you want more depth.', 'Resources', externalBody()),
-  hub('/resources/tools', 'Tools | CyberSafe SME Nigeria', 'Free and low-cost security tools worth knowing about — password managers, breach checks and authenticator apps.', 'Resources', toolsBody()),
+  hub('/resources/tools', 'Tools | CyberSafe SME Nigeria', 'Free and low-cost security tools worth knowing about: password managers, breach checks and authenticator apps.', 'Resources', toolsBody()),
   hub('/resources/audio-guide', 'Audio Guide | CyberSafe SME Nigeria', 'A short spoken briefing on the cybersecurity steps that matter most for a Nigerian small business.', 'Resources', audioGuideBody()),
   placeholder({
     path: '/resources/checklists',
@@ -217,7 +217,7 @@ const pages = [
   }),
 
   /* About and legal */
-  hub('/about', 'About | CyberSafe SME Nigeria', 'CyberSafe is a free cybersecurity knowledge hub for Nigerian SMEs — not a consultancy, MSSP or security vendor.', 'About', aboutIndexBody()),
+  hub('/about', 'About | CyberSafe SME Nigeria', 'CyberSafe is a free cybersecurity knowledge hub for Nigerian SMEs. It is not a consultancy, MSSP or security vendor.', 'About', aboutIndexBody()),
   art('/about/mission', 'Our Mission | CyberSafe SME Nigeria', 'Why CyberSafe exists, how content is chosen, and what we will not do.', 'About', 'Our Mission', missionBody()),
   hub('/about/team', 'Meet the Team | CyberSafe SME Nigeria', 'The Nigerian team writing and maintaining CyberSafe.', 'About', teamBody()),
   hub('/about/contact', 'Contact | CyberSafe SME Nigeria', 'Email CyberSafe with corrections, questions or topic suggestions.', 'About', contactBody()),

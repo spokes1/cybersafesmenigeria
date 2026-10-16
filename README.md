@@ -1,24 +1,29 @@
 # CyberSafe SME Nigeria
 
-A static cybersecurity resource hub for Nigerian small and medium enterprises. The single-page site covers common threats, practical safety tips, links to national regulatory bodies (NITDA, NDPC, CBN, CERT), recommended security tools, and an embedded audio guide walking through key cybersecurity steps.
+A free cybersecurity knowledge hub for Nigerian small and medium businesses: common threats, practical steps, a 16-point self-check, and the Nigerian organisations that handle cyber incidents.
 
-## Key technologies
+## What is in this repository
 
-- Plain HTML, CSS, and vanilla JavaScript (no framework or build step)
-- Google Fonts (Inter, Poppins)
+- `public/`: the generated site that Netlify publishes.
+- `tools/`: the generator and all page content. Plain Node.js, no dependencies.
+- `AGENTS.md`: architecture, design rules and content rules. Read it before changing anything.
 
-## Running locally
+## Working on the site
 
-Since this is a static site with no build step, serve the `public` directory with any static file server, for example:
+Edit the content in `tools/`, then rebuild:
+
+```bash
+node tools/build.mjs
+```
+
+The build regenerates every page in `public/`, rewrites `sitemap.xml` and the search index, and stops with an error if any link points at a missing page. To preview locally:
 
 ```bash
 npx serve public
 ```
 
-Or use the Netlify CLI:
+Commit `tools/` and `public/` together.
 
-```bash
-netlify dev
-```
+## Hosting
 
-Then open the printed local URL in your browser.
+Netlify publishes `public/` as it is. `netlify.toml` sets the publish directory, security headers and image caching.

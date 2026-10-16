@@ -7,3 +7,34 @@
 # Settings in this file take precedence over the Netlify UI publish directory.
 [build]
   publish = "public"
+
+# Security headers for every page.
+# The site loads no third-party scripts. Google Fonts is the only outside
+# host it uses (stylesheet from fonts.googleapis.com, files from fonts.gstatic.com).
+# 'unsafe-inline' is for style only: a few pages use inline style attributes.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=()"
+    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; media-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'"
+
+# Cache. Images and icons keep their filenames when they are replaced, so they
+# get a week, not a year. CSS and JS are not fingerprinted, so they keep
+# Netlify's default (always check for a newer copy) to avoid stale styles.
+[[headers]]
+  for = "/assets/photos/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/assets/icons/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/assets/logo/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"

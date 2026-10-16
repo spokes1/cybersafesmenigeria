@@ -27,7 +27,7 @@ ${section({
     heading: 'What CyberSafe is, and what it is not',
     inner: `${grid([
       iconCard({ iconName: 'book', title: 'What it is', copy: 'A free knowledge hub: explanations of common threats, practical steps for accounts, payments and devices, a security self-check, and links to the Nigerian bodies that handle incidents and data protection.' }),
-      iconCard({ iconName: 'info', tone: 'o', title: 'What it is not', copy: 'Not a consultancy, a managed security provider, a security operations centre or a penetration-testing firm. Nothing here replaces professional advice where a business genuinely needs it — and we will say so where that is the case.' }),
+      iconCard({ iconName: 'info', tone: 'o', title: 'What it is not', copy: 'Not a consultancy, a managed security provider, a security operations centre or a penetration-testing firm. Nothing here replaces professional advice where a business genuinely needs it, and we will say so where that is the case.' }),
     ], false)}<div class="btns" style="margin-top:28px">${btn({ label: 'Read Our Mission', href: '/about/mission', primary: true, arrow: true })}${btn({ label: 'Meet the Team', href: '/about/team' })}</div>`,
   })}
 ${section({
@@ -59,7 +59,7 @@ export function missionBody() {
         '**Free and open.** No paywall, no account, no email capture before you can read something.',
       ]],
       ['h2', 'What we will not do'],
-      ['p', 'We will not present ourselves as a security vendor, recommend a product because someone paid us, or use fear to push a business into a purchase. Where a business needs professional help — a real audit, incident response, compliance work — the honest answer is to say so, and we will.'],
+      ['p', 'We will not present ourselves as a security vendor, recommend a product because someone paid us, or use fear to push a business into a purchase. Where a business needs professional help, such as a real audit, incident response or compliance work, the honest answer is to say so, and we will.'],
       ['h2', 'How this is built'],
       ['p', 'CyberSafe is developed in phases. The published pages cover threats, account and payment security, incident response, a security self-check and a set of vetted external resources. More topics are being written, and each one is listed in the [Learn](/learn) index whether it is finished or not, so you can see what is coming rather than guessing.'],
       ['h2', 'Corrections welcome'],
@@ -94,14 +94,14 @@ export function contactBody() {
     pill: 'About',
     pillIcon: 'mail',
     title: 'Contact',
-    lead: 'Questions, corrections and suggestions for topics are all welcome. CyberSafe is a knowledge hub, so we cannot take on incident response for you — but we can point you to the right place.',
+    lead: 'Questions, corrections and suggestions for topics are all welcome. CyberSafe is a knowledge hub, so we cannot take on incident response for you, but we can point you to the right place.',
     trail: trail('Contact'),
   })}
 ${section({
     tint: true,
     inner: `<div class="grid">
 <div class="card"><div class="ci">${icon('mail')}</div><h2 style="font-size:21px">Email us</h2><p>For corrections, questions about the content, or a topic you would like covered.</p><a class="mail" href="mailto:${SITE.email}">${SITE.email}</a></div>
-<div class="card"><div class="ci o">${icon('bolt')}</div><h2 style="font-size:21px">Reporting an incident</h2><p>If something has already happened, report it to ngCERT and — where money is involved — your bank and the EFCC. Our incident page lists the steps in order.</p><a class="more" href="/protect-your-business/incident-response">Incident response steps${icon('arrow')}</a></div>
+<div class="card"><div class="ci o">${icon('bolt')}</div><h2 style="font-size:21px">Reporting an incident</h2><p>If something has already happened, report it to ngCERT and, where money is involved, your bank and the EFCC. Our incident page lists the steps in order.</p><a class="more" href="/protect-your-business/incident-response">Incident response steps${icon('arrow')}</a></div>
 </div><p class="fine">Please do not send passwords, OTPs, BVN details, card numbers or customer records to us. We never need them, and no legitimate organisation will ask you for them by email.</p>`,
   })}
 ${section({
@@ -146,7 +146,7 @@ export function termsBody() {
     trail: [{ label: 'Home', href: '/' }, { label: 'Terms of Use' }],
     blocks: [
       ['h2', 'General information, not professional advice'],
-      ['p', 'Everything on CyberSafe is general cybersecurity awareness information for small and medium businesses. It is not a security audit, an incident response service or professional advice about your specific systems. Where the stakes are high — a live incident, a regulatory question, a significant loss — get qualified help.'],
+      ['p', 'Everything on CyberSafe is general cybersecurity awareness information for small and medium businesses. It is not a security audit, an incident response service or professional advice about your specific systems. Where the stakes are high, such as a live incident, a regulatory question or a significant loss, get qualified help.'],
       ['h2', 'The security checklist'],
       ['p', 'The checklist is a self-assessment to help you see gaps. A full score does not mean your business is secure, and it is not a certification or a compliance statement.'],
       ['h2', 'External links and tools'],

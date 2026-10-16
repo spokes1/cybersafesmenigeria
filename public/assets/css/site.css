@@ -91,7 +91,7 @@ nav.main ul { display: flex; gap: 2px; list-style: none; margin: 0; padding: 0 }
 #mnav details a[aria-current] { color: var(--brand) }
 #mnav .mcta { display: flex; justify-content: center; margin-top: 16px }
 #prog { position: absolute; left: 0; bottom: -1px; height: 3px; width: 0; background: linear-gradient(90deg, var(--brand), var(--brand2)) }
-@media (max-width: 1120px) {
+@media (max-width: 1239px) {
   nav.main, .cta-s { display: none }
   .burger { display: grid; margin-left: 0 }
   .sbtn { margin-left: auto }
@@ -440,4 +440,55 @@ footer p { margin: 0 0 14px }
   .js .rv { opacity: 1; transform: none; transition: none }
   a.card:hover, .pg-art .card:hover, .btn:hover { transform: none }
   .pg-art .fl path { animation: none }
+}
+/* Cyber tips carousel */
+.tipc{position:relative;display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:start;background:#fff;border:1px solid var(--line);border-radius:26px;box-shadow:var(--shadow);padding:32px 38px}
+.tipc:before{content:"";position:absolute;left:0;top:30px;bottom:30px;width:4px;border-radius:0 4px 4px 0;background:linear-gradient(#0f766e,#14b8a6)}
+.tipc .big{width:64px;height:64px;border-radius:20px;display:grid;place-items:center;font-size:32px;color:#fff;background:linear-gradient(135deg,#0f766e,#14b8a6);box-shadow:0 14px 26px -12px #0f766e}
+.tipc h2{font-size:clamp(22px,2.6vw,30px);margin:2px 0 14px;max-width:none}.tipc .eyebrow{display:flex;gap:10px;align-items:center}.tipc .eyebrow span{color:var(--muted);letter-spacing:0;text-transform:none;font-weight:600}
+.slides{display:grid}.slide{grid-area:1/1;opacity:0;visibility:hidden;transition:opacity .3s,visibility .3s}.slide.on{opacity:1;visibility:visible}
+.slide h3{font-size:20px;margin:0 0 6px}.slide p{margin:0;color:var(--muted);font-size:17px;max-width:46em}
+.ctl{display:flex;align-items:center;gap:12px;margin-top:22px;flex-wrap:wrap}
+.ib{width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:#fff;color:var(--ink);display:grid;place-items:center;font-size:18px;cursor:pointer}.ib:hover{border-color:var(--brand2);color:var(--brand)}
+.tdots{display:flex;gap:10px;align-items:center;padding:0 4px}.tdots button{position:relative;width:10px;height:10px;border-radius:99px;border:0;padding:0;background:#c3d9dc;cursor:pointer;transition:width .25s,background .25s}
+.tdots button:after{content:"";position:absolute;inset:-17px -5px}.tdots button[aria-current=true]{width:28px;background:var(--brand)}
+.tipc .more{margin-top:18px}
+@media(max-width:700px){.tipc{grid-template-columns:1fr;gap:16px;padding:24px 22px}.tipc .big{width:52px;height:52px;font-size:26px}}
+@media(prefers-reduced-motion:reduce){.slide,.tdots button{transition:none}}
+.ti{width:38px;height:38px;object-fit:contain;display:block}.th span .ti[width="52"]{width:52px;height:52px}
+.ci.img{background:#fff;border:1px solid var(--line);box-shadow:var(--shadow)}.ci.img .pi{object-fit:contain;display:block}.ci.img svg{font-size:28px}
+.tipc{background:linear-gradient(135deg,#fff3e8,#fff9f1);border-color:#fbd9bd}
+.tipc:before{background:linear-gradient(#e8590c,#fb923c)}
+.tipc .big{background:linear-gradient(135deg,#e8590c,#fb923c);box-shadow:0 14px 26px -12px #e8590c}
+.tipc .eyebrow{color:#c2410c}.tipc .eyebrow span{color:#8a6a52}.slide p{color:#5b4a3c}
+.tipc .ib{border-color:#f3d2b5}.tipc .ib:hover{border-color:#fb923c;color:#c2410c}
+.tdots button{background:#ecd3bd}.tdots button[aria-current=true]{background:#e8590c}
+.tipc .more{color:#c2410c}
+/* Supplied icon images and amber tip card */
+.ti{width:38px;height:38px;object-fit:contain;display:block}.th span .ti[width="52"]{width:52px;height:52px}
+.ci.img{background:#fff;border:1px solid var(--line);box-shadow:var(--shadow)}.ci.img .pi{object-fit:contain;display:block}.ci.img svg{font-size:28px}
+.tipc{background:linear-gradient(135deg,#fff3e8,#fff9f1);border-color:#fbd9bd}
+.tipc:before{background:linear-gradient(#e8590c,#fb923c)}
+.tipc .big{background:linear-gradient(135deg,#e8590c,#fb923c);box-shadow:0 14px 26px -12px #e8590c}
+.tipc .eyebrow{color:#c2410c}.tipc .eyebrow span{color:#8a6a52}.slide p{color:#5b4a3c}
+.tipc .ib{border-color:#f3d2b5}.tipc .ib:hover{border-color:#fb923c;color:#c2410c}
+.tdots button{background:#ecd3bd}.tdots button[aria-current=true]{background:#e8590c}
+.tipc .more{color:#c2410c}
+
+/* Small phones: keep the footer inside the screen */
+.fg > div { min-width: 0 }
+footer a { overflow-wrap: anywhere }
+@media (max-width: 600px) { .fg > div:first-child { grid-column: 1 / -1 } }
+
+/* Header menu labels stay on one line */
+.dd > a.l { white-space: nowrap }
+.tipc .more { text-decoration: none }
+.tipc .more:hover { text-decoration: underline }
+
+/* Header: fit five menus, search and the button on 1280px laptops */
+@media (min-width: 1240px) and (max-width: 1439px) {
+  header.top .wrap { gap: 8px }
+  .dd > a.l { padding: 9px 8px; font-size: 14px }
+  .sbtn kbd { display: none }
+  .cta-s { padding: 10px 14px; font-size: 13px }
 }

@@ -18,7 +18,7 @@ export function inline(text) {
 
 // A numbered step that opens with a bold phrase shows it as the step title.
 function step(item) {
-  const m = item.match(/^\*\*(.+?)\*\*\s*(?:[—–-]\s*)?(.*)$/);
+  const m = item.match(/^\*\*(.+?)\*\*\s*(?:[—–:-]\s*)?(.*)$/);
   return m ? `<li><b>${inline(m[1])}</b>${inline(m[2])}</li>` : `<li>${inline(item)}</li>`;
 }
 

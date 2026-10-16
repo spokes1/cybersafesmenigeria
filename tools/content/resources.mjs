@@ -80,13 +80,13 @@ const TOOLS = [
 const EXTERNAL = [
   {
     mark: 'NCSC',
-    title: 'UK NCSC — Small Business Guide',
+    title: 'UK NCSC: Small Business Guide',
     copy: 'Short, practical guidance written for organisations without security staff. Applies well outside the UK.',
     href: 'https://www.ncsc.gov.uk/collection/small-business-guide',
   },
   {
     mark: 'CISA',
-    title: 'CISA — Cybersecurity for Small Business',
+    title: 'CISA: Cybersecurity for Small Business',
     copy: 'US government resources, including free tools and plain-language explainers.',
     href: 'https://www.cisa.gov/cybersecurity-best-practices',
   },
@@ -122,7 +122,7 @@ export function resourcesIndexBody() {
     pill: `${RESOURCE_CATEGORIES.length} categories`,
     pillIcon: 'folder',
     title: 'Resources',
-    lead: 'Guides, checklists, downloads and links to the organisations that can help — gathered so you are not searching for them mid-incident.',
+    lead: 'Guides, checklists, downloads and links to the organisations that can help, gathered so you are not searching for them mid-incident.',
     trail: [{ label: 'Home', href: '/' }, { label: 'Resources' }],
   })}
 ${section({
@@ -132,7 +132,7 @@ ${section({
       iconCard({ iconName: c.iconName, tone: TONES[i % TONES.length], title: c.name, copy: c.copy, href: c.href })
     ).join('')}</div>`,
   })}
-<section class="rv"><div class="wrap split"><div><h2>The security self-check</h2><p class="sub">${CHECKLIST_TOTAL} questions about the basics. Your answers stay in your browser — nothing is submitted anywhere.</p><div class="btns">${btn({ label: 'Start the Security Checklist', href: '/resources/security-checklist', primary: true })}</div></div>
+<section class="rv"><div class="wrap split"><div><h2>The security self-check</h2><p class="sub">${CHECKLIST_TOTAL} questions about the basics. Your answers stay in your browser. Nothing is submitted anywhere.</p><div class="btns">${btn({ label: 'Start the Security Checklist', href: '/resources/security-checklist', primary: true })}</div></div>
 <div>${iconCard({
     iconName: 'headphones',
     tone: 'b',
@@ -216,7 +216,7 @@ ${section({ tint: true, inner: `<div class="grid">${items.map(linkCard).join('')
 export function organisationsBody() {
   return linkListPage({
     title: 'Cybersecurity Organisations',
-    lead: 'Nigerian bodies with a role in cybersecurity, fraud and data protection — and what each one is actually useful for.',
+    lead: 'Nigerian bodies with a role in cybersecurity, fraud and data protection, and what each one is actually useful for.',
     items: ORGANISATIONS,
     fine: 'CyberSafe is not affiliated with any of these organisations. The links are provided because these are the official channels a Nigerian business would use.',
   });
@@ -227,7 +227,7 @@ export function externalBody() {
     title: 'External Resources',
     lead: 'Reference material from established security bodies. Useful when you want more depth than a summary page.',
     items: EXTERNAL,
-    fine: 'Some of this guidance is written for other countries. The technical advice carries over; the reporting routes do not — use the <a href="/resources/organisations">Nigerian organisations</a> page for those.',
+    fine: 'Some of this guidance is written for other countries. The technical advice carries over; the reporting routes do not, so use the <a href="/resources/organisations">Nigerian organisations</a> page for those.',
   });
 }
 

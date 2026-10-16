@@ -19,19 +19,19 @@ export const PROTECT_AREAS = [
       ['h2', 'Work in this order'],
       ['p', 'Not all accounts are equal. Email can reset the others, so it comes first. Then money, then the channels your customers see.'],
       ['ol', [
-        '**Business email** — unique password, two-factor authentication, no unknown forwarding rules.',
-        '**Banking and payment platforms** — 2FA, transaction alerts on, and a second approver for larger transfers.',
-        '**WhatsApp Business** — two-step verification and a weekly check of linked devices.',
-        '**Social media pages** — 2FA on every admin, and only current staff listed as admins.',
-        '**Cloud storage** — 2FA, and a look at what is shared with "anyone with the link".',
+        '**Business email**: unique password, two-factor authentication, no unknown forwarding rules.',
+        '**Banking and payment platforms**: 2FA, transaction alerts on, and a second approver for larger transfers.',
+        '**WhatsApp Business**: two-step verification and a weekly check of linked devices.',
+        '**Social media pages**: 2FA on every admin, and only current staff listed as admins.',
+        '**Cloud storage**: 2FA, and a look at what is shared with "anyone with the link".',
       ]],
       ['h2', 'Two-factor authentication, briefly'],
-      ['p', 'A password proves you know something. A second factor proves you have something — usually a phone with an authenticator app. Prefer an app over SMS codes, because a SIM swap steals SMS but not the app.'],
+      ['p', 'A password proves you know something. A second factor proves you have something, usually a phone with an authenticator app. Prefer an app over SMS codes, because a SIM swap steals SMS but not the app.'],
       ['p', 'Save the backup codes each service offers when you enable 2FA. Print them and keep them where you keep other business documents. They are how you get back in when a phone is lost.'],
       ['h2', 'Things to check once a month'],
       ['ul', [
         'Active sessions and connected devices on email, WhatsApp and cloud storage.',
-        'Recovery email addresses and phone numbers — these are quietly changed after a compromise.',
+        'Recovery email addresses and phone numbers. These are quietly changed after a compromise.',
         'Admin lists on your social pages and payment platforms.',
         'Whether anyone who left still has access to anything.',
       ]],
@@ -57,7 +57,7 @@ export const PROTECT_AREAS = [
       ['ul', [
         'Match the exact amount and the exact time, not just "a credit today".',
         'Watch for reused screenshots from earlier legitimate transactions.',
-        'Expect pressure at closing time and during rushes — that is when this is attempted.',
+        'Expect pressure at closing time and during rushes. That is when this is attempted.',
       ]],
       ['h2', 'Rule two: verify every change of account details'],
       ['p', 'A request to pay into a different account is confirmed by phone, on a number you already had, with a person you know. Not the number in the email. Not a WhatsApp reply. A call you place.'],
@@ -75,7 +75,7 @@ export const PROTECT_AREAS = [
         'Call your bank immediately and ask them to flag and attempt a recall. Hours matter.',
         'Preserve the invoice, the email thread, the account details and the transaction reference.',
         'Report to the [EFCC](https://www.efcc.gov.ng) with your evidence, and to the police.',
-        'Then look at how the request arrived — if it came from inside an email thread, assume the mailbox is compromised and secure it.',
+        'Then look at how the request arrived. If it came from inside an email thread, assume the mailbox is compromised and secure it.',
       ]],
     ],
     related: [
@@ -96,7 +96,7 @@ export const PROTECT_AREAS = [
       ['ul', [
         'Automatic updates on for the operating system, browser and business apps.',
         'A screen lock with a PIN or biometrics, and a short auto-lock timeout.',
-        'Reputable antivirus with real-time protection enabled — Microsoft Defender is sufficient on current Windows.',
+        'Reputable antivirus with real-time protection enabled. Microsoft Defender is sufficient on current Windows.',
         'Disk encryption where available: BitLocker on Windows Pro, FileVault on Mac, and on by default on modern phones.',
         'Standard user accounts for staff, administrator rights only where genuinely needed.',
       ]],
@@ -108,7 +108,7 @@ export const PROTECT_AREAS = [
       ['ul', [
         'Separate accounts per person, so browser sessions and saved passwords are not shared.',
         'No saved banking passwords in the browser of a shared machine.',
-        'Sign out of everything at the end of a shift — WhatsApp Web especially.',
+        'Sign out of everything at the end of a shift, WhatsApp Web especially.',
       ]],
       ['h2', 'Phones you run the business from'],
       ['ul', [
@@ -158,14 +158,14 @@ export const PROTECT_AREAS = [
       ]],
       ['h2', 'Where to report in Nigeria'],
       ['ul', [
-        '[ngCERT](https://cert.gov.ng) — the national computer emergency response team, for cyber incidents and advisories.',
-        '[EFCC](https://www.efcc.gov.ng) — for online fraud and financial cybercrime.',
-        'Nigeria Police Force cybercrime unit — through your nearest station, with your evidence prepared.',
-        '[NDPC](https://ndpc.gov.ng) — if personal data belonging to customers or staff was exposed, there are notification duties under the NDPA.',
-        'Your bank\'s fraud desk — as early as possible, in writing as well as by phone.',
+        '[ngCERT](https://cert.gov.ng): the national computer emergency response team, for cyber incidents and advisories.',
+        '[EFCC](https://www.efcc.gov.ng): for online fraud and financial cybercrime.',
+        'Nigeria Police Force cybercrime unit: through your nearest station, with your evidence prepared.',
+        '[NDPC](https://ndpc.gov.ng): if personal data belonging to customers or staff was exposed, there are notification duties under the NDPA.',
+        'Your bank\'s fraud desk: as early as possible, in writing as well as by phone.',
       ]],
       ['h2', 'Write it down afterwards'],
-      ['p', 'One page: what happened, how it got in, what you changed, what you would do differently. Businesses that do this rarely get caught by the same method twice. Keep the contacts above, plus your bank\'s fraud line, on a printed sheet — during an incident is the worst time to look them up.'],
+      ['p', 'One page: what happened, how it got in, what you changed, what you would do differently. Businesses that do this rarely get caught by the same method twice. Keep the contacts above, plus your bank\'s fraud line, on a printed sheet, because an incident is the worst time to look them up.'],
       ['quote', 'Nobody should be punished for reporting an incident early. Hidden incidents are the ones that become expensive.'],
     ],
     related: [
@@ -188,7 +188,7 @@ export function protectIndexBody() {
   })}
 ${section({
     heading: 'Four areas that cover most of the risk',
-    sub: 'You do not have to do all of this at once. Accounts first, then payments — those two prevent most of what actually happens to businesses here.',
+    sub: 'You do not have to do all of this at once. Accounts first, then payments. Those two prevent most of what actually happens to businesses here.',
     tint: true,
     inner: `<div class="grid">${PROTECT_AREAS.map((area, i) =>
       iconCard({

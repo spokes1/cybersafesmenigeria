@@ -23,11 +23,11 @@ export const LEARN_TOPICS = [
 const BASICS_FAQ = [
   {
     q: 'What is phishing and how do I recognise it?',
-    a: 'Phishing is a message — email, SMS or WhatsApp — built to look like it came from a trusted source such as your bank, a supplier or a delivery company. The signs are urgency you did not expect, a request for a password or OTP, a link whose address does not match the text, and a sender address that is nearly but not exactly right. When in doubt, contact the organisation on a number you already have.',
+    a: 'Phishing is a message (email, SMS or WhatsApp) built to look like it came from a trusted source such as your bank, a supplier or a delivery company. The signs are urgency you did not expect, a request for a password or OTP, a link whose address does not match the text, and a sender address that is nearly but not exactly right. When in doubt, contact the organisation on a number you already have.',
   },
   {
     q: 'Can ransomware really affect a business as small as mine?',
-    a: 'Yes. Most ransomware is not aimed at anyone in particular — it spreads to whatever it can reach. It usually arrives through an attachment, an infected USB drive or software that has not been updated. Offline backups, current software and staff who recognise a suspicious file are what keep it survivable.',
+    a: 'Yes. Most ransomware is not aimed at anyone in particular. It spreads to whatever it can reach. It usually arrives through an attachment, an infected USB drive or software that has not been updated. Offline backups, current software and staff who recognise a suspicious file are what keep it survivable.',
   },
   {
     q: 'How do I create a strong password I can actually remember?',
@@ -39,7 +39,7 @@ const BASICS_FAQ = [
   },
   {
     q: 'How do I tell whether a bank alert is real?',
-    a: 'Do not judge the notification — check the balance. Open your own banking app, not a link, and confirm the credit, the exact amount and the time. Alert screenshots and SMS sender names are both easy to fake.',
+    a: 'Do not judge the notification. Check the balance. Open your own banking app, not a link, and confirm the credit, the exact amount and the time. Alert screenshots and SMS sender names are both easy to fake.',
   },
   {
     q: 'Do I need antivirus if I only use my phone for business?',
@@ -51,7 +51,7 @@ const BASICS_FAQ = [
   },
   {
     q: 'How do I report a cybercrime in Nigeria?',
-    a: 'ngCERT at cert.gov.ng handles cyber incidents and advisories. The EFCC at efcc.gov.ng handles online fraud and financial cybercrime. The Nigeria Police Force cybercrime unit can be reached through your nearest station. Preserve your evidence — screenshots, message threads, transaction records — before you report.',
+    a: 'ngCERT at cert.gov.ng handles cyber incidents and advisories. The EFCC at efcc.gov.ng handles online fraud and financial cybercrime. The Nigeria Police Force cybercrime unit can be reached through your nearest station. Preserve your evidence (screenshots, message threads and transaction records) before you report.',
   },
 ];
 
@@ -66,20 +66,20 @@ export const LEARN_ARTICLES = {
       ['h3', '1. Accounts'],
       ['p', 'Give every work account its own password, and turn on two-factor authentication starting with email. Email is the account that can reset all the others, which is why attackers go there first.'],
       ['h3', '2. Messages'],
-      ['p', 'Treat any unexpected request that involves money, passwords or codes as unverified until you have confirmed it through a channel you chose. Not the number in the message — the number you already had.'],
+      ['p', 'Treat any unexpected request that involves money, passwords or codes as unverified until you have confirmed it through a channel you chose. Not the number in the message, but the number you already had.'],
       ['h3', '3. Payments'],
       ['p', 'Confirm a credit in your own banking app before goods leave. Confirm any change of account details by phone. These two habits prevent the two most expensive frauds against SMEs here.'],
       ['h3', '4. Devices and data'],
       ['p', 'Install updates, use licensed software, lock screens, and keep a backup that is not permanently attached to the machine it protects.'],
       ['h2', 'Words you will keep meeting'],
       ['ul', [
-        '**Two-factor authentication (2FA)** — a second proof of identity after your password, usually a code from an app.',
-        '**OTP** — a one-time code sent to you. Never share it, with anyone, ever.',
-        '**Phishing** — a fake message designed to make you hand over access or money.',
-        '**Malware** — software running on your device for someone else\'s benefit.',
-        '**Ransomware** — malware that locks your files and demands payment.',
-        '**Social engineering** — manipulating a person instead of attacking a system.',
-        '**Backup** — a separate copy of your data you can restore from.',
+        '**Two-factor authentication (2FA)**: a second proof of identity after your password, usually a code from an app.',
+        '**OTP**: a one-time code sent to you. Never share it, with anyone, ever.',
+        '**Phishing**: a fake message designed to make you hand over access or money.',
+        '**Malware**: software running on your device for someone else\'s benefit.',
+        '**Ransomware**: malware that locks your files and demands payment.',
+        '**Social engineering**: manipulating a person instead of attacking a system.',
+        '**Backup**: a separate copy of your data you can restore from.',
       ]],
       ['h2', 'What to do this week'],
       ['ol', [
@@ -112,7 +112,7 @@ export const LEARN_ARTICLES = {
         '**Check your recovery email and phone number.** If either belongs to someone else, they own the account, password or not.',
       ]],
       ['h2', 'Use a business domain if you can'],
-      ['p', 'A mailbox at your own domain — accounts@yourbusiness.com.ng rather than a free personal address — lets you control accounts centrally, remove access when staff leave, and set the DNS records (SPF, DKIM and DMARC) that make it harder for anyone to send email pretending to be you. Your domain registrar or hosting provider can set these up.'],
+      ['p', 'A mailbox at your own domain (accounts@yourbusiness.com.ng rather than a free personal address) lets you control accounts centrally, remove access when staff leave, and set the DNS records (SPF, DKIM and DMARC) that make it harder for anyone to send email pretending to be you. Your domain registrar or hosting provider can set these up.'],
       ['h2', 'Reading email safely'],
       ['ul', [
         'Check the actual sender address, not the display name. The display name is free text and can say anything.',
@@ -124,7 +124,7 @@ export const LEARN_ARTICLES = {
       ['ul', [
         'Every staff member gets their own mailbox. No shared inbox passwords.',
         'Any change of bank details, from anyone, is confirmed by phone on a known number before payment.',
-        'Report suspicious mail internally the same day — these campaigns hit several colleagues at once.',
+        'Report suspicious mail internally the same day. These campaigns hit several colleagues at once.',
         'When someone leaves: change the password, end all sessions, and remove their access the same day.',
       ]],
       ['h2', 'If an account was already compromised'],
@@ -162,7 +162,7 @@ export const LEARN_ARTICLES = {
         'Tell customers plainly, in your profile or a pinned message, that your account number never changes and that you will never ask them to send money to a different one.',
         'Confirm large or unusual orders with a phone call.',
         'Do not accept a payment screenshot as proof. Check your own balance.',
-        'Be careful with group links — anyone who joins can see the members list, which is a ready-made target list.',
+        'Be careful with group links. Anyone who joins can see the members list, which is a ready-made target list.',
       ]],
       ['h2', 'If your account is taken over'],
       ['ol', [
@@ -185,14 +185,14 @@ export const LEARN_ARTICLES = {
     name: 'Employee Security',
     lede: 'Your staff are not the weak link. They are the control that works, if you tell them what to expect.',
     blocks: [
-      ['p', 'Most staff mistakes are reasonable decisions made with missing information. Someone paid an invoice because it looked normal. Someone read out a code because the caller sounded official. The fix is not suspicion — it is a small number of clear rules, and permission to slow down.'],
+      ['p', 'Most staff mistakes are reasonable decisions made with missing information. Someone paid an invoice because it looked normal. Someone read out a code because the caller sounded official. The fix is not suspicion. It is a small number of clear rules, and permission to slow down.'],
       ['h2', 'Day one, for every new person'],
       ['ul', [
         'Their own login for every system. No shared accounts.',
         'A standard user account, not an administrator account.',
         'The payment rule, said out loud: any change of account details is confirmed by phone on a known number.',
         'The code rule: nobody in this business ever asks you for an OTP or a password. Anyone who does is not us.',
-        'Who to tell, immediately, if something feels wrong — and the assurance that reporting early is never punished.',
+        'Who to tell, immediately, if something feels wrong, and the assurance that reporting early is never punished.',
       ]],
       ['h2', 'The last day matters as much'],
       ['ol', [
@@ -204,7 +204,7 @@ export const LEARN_ARTICLES = {
       ['h2', 'Keeping awareness alive without a training budget'],
       ['ul', [
         'Once a quarter, spend ten minutes on a real message the business actually received. Recognition beats policy.',
-        'When an attempt is caught, share it — including who caught it.',
+        'When an attempt is caught, share it, including who caught it.',
         'Keep the rules to a single page and put it where people work, not in a shared drive nobody opens.',
         'Do not blame the person who clicked. The next person will hide it, and hidden incidents are the expensive ones.',
       ]],
@@ -222,17 +222,17 @@ export const LEARN_ARTICLES = {
     name: 'Phishing: How Nigerian SMEs Are Targeted and What to Do About It',
     lede: 'That urgent message from your boss. The supplier asking for a new account number. The login page that looks exactly like Microsoft 365.',
     blocks: [
-      ['p', 'Phishing is not a technical attack. It is a persuasion attack delivered by a message, and it remains the most common starting point for losses at small businesses in Nigeria — ahead of malware, ahead of anything involving code.'],
+      ['p', 'Phishing is not a technical attack. It is a persuasion attack delivered by a message, and it remains the most common starting point for losses at small businesses in Nigeria, ahead of malware and ahead of anything involving code.'],
       ['p', 'It succeeds for a simple reason: the messages are ordinary. They do not look like crime. They look like work.'],
       ['h2', 'The four you are most likely to receive'],
       ['h3', 'The changed account number'],
-      ['p', 'An email arrives inside a genuine invoice conversation. The supplier apologises — their old account is frozen, please pay into this new one. The thread is real, the tone is right, the amount matches. Only the account number is different.'],
+      ['p', 'An email arrives inside a genuine invoice conversation. The supplier apologises: their old account is frozen, please pay into this new one. The thread is real, the tone is right, the amount matches. Only the account number is different.'],
       ['p', 'This is the most expensive version, and the defence is procedural rather than technical: **any change of payment details is confirmed by voice, on a number you already had, before anything is paid.**'],
       ['h3', 'The manager in a hurry'],
       ['p', 'A short message, apparently from the owner or MD, sent from an unfamiliar address or number. In a meeting. Cannot take calls. Needs a transfer or airtime now, will explain later. It targets the reluctance of a junior member of staff to question a senior one.'],
       ['p', 'The counter is a rule the whole team knows: no payment happens on a message alone, no matter who it appears to come from, and nobody is ever in trouble for checking.'],
       ['h3', 'The login page that is almost right'],
-      ['p', 'A shared-document notification, a mailbox-full warning, a fake courier tracking page. The page it opens looks exactly like Microsoft 365 or Gmail — because it is a copy. Whatever you type goes straight to the attacker.'],
+      ['p', 'A shared-document notification, a mailbox-full warning, a fake courier tracking page. The page it opens looks exactly like Microsoft 365 or Gmail, because it is a copy. Whatever you type goes straight to the attacker.'],
       ['p', 'Check the address bar before typing. Better still, do not reach login pages through links at all: type the address yourself or use a bookmark. A password manager helps here too, because it will not autofill on a domain that does not match.'],
       ['h3', 'The OTP request'],
       ['p', 'A call or message from "your bank", "WhatsApp support" or a customer with a payment problem, asking you to read out the code you just received. That code is the account.'],
@@ -249,14 +249,14 @@ export const LEARN_ARTICLES = {
         'Two-factor authentication on business email, then banking, then everything else. A stolen password stops being enough.',
         'A written payment-verification rule, agreed and repeated, covering changed account details and any transfer above a threshold you choose.',
         'Unique passwords, so one captured login does not open five doors.',
-        'A reporting habit — same day, no blame. Campaigns hit several colleagues, so the first report protects the rest.',
+        'A reporting habit: same day, no blame. Campaigns hit several colleagues, so the first report protects the rest.',
         'Ten minutes a quarter walking the team through a real message you received.',
       ]],
       ['h2', 'If someone has already clicked'],
       ['ol', [
         'Change that password immediately, from a different device, then sign out of all sessions.',
         'Check the mailbox for forwarding rules or filters the attacker may have added.',
-        'If money moved, call the bank at once — speed is the only thing that makes a trace or reversal possible.',
+        'If money moved, call the bank at once. Speed is the only thing that makes a trace or reversal possible.',
         'Preserve evidence: the message, headers, screenshots, transaction references.',
         'Report to [ngCERT](https://cert.gov.ng), and to the [EFCC](https://www.efcc.gov.ng) where funds are involved.',
         'Tell the team what the message looked like, the same day.',

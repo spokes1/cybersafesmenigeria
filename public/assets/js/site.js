@@ -250,7 +250,7 @@
           done === 0
             ? 'Nothing ticked yet. Work down the list at your own pace.'
             : done === boxes.length
-              ? 'Every basic covered. Revisit this list each quarter.'
+              ? 'Every item ticked. Revisit this list each quarter. It is a self-check, not an audit.'
               : 'Unticked items are the gaps worth looking at first.';
       }
       if (!persist) return;
@@ -273,4 +273,44 @@
       });
     }
   }
+})();
+
+/* Cyber tips carousel */
+(function(){
+var root=document.getElementById('tipc');
+if(!root)return;
+if(root.__tips)root.__tips.destroy();
+var slides=[].slice.call(root.querySelectorAll('.slide')),dots=[].slice.call(root.querySelectorAll('#tipdots button')),
+live=document.getElementById('tipslides'),count=document.getElementById('tipcount'),play=document.getElementById('tipplay'),
+N=slides.length,i=0,timer=null,INTERVAL=7000,subs=[],io=null,
+mq=window.matchMedia?window.matchMedia('(prefers-reduced-motion: reduce)'):null,
+st={hover:false,focus:false,hidden:!!document.hidden,inView:true,paused:!!(mq&&mq.matches)};
+function on(t,e,f,o){t.addEventListener(e,f,o);subs.push([t,e,f,o])}
+function show(n){i=(n+N)%N;
+ slides.forEach(function(s,k){var a=k===i;s.classList.toggle('on',a);s.setAttribute('aria-hidden',a?'false':'true')});
+ dots.forEach(function(d,k){if(k===i)d.setAttribute('aria-current','true');else d.removeAttribute('aria-current')});
+ count.textContent=(i+1)+' of '+N}
+function running(){return !(st.paused||st.hover||st.focus||st.hidden||!st.inView)}
+function clear(){if(timer){clearTimeout(timer);timer=null}}
+function schedule(){clear();live.setAttribute('aria-live',running()?'off':'polite');
+ if(!running())return;timer=setTimeout(function(){timer=null;show(i+1);schedule()},INTERVAL)}
+function manual(n){show(n);schedule()}
+function setPlay(){play.setAttribute('aria-label',st.paused?'Resume automatic rotation':'Pause automatic rotation');
+ play.innerHTML='<svg class="i" aria-hidden="true"><use href="/assets/icons.svg#'+(st.paused?'play':'pause')+'"/></svg>'}
+on(document.getElementById('tipprev'),'click',function(){manual(i-1)});
+on(document.getElementById('tipnext'),'click',function(){manual(i+1)});
+dots.forEach(function(d,k){on(d,'click',function(){manual(k)})});
+on(play,'click',function(){st.paused=!st.paused;setPlay();schedule()});
+on(root,'pointerenter',function(e){if(e.pointerType==='mouse'){st.hover=true;schedule()}});
+on(root,'pointerleave',function(e){if(e.pointerType==='mouse'){st.hover=false;schedule()}});
+on(root,'focusin',function(e){var k=false;try{k=e.target.matches(':focus-visible')}catch(x){}if(k){st.focus=true;schedule()}});
+on(root,'focusout',function(e){if(!root.contains(e.relatedTarget)){st.focus=false;schedule()}});
+on(root,'keydown',function(e){if(e.key==='ArrowLeft'){e.preventDefault();manual(i-1)}else if(e.key==='ArrowRight'){e.preventDefault();manual(i+1)}});
+on(document,'visibilitychange',function(){st.hidden=!!document.hidden;schedule()});
+if(mq&&mq.addEventListener){on(mq,'change',function(){if(mq.matches){st.paused=true;setPlay();schedule()}})}
+if('IntersectionObserver' in window){io=new IntersectionObserver(function(es){st.inView=es[es.length-1].isIntersecting;schedule()},{threshold:.2});io.observe(root)}
+function destroy(){clear();subs.forEach(function(s){s[0].removeEventListener(s[1],s[2],s[3])});subs=[];if(io){io.disconnect();io=null}root.__tips=null}
+on(window,'pagehide',destroy);
+root.__tips={destroy:destroy};
+show(0);setPlay();schedule();
 })();

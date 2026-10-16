@@ -10,7 +10,7 @@ export const THREATS = [
     card: 'A message that looks genuine but is designed to steal information or money.',
     lede: 'The most common way a small business gets compromised is still a message that someone believed.',
     blocks: [
-      ['p', 'Phishing is a message built to look like it came from somewhere you trust — your bank, a supplier, a courier, or your own manager. The goal is to get you to hand over a password or a one-time code, approve a payment, or open a file.'],
+      ['p', 'Phishing is a message built to look like it came from somewhere you trust, such as your bank, a supplier, a courier or your own manager. The goal is to get you to hand over a password or a one-time code, approve a payment, or open a file.'],
       ['p', 'It works because it does not feel like an attack. It feels like a normal Tuesday morning request that you are slightly late replying to.'],
       ['h2', 'How it usually arrives'],
       ['ul', [
@@ -22,7 +22,7 @@ export const THREATS = [
       ['h2', 'What gives it away'],
       ['ul', [
         'Urgency you did not expect. Real institutions rarely give you fifteen minutes.',
-        'A reply address that is close but not right — a swapped letter, an extra word, a different domain ending.',
+        'A reply address that is close but not right: a swapped letter, an extra word, a different domain ending.',
         'A request for an OTP, a PIN or a password. **No bank and no legitimate service ever needs these from you.**',
         'A link whose destination does not match the text. On a phone, press and hold to preview it before tapping.',
         'A tone that does not match the person. A manager who never says "kindly treat as urgent" suddenly does.',
@@ -69,7 +69,7 @@ export const THREATS = [
       ['h2', 'If it already happened'],
       ['ol', [
         'Preserve everything: the screenshot, the phone number, the CCTV time, the order record.',
-        'Report to your bank immediately — some transfers can still be traced or reversed if flagged early.',
+        'Report to your bank immediately. Some transfers can still be traced or reversed if flagged early.',
         'Report the fraud to the [EFCC](https://www.efcc.gov.ng) and to the police, with your evidence attached.',
         'Brief every staff member on exactly how the request was framed, so the next attempt is recognised.',
       ]],
@@ -107,7 +107,7 @@ export const THREATS = [
         'Re-register the number on your own phone. Receiving a new code logs the attacker out.',
         'Open Linked devices and log out every session.',
         'Re-enable two-step verification straight away.',
-        'Announce it on another channel — calls, SMS, Instagram — so customers ignore any payment request sent while you were locked out.',
+        'Announce it on another channel (calls, SMS or Instagram) so customers ignore any payment request sent while you were locked out.',
         'Report the incident to [ngCERT](https://cert.gov.ng).',
       ]],
     ],
@@ -123,7 +123,7 @@ export const THREATS = [
     card: 'Someone takes control of your phone number and uses it to get into accounts.',
     lede: 'Your number is a password reset channel. Whoever controls it can start collecting your accounts.',
     blocks: [
-      ['p', 'In a SIM swap, a fraudster convinces a mobile operator — or an agent working with them — to move your number onto a new SIM. Your phone loses service. Their phone starts receiving your OTPs, bank alerts and WhatsApp codes.'],
+      ['p', 'In a SIM swap, a fraudster convinces a mobile operator, or an agent working with them, to move your number onto a new SIM. Your phone loses service. Their phone starts receiving your OTPs, bank alerts and WhatsApp codes.'],
       ['p', 'The information they need to pass the operator\'s checks is often gathered first: your date of birth, your address, your last recharge amounts, sometimes your BVN details from an earlier scam.'],
       ['h2', 'The warning sign is silence'],
       ['ul', [
@@ -159,7 +159,7 @@ export const THREATS = [
     card: 'Malicious software can steal information, damage systems or interrupt business operations.',
     lede: 'Malware rarely announces itself. It arrives as a normal file and behaves like a slow computer.',
     blocks: [
-      ['p', 'Malware is software running on your device for someone else\'s benefit — recording what you type, copying files, mining cryptocurrency with your electricity, or waiting quietly for a chance to do something worse.'],
+      ['p', 'Malware is software running on your device for someone else\'s benefit: recording what you type, copying files, mining cryptocurrency with your electricity, or waiting quietly for a chance to do something worse.'],
       ['h2', 'Common ways it gets in'],
       ['ul', [
         'A shared USB drive passed between a business centre, a customer\'s laptop and your office machine.',
@@ -182,7 +182,7 @@ export const THREATS = [
         'Give staff standard accounts, not administrator accounts. Malware inherits the permissions of the user who ran it.',
         'Keep backups that are not permanently connected to the machine they back up.',
       ]],
-      ['p', 'If you suspect an infection, disconnect the machine from the network before you start investigating, and change passwords from a different device — not from the affected one.'],
+      ['p', 'If you suspect an infection, disconnect the machine from the network before you start investigating, and change passwords from a different device, not from the affected one.'],
     ],
     related: [
       { label: 'Device security steps', href: '/protect-your-business/device-security' },
@@ -245,7 +245,7 @@ export const THREATS = [
       ['h2', 'If it happens'],
       ['ol', [
         'Disconnect affected machines from the network and from any external drives, but do not wipe them.',
-        'Do not pay, and do not delete the ransom note — it helps identify the variant.',
+        'Do not pay, and do not delete the ransom note. It helps identify the variant.',
         'Report to [ngCERT](https://cert.gov.ng); in some cases a free decryptor exists for the specific family.',
         'Rebuild from a clean backup, and change every password afterwards.',
       ]],
@@ -268,7 +268,7 @@ export const THREATS = [
       ['ol', [
         'A password is captured through phishing, or reused from a breach elsewhere.',
         'The attacker logs in and creates a quiet mailbox rule that hides or forwards certain messages.',
-        'They wait for a payment discussion — a supplier invoice, a rent payment, a project milestone.',
+        'They wait for a payment discussion: a supplier invoice, a rent payment or a project milestone.',
         'They reply with updated bank details, sometimes from a near-identical domain instead of the real one.',
       ]],
       ['h2', 'Signs worth checking'],
@@ -315,7 +315,7 @@ export function threatIndexBody() {
     pill: `${THREATS.length} threats explained`,
     pillIcon: 'alert',
     title: 'Threats',
-    lead: 'How the attacks that reach Nigerian small businesses actually work — what they look like, and what to do if one lands.',
+    lead: 'How the attacks that reach Nigerian small businesses actually work: what they look like, and what to do if one lands.',
     trail: [{ label: 'Home', href: '/' }, { label: 'Threats' }],
   })}
 ${section({
@@ -329,7 +329,7 @@ ${section({
   })}
 ${finalCta({
     heading: 'Something already gone wrong?',
-    sub: 'Work through the immediate steps first — containing an incident in the first hour matters more than understanding it perfectly.',
+    sub: 'Work through the immediate steps first. Containing an incident in the first hour matters more than understanding it perfectly.',
     buttons: btn({ label: 'Incident Response Steps', href: '/protect-your-business/incident-response', primary: true, arrow: true }),
   })}`;
 }
@@ -337,7 +337,7 @@ ${finalCta({
 export function threatPages() {
   return THREATS.filter((t) => !APPROVED_THREATS.includes(t.slug)).map((threat) => ({
     path: `/threats/${threat.slug}`,
-    title: `${threat.name} — Threats | CyberSafe SME Nigeria`,
+    title: `${threat.name} | Threats | CyberSafe SME Nigeria`,
     description: threat.card,
     kind: 'art',
     section: 'Threats',

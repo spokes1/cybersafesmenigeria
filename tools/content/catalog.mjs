@@ -40,7 +40,7 @@ export const RESOURCE_CATEGORIES = [
   },
 ];
 
-/* Checklist items. `id` values are localStorage keys — keep them stable
+/* Checklist items. `id` values are localStorage keys, so keep them stable
    when editing wording so saved progress is not orphaned. */
 export const CHECKLIST = [
   {
