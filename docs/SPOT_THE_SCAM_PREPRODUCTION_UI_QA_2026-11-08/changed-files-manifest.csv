@@ -1,0 +1,57 @@
+file,status,reason
+docs/SPOT_THE_SCAM_PREPRODUCTION_UI_QA_2026-11-08/RELEASE_QA_AND_PREVIEW_FINDINGS.md,added,source/assets change or regenerated page
+docs/SPOT_THE_SCAM_PREPRODUCTION_UI_QA_2026-11-08/build.log,added,source/assets change or regenerated page
+docs/SPOT_THE_SCAM_PREPRODUCTION_UI_QA_2026-11-08/changed-files-manifest.csv,added,source/assets change or regenerated page
+docs/SPOT_THE_SCAM_PREPRODUCTION_UI_QA_2026-11-08/desktop-menu-981px.png,added,source/assets change or regenerated page
+docs/SPOT_THE_SCAM_PREPRODUCTION_UI_QA_2026-11-08/homepage-peeking-1366px.png,added,source/assets change or regenerated page
+docs/SPOT_THE_SCAM_PREPRODUCTION_UI_QA_2026-11-08/homepage-peeking-390px.png,added,source/assets change or regenerated page
+docs/SPOT_THE_SCAM_PREPRODUCTION_UI_QA_2026-11-08/kenny-invitation-1366px.png,added,source/assets change or regenerated page
+docs/SPOT_THE_SCAM_PREPRODUCTION_UI_QA_2026-11-08/kenny-invitation-390px.png,added,source/assets change or regenerated page
+docs/SPOT_THE_SCAM_PREPRODUCTION_UI_QA_2026-11-08/kenny-mobile-qa.log,added,source/assets change or regenerated page
+docs/SPOT_THE_SCAM_PREPRODUCTION_UI_QA_2026-11-08/kenny-real-timers-qa.log,added,source/assets change or regenerated page
+docs/SPOT_THE_SCAM_PREPRODUCTION_UI_QA_2026-11-08/layout-controls-qa.json,added,source/assets change or regenerated page
+docs/SPOT_THE_SCAM_PREPRODUCTION_UI_QA_2026-11-08/layout-controls-qa.log,added,source/assets change or regenerated page
+docs/SPOT_THE_SCAM_PREPRODUCTION_UI_QA_2026-11-08/preservation-checks.json,added,source/assets change or regenerated page
+public/404.html,modified,source/assets change or regenerated page
+public/about/index.html,modified,generator output: site-wide peeking Kenny markup
+public/about/mission/index.html,modified,generator output: site-wide peeking Kenny markup
+public/about/team/index.html,modified,generator output: site-wide peeking Kenny markup
+public/assets/css/kenny-invitation.css,modified,source/assets change or regenerated page
+public/assets/css/site.css,modified,source/assets change or regenerated page
+public/assets/js/kenny-bootstrap.js,modified,source/assets change or regenerated page
+public/assets/js/kenny-invitation.js,modified,source/assets change or regenerated page
+public/assets/js/site.js,modified,source/assets change or regenerated page
+public/index.html,modified,source/assets change or regenerated page
+public/learn/backup-and-recovery/index.html,modified,generator output: site-wide peeking Kenny markup
+public/learn/business-wifi/index.html,modified,generator output: site-wide peeking Kenny markup
+public/learn/cybersecurity-basics/index.html,modified,generator output: site-wide peeking Kenny markup
+public/learn/data-protection/index.html,modified,generator output: site-wide peeking Kenny markup
+public/learn/email-security/index.html,modified,generator output: site-wide peeking Kenny markup
+public/learn/employee-security/index.html,modified,generator output: site-wide peeking Kenny markup
+public/learn/index.html,modified,generator output: site-wide peeking Kenny markup
+public/learn/mobile-security/index.html,modified,generator output: site-wide peeking Kenny markup
+public/learn/password-security/index.html,modified,generator output: site-wide peeking Kenny markup
+public/learn/phishing-guide/index.html,modified,generator output: site-wide peeking Kenny markup
+public/learn/social-media-security/index.html,modified,generator output: site-wide peeking Kenny markup
+public/learn/whatsapp-security/index.html,modified,generator output: site-wide peeking Kenny markup
+public/privacy/index.html,modified,generator output: site-wide peeking Kenny markup
+public/protect-your-business/account-security/index.html,modified,generator output: site-wide peeking Kenny markup
+public/protect-your-business/device-security/index.html,modified,generator output: site-wide peeking Kenny markup
+public/protect-your-business/index.html,modified,generator output: site-wide peeking Kenny markup
+public/protect-your-business/payment-security/index.html,modified,generator output: site-wide peeking Kenny markup
+public/resources/downloads/index.html,modified,generator output: site-wide peeking Kenny markup
+public/resources/external/index.html,modified,generator output: site-wide peeking Kenny markup
+public/resources/index.html,modified,generator output: site-wide peeking Kenny markup
+public/resources/tools/index.html,modified,generator output: site-wide peeking Kenny markup
+public/terms/index.html,modified,generator output: site-wide peeking Kenny markup
+public/threats/business-email-compromise/index.html,modified,generator output: site-wide peeking Kenny markup
+public/threats/fake-bank-alerts/index.html,modified,generator output: site-wide peeking Kenny markup
+public/threats/index.html,modified,generator output: site-wide peeking Kenny markup
+public/threats/malware/index.html,modified,generator output: site-wide peeking Kenny markup
+public/threats/phishing/index.html,modified,generator output: site-wide peeking Kenny markup
+public/threats/ransomware/index.html,modified,generator output: site-wide peeking Kenny markup
+public/threats/sim-swap-fraud/index.html,modified,generator output: site-wide peeking Kenny markup
+public/threats/social-engineering/index.html,modified,generator output: site-wide peeking Kenny markup
+public/threats/whatsapp-hijacking/index.html,modified,generator output: site-wide peeking Kenny markup
+tools/content/approved/home.html,modified,source/assets change or regenerated page
+tools/lib/kenny-invitation.mjs,modified,source/assets change or regenerated page

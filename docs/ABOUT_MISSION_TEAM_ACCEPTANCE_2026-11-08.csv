@@ -1,0 +1,17 @@
+ID,Result,Evidence/limitations
+ABT-01,PASS,Approved About text checked block-by-block against final generated page.
+ABT-02,PASS,About CTA links to the existing 15-question /resources/security-checklist.
+ABT-03,PASS,All three About directory cards remain with correct links.
+ABT-04,PASS,"Mission text, heading structure and all five approach points checked against handoff."
+ABT-05,PASS,Obsolete unfinished Learn topics statement absent.
+ABT-06,PASS,"Exactly two team cards, with correct names."
+ABT-07,PASS,CK/CE initials and Team lead/Content roles checked.
+ABT-08,PASS,"No fabricated biographies, team portraits or third-party credits."
+ABT-09,PASS,Contact generated HTML byte-identical with latest baseline; source function also equal.
+ABT-10,PASS,"about-team.webp SHA-256 identical to baseline, retained on homepage; not labelled as named team."
+ABT-11,PASS,Build validates internal links; shared search index byte-identical and routes present.
+ABT-12,PASS,"Other 36 page bodies including Contact unchanged; scripts, PDFs, redirects and Self-Check unchanged."
+ABT-13,PASS,"Offline Chromium at 320, 375, 390, 768, 1366; no horizontal overflow, team cards in viewport."
+ABT-14,PARTIAL,"Keyboard focus, one h1 per page, accessible link labels and no-JS tested; no manual screen reader or human contrast audit."
+ABT-15,PASS,"Generated 39 pages + 404 (1158 KB of HTML); Search index: 37 entries, 159 verified visitor phrases, all resolving"
+ABT-16,PASS,"Full repository and changed-files ZIP, screenshot pack, manifest and QA report generated; no deployment."

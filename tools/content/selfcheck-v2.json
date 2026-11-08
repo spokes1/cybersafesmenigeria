@@ -1,0 +1,174 @@
+{
+  "version": "2.0",
+  "approved": "2026-11-08",
+  "product": "Business Security Self-Check",
+  "score_label": "checklist-practice progress",
+  "answers": [
+    {
+      "id": "in_place",
+      "label": "In place",
+      "points": 2
+    },
+    {
+      "id": "partly",
+      "label": "Partly in place",
+      "points": 1
+    },
+    {
+      "id": "not_yet",
+      "label": "Not yet",
+      "points": 0
+    },
+    {
+      "id": "not_sure",
+      "label": "Not sure",
+      "points": 0
+    },
+    {
+      "id": "na",
+      "label": "Does not apply",
+      "points": null,
+      "only_for": [
+        "P1",
+        "P2"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "A1",
+      "group": "Accounts and access",
+      "statement": "Important business accounts use strong, different passwords or passkeys.",
+      "help": "Think about email, banking, social media and accounts that store customer information.",
+      "article": "/learn/password-security",
+      "priority": 1,
+      "allow_na": false
+    },
+    {
+      "id": "A2",
+      "group": "Accounts and access",
+      "statement": "Extra sign-in protection is enabled on important accounts wherever available.",
+      "help": "For example, two-step verification for business email and WhatsApp. Follow the options supported by each app.",
+      "article": "/protect-your-business/account-security",
+      "priority": 1,
+      "allow_na": false
+    },
+    {
+      "id": "A3",
+      "group": "Accounts and access",
+      "statement": "Only people who still need access can use our business accounts.",
+      "help": "Include employees, former helpers, shared logins, social media access and WhatsApp linked devices. For a one-person business, review all connected sessions.",
+      "article": "/learn/whatsapp-security",
+      "priority": 2,
+      "allow_na": false
+    },
+    {
+      "id": "P1",
+      "group": "Payments and scams",
+      "statement": "Before releasing goods or services, we confirm digital payments through a trusted bank or payment-provider channel.",
+      "help": "Do not rely only on a screenshot, SMS alert or message. This includes transfers and payments accepted using POS terminals. Choose “Does not apply” only if your business never accepts digital payments.",
+      "article": "/protect-your-business/payment-security",
+      "priority": 1,
+      "allow_na": true
+    },
+    {
+      "id": "P2",
+      "group": "Payments and scams",
+      "statement": "Before paying changed supplier bank details, we verify the change using a contact method we already trust.",
+      "help": "For example, call a known supplier number, not just the number in the message requesting the change. Choose “Does not apply” only if your business never pays suppliers by transfer.",
+      "article": "/threats/business-email-compromise",
+      "priority": 1,
+      "allow_na": true
+    },
+    {
+      "id": "P3",
+      "group": "Payments and scams",
+      "statement": "We independently check unexpected requests for money, sign-in codes or links, even when they appear to come from someone familiar.",
+      "help": "This includes WhatsApp, SMS, email and social media messages.",
+      "article": "/threats/social-engineering",
+      "priority": 1,
+      "allow_na": false
+    },
+    {
+      "id": "D1",
+      "group": "Phones and computers",
+      "statement": "Work phones and computers lock when they are not being used.",
+      "help": "Use a PIN, password or biometric lock and avoid leaving a shared business device open.",
+      "article": "/protect-your-business/device-security",
+      "priority": 2,
+      "allow_na": false
+    },
+    {
+      "id": "D2",
+      "group": "Phones and computers",
+      "statement": "Business phones, computers and important apps receive security updates.",
+      "help": "If a device or operating system is no longer supported, there is a plan to move to a supported option.",
+      "article": "/protect-your-business/device-security",
+      "priority": 1,
+      "allow_na": false
+    },
+    {
+      "id": "D3",
+      "group": "Phones and computers",
+      "statement": "We use built-in or suitable device protection and install applications from trusted sources.",
+      "help": "For example, Windows Security, Google Play Protect, verified app stores or other reputable protection appropriate to the device.",
+      "article": "/resources/tools",
+      "priority": 2,
+      "allow_na": false
+    },
+    {
+      "id": "R1",
+      "group": "Business information and recovery",
+      "statement": "We know where important business and customer records are kept and limit unnecessary access.",
+      "help": "Examples include customer phone numbers, orders, staff details, invoices and delivery addresses.",
+      "article": "/learn/data-protection",
+      "priority": 2,
+      "allow_na": false
+    },
+    {
+      "id": "R2",
+      "group": "Business information and recovery",
+      "statement": "Important business records have a separate, protected backup copy.",
+      "help": "The copy should not depend on the same phone or computer that holds the original.",
+      "article": "/learn/backup-and-recovery",
+      "priority": 1,
+      "allow_na": false
+    },
+    {
+      "id": "R3",
+      "group": "Business information and recovery",
+      "statement": "We have checked that an important file or record can be recovered from a backup.",
+      "help": "A backup is more useful when you know a restore actually works.",
+      "article": "/learn/backup-and-recovery",
+      "priority": 2,
+      "allow_na": false
+    },
+    {
+      "id": "S1",
+      "group": "People and response",
+      "statement": "Everyone handling business messages or payments knows to pause and report suspicious requests.",
+      "help": "If you run the business alone, this includes you. Staff do not need technical knowledge to raise a concern.",
+      "article": "/learn/employee-security",
+      "priority": 2,
+      "allow_na": false
+    },
+    {
+      "id": "S2",
+      "group": "People and response",
+      "statement": "We know the first actions and official contacts to use after suspected fraud or account compromise.",
+      "help": "Examples include contacting the bank, mobile operator, account provider or appropriate Nigerian reporting body.",
+      "article": "/protect-your-business/incident-response",
+      "priority": 1,
+      "allow_na": false
+    },
+    {
+      "id": "S3",
+      "group": "People and response",
+      "statement": "We occasionally review security practices using a realistic example or recent business change.",
+      "help": "This can be a short discussion about a suspicious WhatsApp message, new worker, lost phone or device replacement.",
+      "article": "/learn/employee-security",
+      "priority": 3,
+      "allow_na": false
+    }
+  ]
+}
