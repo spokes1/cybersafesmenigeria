@@ -1,0 +1,417 @@
+/* CyberSafe SME Nigeria: owner-approved light visual polish and system colour scheme.
+   This is an additive layer; original article diagrams and V5.1 game logic are not changed.
+   Loaded after page-specific CSS so shared theme colours are consistently applied. */
+
+/* The primary experience is LIGHT: pale mint/blue edge accents, not dark panels. */
+:root { color-scheme: light; }
+.pg-home #main > .hero:first-child:not(.hub) {
+  isolation: isolate;
+  background:
+    radial-gradient(ellipse 43% 70% at 100% 9%, rgba(133,218,208,.30), transparent 85%),
+    radial-gradient(ellipse 43% 70% at 0% 8%, rgba(166,210,245,.26), transparent 84%),
+    linear-gradient(155deg, #fcfefe 14%, #f7fcfc 60%, #eef8fa 100%);
+}
+.pg-home #main > .hero:first-child:not(.hub)::after {
+  content:""; position:absolute; z-index:0; pointer-events:none;
+  left:-9%; bottom:-89px; width:118%; height:160px;
+  background:linear-gradient(100deg, rgba(170,233,220,.33), rgba(186,224,249,.38), rgba(198,237,230,.27));
+  border-radius:51% 49% 0 0/65% 67% 0 0;
+  transform:rotate(-1deg);
+}
+.pg-home #main > .hero:first-child:not(.hub) > .wrap { position:relative; z-index:1; }
+.pg-home #main > .hero:first-child:not(.hub) .photo {
+  box-shadow: 0 26px 46px -34px rgba(18,62,90,.32), 0 8px 24px -16px rgba(18,62,90,.16);
+}
+.pg-home #main > section.t { background-color: #edf8f9; }
+.pg-home .home-game-invite,
+.pg-home .home-incident-inner { box-shadow:0 16px 38px -31px rgba(18,64,90,.23); }
+.pg-home .fc.b { border-color:#c3e2dd; }
+.pg-home .card { box-shadow:0 3px 8px rgba(18,48,77,.035), 0 18px 39px -25px rgba(18,48,77,.18); }
+.pg-home .final { background:linear-gradient(127deg,#e3f5f0,#e5f3fc 58%,#edf9f7); }
+
+/* A consistent, small topic identifier above editorial content; H1s remain unique. */
+.topic-location { border-bottom:1px solid var(--line); background:var(--bg2); font-size:12.5px; }
+.topic-location .wrap { min-height:46px;display:flex;gap:9px;align-items:center;flex-wrap:wrap;padding-top:9px;padding-bottom:9px; }
+.topic-location a { color:var(--muted);font-weight:650;text-decoration:none; }
+.topic-location a:hover { color:var(--brand);text-decoration:underline;text-underline-offset:3px; }
+.topic-location span { color:var(--muted);opacity:.67; }
+.topic-location strong { color:var(--brand);font-weight:800; }
+@media(max-width:520px) {
+  .topic-location .wrap {font-size:12px;gap:6px;min-height:42px;}
+  .pg-home #main > .hero:first-child:not(.hub)::after {bottom:-119px;opacity:.5;}
+}
+
+/* Accessible dark alternative follows operating-system preference. The light
+   homepage above remains the default. Educational diagrams may retain their
+   pale canvases where they require dark ink and familiar illustrated colours. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --bg:#122534; --bg2:#192f40; --tint:#203848; --tint2:#243d50;
+    --card:#20394a; --ink:#f0f8fb; --muted:#cadbe5; --line:#476478;
+    --brand:#82e8d9; --brand2:#5edbd1; --soft:#234b49; --blue:#9bd7ff;
+    --ok:#91e4a7; --warn:#ffb47a; --warnsoft:#4c362c;
+    --grad-btn:linear-gradient(135deg,#0c766f,#075e65);
+    --grad-tile:linear-gradient(135deg,#0e8079,#15a99d);
+    --shadow:0 4px 18px rgba(1,13,25,.15),0 18px 38px -16px rgba(1,13,25,.32);
+  }
+  body,body.pg-art { background:var(--bg);color:var(--ink);--brand2:#5edbd1;--warnsoft:#4c362c;--shadow:0 8px 24px rgba(1,13,25,.25); }
+  body.pg-home, body.pg-art { color:var(--ink); }
+  header.top { background:rgba(22,45,60,.97);border-color:var(--line); }
+  .lg { background:var(--ink); }
+  .btn:not(.p),.sbtn,.burger,.panel,#mnav,.sd,.si button,.chips button,
+  .pg-home .pill,.pg-home .fc,.pg-home .card,.pg-home .chkcard,.pg-home .stack .card,
+  .pg-art .card,.pg-art .pill { background:var(--card);color:var(--ink);border-color:var(--line); }
+  .btn.p {background:var(--grad-btn);color:#fff;box-shadow:0 8px 23px rgba(1,28,26,.26);}
+  .btn:not(.p):hover, .sbtn:hover,.burger:hover,.panel a:hover { background:var(--soft); }
+  .panel {box-shadow:0 28px 45px -18px rgba(0,5,10,.6);}
+  .panel a,.dd>a.l,#mnav details a,.pg-home .fc span { color:var(--muted); }
+  .dd>a.l:hover,.dd>a.l[aria-current],.dd:focus-within>a.l {color:var(--ink);background:var(--soft);}
+  #mnav details,#mnav,.panel {border-color:var(--line);}
+  .sr {background:rgba(0,12,24,.75);}
+  .sd,.si,.sb {background:var(--bg2);color:var(--ink);}
+  .si input { color:var(--ink); }
+  .si input::placeholder {color:var(--muted);opacity:1;}
+  .sb .rs a,.sb .rs em {color:var(--ink);}
+  .sb .rs a.on,.sb .rs a:hover,.sb .rs a:focus-visible {background:var(--soft);}
+  .sb .search-retry {color:var(--ink);background:var(--soft);border-color:var(--line);}
+  .topic-location {background:#1b3444;}
+  .topic-location strong {color:var(--brand);}
+  footer {background:#1a3443;border-color:var(--line);}
+  footer a, footer p, .fb {color:var(--muted);}
+  .skip {background:var(--card);color:var(--ink);}
+  .pg-home .hero, .pg-home #main > .hero:first-child:not(.hub) {
+    background:radial-gradient(ellipse 52% 73% at 100% 0%,rgba(25,121,111,.22),transparent 82%),
+               radial-gradient(ellipse 50% 67% at 0% 0%,rgba(43,103,149,.24),transparent 78%),
+               linear-gradient(156deg,#162e40,#172f40 74%,#203b4b);
+  }
+  .pg-home #main > .hero:first-child:not(.hub)::after {
+    background:linear-gradient(100deg,rgba(31,137,127,.21),rgba(37,119,160,.18),rgba(50,140,120,.13));
+  }
+  .pg-home .hero .lead,.pg-home .sub,.pg-home .note,.pg-home p,
+  .pg-art .lead,.pg-art p,.pg-art li {color:inherit;}
+  .pg-home .lead,.pg-home .sub,.pg-home .card p,.pg-home .fc span,.pg-art .lead,
+  .pg-home .note,.pg-art .card p,.pg-art .body {color:var(--muted);}
+  .pg-home #main > section.t {background-color:var(--tint);}
+  .pg-home #main > section:not(.hero):not(.t):not(#tips) {background-image:
+    radial-gradient(ellipse 32% 65% at 0% 48%,rgba(31,153,143,.07),transparent 82%),
+    radial-gradient(ellipse 32% 65% at 100% 50%,rgba(47,142,181,.07),transparent 80%);}
+  .pg-home main>section.t {background-image:linear-gradient(110deg,#1b3543,#1e3a49,#203949);}
+  .pg-home .card,.pg-home .chkcard,.pg-home .beginner-path li,.pg-home .about-benefits li {background:var(--card);color:var(--ink);border-color:var(--line);}
+  .pg-home .fc.b {background:var(--card);}
+  .pg-home .home-game-invite,.pg-home .home-incident-inner,.pg-home .final {
+    background:linear-gradient(110deg,#21453e,#203e51);color:var(--ink);border-color:var(--line);
+  }
+  .pg-home .tip {background:linear-gradient(120deg,#493525,#3a352f);border-color:#755d4b;}
+  .pg-home .tip p {color:#f1dcca;}
+  .pg-home .tag,.pg-art .tag {background:var(--soft);color:var(--brand);}
+  .pg-home .th {background:linear-gradient(120deg,#2c5555,#304f68);}
+  .pg-home .th.o {background:linear-gradient(120deg,#60452e,#58452d);}
+  .pg-home .th.g {background:linear-gradient(120deg,#294c3c,#325b43);}
+  .pg-home .th.b {background:linear-gradient(120deg,#2b4964,#365870);}
+  .pg-home .th span {background:var(--bg2);}
+  .pg-home .photo {background:var(--tint2);border-color:var(--line);}
+  .pg-home .pill,.pg-home .eyebrow,.pg-art .eyebrow small {color:var(--brand);}
+  .pg-home h1 em,.pg-art h1 em {background:linear-gradient(90deg,#84eadc,#a1defb);-webkit-background-clip:text;background-clip:text;color:transparent;}
+  .pg-art .hero {background:radial-gradient(60% 80% at 95% 0%,rgba(49,151,143,.20),transparent 78%),radial-gradient(60% 75% at 0% 0%,rgba(38,125,160,.18),transparent 77%);}
+  .pg-art .note {background:var(--soft);color:var(--ink);}
+  .pg-art .note.w {background:var(--warnsoft);color:var(--ink);}
+  .pg-art .read a,.pg-home .more,.pg-home .fine a,.pg-art .card .tag {color:var(--brand);}
+  .pg-home .resource-four-grid .card,.pg-home .about-team-grid .person {background:var(--card);color:var(--ink);}
+  /* Bespoke editorial hero components were originally hardcoded to pale
+     canvases. Their copy must not inherit white text on a white background. */
+  :is(.pg-art,.pg-home) #main > :is(header.cb-hero,header.ws-hero,header.ds-hero,header.ir-hero,
+    header.er-hero,header.org-hero,header.tr-hero,header.mw-hero,header.rw-hero,
+    header.se-hero) {
+    background:radial-gradient(ellipse 60% 85% at 100% 0%,rgba(38,128,134,.22),transparent 80%),
+               linear-gradient(140deg,#1b3546,#213e4e);
+    color:var(--ink);
+  }
+  :is(.pg-art,.pg-home) #main > :is(header.cb-hero,header.ws-hero,header.ds-hero,header.ir-hero,
+    header.er-hero,header.org-hero,header.tr-hero,header.mw-hero,header.rw-hero,
+    header.se-hero) :is(.cb-hero-copy,.ws-hero-content,.ds-hero-copy,.ir-hero-copy,
+    .er-hero-body,.org-hero-copy,.tr-hero-text,.mw-hero-copy,.rw-hero-copy,.se-hero-copy)
+    :is(h1,h1 span,h1 strong,h2,p,small) {color:var(--ink)!important;}
+  :is(.pg-art,.pg-home) #main > :is(header.cb-hero,header.ws-hero,header.ds-hero,header.ir-hero,
+    header.er-hero,header.org-hero,header.tr-hero,header.mw-hero,header.rw-hero,
+    header.se-hero) :is(.cb-hero-copy,.ws-hero-content,.ds-hero-copy,.ir-hero-copy,
+    .er-hero-body,.org-hero-copy,.tr-hero-text,.mw-hero-copy,.rw-hero-copy,.se-hero-copy)
+    :is(.pill,.eyebrow,.tag,.label) {color:var(--brand)!important;}
+  :is(.pg-art,.pg-home) #main > :is(header.cb-hero,header.ws-hero,header.ds-hero,header.ir-hero,
+    header.er-hero,header.org-hero,header.tr-hero,header.mw-hero,header.rw-hero,
+    header.se-hero) h1 em {
+    background:none!important;color:#a6f1e3!important;-webkit-text-fill-color:#a6f1e3!important;
+  }
+  /* The Self-Check's percentage used a hardcoded light-theme ink colour. */
+  .pg-art .sc2-result .sc2-metric {color:var(--ink);}
+  .pg-art .sc2-answer-group {border-color:var(--line);}
+  .pg-art .sc2-nojs,.pg-art .sc2-download {background:var(--card);color:var(--ink);border-color:var(--line);}
+  .pg-art .cs-editorial-photo img {background:var(--tint);border-color:var(--line);}
+  .pg-art .cs-editorial-photo figcaption {color:var(--muted);}
+  .pg-art .sc2-privacy,.pg-art .sc2-group,.pg-art .sc2-question,
+  .pg-art .sc2-result,.pg-art .sc2-choices label {background:var(--card);color:var(--ink);border-color:var(--line);}
+  .pg-art .sc2-group legend,.pg-art .sc2-question h3 {color:var(--ink);}
+  .pg-art .sc2-question p {color:var(--muted);}
+  .pg-art .sc2-choices label:has(:checked) {background:var(--soft);color:var(--ink);}
+  .pg-art .sc2 input,.pg-art .sc2 button:not(.btn),.pg-art .sc2 select {color:var(--ink);background:var(--bg2);border-color:var(--line);}
+  .pg-art .sc2 input[type="radio"] {accent-color:#55d2c3;}
+  .pg-art .sc2-result a {color:var(--brand);}
+  /* Reused editorial rule / reminder panels must use an opaque dark
+     surface, not their original pale gradients with inherited white type. */
+  .pg-art :is(.hl,.rule,.rem) {
+    background:linear-gradient(125deg,#25483f,#254455 90%);
+    color:#f4faff;border-color:#558578;
+  }
+  .pg-art :is(.hl,.rule,.rem) :is(h2,h3,p,.k,small) {color:#f4faff;}
+  .pg-art :is(.hl,.rule,.rem) :is(small,h2 em) {color:#a7f0df;}
+  .pg-art :is(.hl,.rule,.rem) .btn {color:#f4faff;background:#236458;border-color:#61baae;}
+  /* Dark mode contrast fixes: retain a deliberately dark background for
+     the full page and use readable light-on-dark diagram/card surfaces. */
+  .pg-home .tipc {
+    background:linear-gradient(125deg,#3b332f,#34363a);border-color:#80654f;
+    color:#f9f3eb;
+  }
+  .pg-home .tipc :is(h2,h3,.slide h3) {color:#fff7ee;}
+  .pg-home .tipc .slide p {color:#f1ded0;}
+  .pg-home .tipc .eyebrow {color:#ffd0a7;}
+  .pg-home .tipc .eyebrow span {color:#f6d8c0;}
+  .pg-home .tipc .ib {background:#463e3a;color:#fff5eb;border-color:#93725a;}
+  .pg-home .tipc .ib:hover,.pg-home .tipc .ib:focus-visible {background:#594539;color:#fff;border-color:#ffbd85;}
+  .pg-home .tipc .more {color:#ffcfaa;}
+  .pg-home .tipc .tdots button {background:#bba28f;}
+  .pg-home .tipc .tdots button[aria-current=true] {background:#ffae74;}
+  /* Account Security's bespoke illustrated panels had hardcoded light
+     backgrounds combined with the page's inherited light-on-dark type. */
+  .pg-art .ac-guide :is(.ac-access-figure,.ac-exit-figure,.ac-takeaway) {
+    background:#253f50;border-color:#577486;color:#f3f9fc;
+  }
+  .pg-art .ac-guide :is(.ac-map-card,.ac-access-legend span,.ac-exit-flow li,
+    .ac-scenario-steps li,.ac-start) {
+    background:#203747;border-color:#587487;color:#f3f9fc;
+  }
+  .pg-art .ac-guide :is(.ac-map-check,.ac-exit-flow li.b3-stage-active,
+    .ac-access-figure[data-b3-focus="person"] .ac-map-card dl > div:first-child,
+    .ac-access-figure[data-b3-focus="access"] .ac-map-card dl > div:nth-child(2)) {
+    background:#275248;color:#f3f9fc;
+  }
+  .pg-art .ac-guide .ac-map-check > span {background:#1b3944;color:#99ebdd;}
+  .pg-art .ac-guide .ac-map-card .ac-map-icon,
+  .pg-art .ac-guide .ac-exit-symbol {background:#2b5555;color:#a0eee2;}
+  .pg-art .ac-guide .ac-map-card:nth-child(2) .ac-map-icon,
+  .pg-art .ac-guide .ac-exit-flow li:nth-child(2) .ac-exit-symbol {background:#284a64;color:#a7dcff;}
+  .pg-art .ac-guide .ac-exit-flow li :is(strong,span),
+  .pg-art .ac-guide .ac-scenario-steps li :is(span,strong),
+  .pg-art .ac-guide :is(.ac-exit-figure,.ac-access-figure) figcaption,
+  .pg-art .ac-guide .ac-takeaway :is(h2,h3,p,li) {color:#f3f9fc;}
+  .pg-art .ac-guide .ac-map-card :is(dt,dd) {color:#e4f3fa;}
+  /* Narrative cards are shared across multiple approved articles. */
+  .pg-art .nq-story-details,.pg-art .nq-before-after > div,
+  .pg-art .nq-before-after > .nq-before,.pg-art .nq-before-after > .nq-after {
+    background:#203b4a;border-color:#567384;color:#f3f9fc;
+  }
+  .pg-art .nq-story-details > summary,.pg-art .nq-story-details > summary small {
+    color:#a6eee1;background:#254b4a;
+  }
+  .pg-art .nq-story-details .nq-story-continuation {border-color:#567384;}
+  .pg-art .nq-before-after :is(h3,p,li),
+  .pg-art .nq-story-details :is(p,li) {color:#edf8fc;}
+  .pg-art .nq-lesson {background:#24473f;color:#f0faf7;border-color:#81d9bc;}
+  .pg-art .nq-lesson strong {color:#9ef0d6;}
+  .pg-art .nq-fiction-label {color:#cbdfe8;}
+  /* Small educational cards using explicitly light canvases retain local
+     dark ink rather than inheriting the outer page's light text. */
+  .pg-art .ac-guide .ac-map-card .ac-map-heading h3 {color:#f5fbfe;}
+  /* Additional article panels: scoped to named editorial diagrams and
+     guides. The previous light-only backgrounds were invisible against inherited
+     pale text when a device requested dark mode. */
+  :is(.pg-art .dp-rule,.pg-art .dp-roles-figure,.pg-art .dp-story-figure,.pg-art .dp-journey-figure,.pg-art .dp-journey-stage,.pg-art .dp-roles-grid>li,.pg-art .dp-story-sequence>li,
+.pg-art .em-action-card,.pg-art .em-practical,.pg-art .em-forward-visual,.pg-art .em-start,.pg-art .em-flow-lane,
+.pg-art .es-rule,.pg-art .es-report-figure,.pg-art .es-story-figure,.pg-art .es-journey-figure,.pg-art .es-journey-card,.pg-art .es-report-flow>li,.pg-art .es-story-sequence>li,.pg-art .es-related-card,
+.pg-art .ms-rule,.pg-art .ms-scenario,.pg-art .ms-quick-setup,.pg-art .ms-platform-col,.pg-art .ms-compare-row,.pg-art .ms-lost-flow,.pg-art .ms-lost-caution,
+.pg-art .ph-example-card,.pg-art .ph-three-decisions,.pg-art .ph-start,.pg-art .ph-response-card,
+.pg-art .sm-rule,.pg-art .sm-platform-overview,.pg-art .sm-dual-diagram,.pg-art .sm-scenario,.pg-art .sm-takeaway,.pg-art .sm-choice-panel,
+.pg-art .er-path,.pg-art .er-resource,.pg-art .er-rule,.pg-art .org-profile,.pg-art .org-rule,.pg-art .org-case,
+.pg-art .tr-need-card,.pg-art .tr-related-item,.pg-art .tr-rule,.pg-art .tr-start,
+.pg-art .bec-email-card,.pg-art .bec-route,.pg-art .bec-decision,.pg-art .bec-email-figure,.pg-art .bec-story-figure,.pg-art .bec-rule,.pg-art .bec-related-card,
+.pg-art .mw-signal,.pg-art .mw-related-card,.pg-art .mw-first-response,.pg-art .mw-story-preview,.pg-art .mw-rule,.pg-art .mw-desk-side,.pg-art .mw-story-lesson,
+.pg-art .rw-board-card,.pg-art .rw-board-section,.pg-art .rw-related-card,.pg-art .rw-story-preview,.pg-art .rw-story-lesson,.pg-art .rw-rule,
+.pg-art .se-rule,.pg-art .se-moment,.pg-art .se-safer,.pg-art .se-related-card,.pg-art .se-call,.pg-art .se-boundaries) {background:#233d4c;color:#f0f8fb;border-color:#527181;}
+  :is(.pg-art .dp-rule,.pg-art .dp-roles-figure,.pg-art .dp-story-figure,.pg-art .dp-journey-figure,.pg-art .dp-journey-stage,.pg-art .dp-roles-grid>li,.pg-art .dp-story-sequence>li,
+.pg-art .em-action-card,.pg-art .em-practical,.pg-art .em-forward-visual,.pg-art .em-start,.pg-art .em-flow-lane,
+.pg-art .es-rule,.pg-art .es-report-figure,.pg-art .es-story-figure,.pg-art .es-journey-figure,.pg-art .es-journey-card,.pg-art .es-report-flow>li,.pg-art .es-story-sequence>li,.pg-art .es-related-card,
+.pg-art .ms-rule,.pg-art .ms-scenario,.pg-art .ms-quick-setup,.pg-art .ms-platform-col,.pg-art .ms-compare-row,.pg-art .ms-lost-flow,.pg-art .ms-lost-caution,
+.pg-art .ph-example-card,.pg-art .ph-three-decisions,.pg-art .ph-start,.pg-art .ph-response-card,
+.pg-art .sm-rule,.pg-art .sm-platform-overview,.pg-art .sm-dual-diagram,.pg-art .sm-scenario,.pg-art .sm-takeaway,.pg-art .sm-choice-panel,
+.pg-art .er-path,.pg-art .er-resource,.pg-art .er-rule,.pg-art .org-profile,.pg-art .org-rule,.pg-art .org-case,
+.pg-art .tr-need-card,.pg-art .tr-related-item,.pg-art .tr-rule,.pg-art .tr-start,
+.pg-art .bec-email-card,.pg-art .bec-route,.pg-art .bec-decision,.pg-art .bec-email-figure,.pg-art .bec-story-figure,.pg-art .bec-rule,.pg-art .bec-related-card,
+.pg-art .mw-signal,.pg-art .mw-related-card,.pg-art .mw-first-response,.pg-art .mw-story-preview,.pg-art .mw-rule,.pg-art .mw-desk-side,.pg-art .mw-story-lesson,
+.pg-art .rw-board-card,.pg-art .rw-board-section,.pg-art .rw-related-card,.pg-art .rw-story-preview,.pg-art .rw-story-lesson,.pg-art .rw-rule,
+.pg-art .se-rule,.pg-art .se-moment,.pg-art .se-safer,.pg-art .se-related-card,.pg-art .se-call,.pg-art .se-boundaries) :is(h2,h3,h4,p,li,figcaption,dt,dd) {color:#f0f8fb;}
+  .pg-art :is(.dp-journey-stage.dp-active,.es-journey-card.es-active,.ph-response-card[aria-current="true"]) {background:#25574f;border-color:#67bdaf;}
+  .pg-art :is(.dp-choice,.dp-journey-navigation button,.es-journey-choice,.es-journey-nav button) {background:#294957;color:#eefbfe;border-color:#5b7b88;}
+  /* Some intricate, approved hands-on diagrams are intentionally designed
+     for dark ink on light paper. In dark mode their guides form softly lit
+     reading canvases within the dark shell, rather than using illegible
+     automatic text inversion. This keeps all instructions usable. */
+  .pg-art :is(.cb-article,.ws-article,.ds-page,.ir-page) {
+    --ink:#12304d;--muted:#4a657a;--brand:#0e6e67;--blue:#176692;
+    --card:#fff;--line:#c6dfe4;--soft:#e3f5f2;
+    background:#eef6f9;color:#12304d;border:1px solid #bcd9e3;
+    border-radius:20px;
+  }
+  .pg-art :is(.cb-article,.ws-article,.ds-page,.ir-page) :is(.card,.related-item) {
+    background:#fff;color:#12304d;border-color:#c6dfe4;
+  }
+  /* Resource directories are extensive reference tables with approved dark
+     ink artwork. Use a softly lit reading panel within the dark shell. */
+  .pg-art :is(.er-article,.tr-article),.pg-home .org-article {
+    --ink:#12304d;--muted:#486579;--brand:#0e6e67;--blue:#176692;
+    --card:#fff;--line:#c6dfe4;background:#edf6f8;color:#12304d;
+    border:1px solid #bcd9e3;border-radius:20px;
+  }
+  .pg-art :is(.er-article,.tr-article) :is(h2,h3,p,li),
+  .pg-home .org-article :is(h2,h3,p,li) {color:#12304d;}
+  .pg-art .er-article :is(.er-resource,.er-path),
+  .pg-art .tr-article :is(.tr-need-card,.tr-related-item),
+  .pg-home .org-article .org-profile {background:#fff;color:#12304d;border-color:#c6dfe4;}
+  .pg-home .org-rule-wrap :is(.org-rule) {background:#234a46;border-color:#61a99e;color:#f1fafb;}
+  .pg-home .org-rule-wrap .org-rule :is(p,li,h2,h3) {color:#f1fafb;}
+  /* Per-page sequence lists are genuine lesson cards, not generic list
+     items. Correct their backgrounds without touching normal prose bullets. */
+  .pg-art :is(.dp-story-sequence,.es-story-sequence,.em-flow-lane ol,
+    .ms-lost-flow ol,.ph-question-visual ol,.sm-choice-panel ol,
+    .money-map-path,.bec-story-grid,.ph-path-lane ol,.se-boundaries ul) > li {
+    background:#253f4f;color:#eef9fc;border-color:#5c7c8b;
+  }
+  .pg-art :is(.dp-story-sequence,.es-story-sequence,.em-flow-lane ol,
+    .ms-lost-flow ol,.ph-question-visual ol,.sm-choice-panel ol,
+    .money-map-path,.bec-story-grid,.ph-path-lane ol,.se-boundaries ul) > li :is(p,h3,strong,span) {color:#eef9fc;}
+  .pg-art :is(.dp-related-card,.ph-cue-safe,.ph-paths,.ph-path-lane,
+    .ph-scenario-flow,.ph-question-visual,.ms-setting-card,.ms-start,
+    .sm-start,.mw-caveat,.se-scenario,blockquote) {
+    background:#23414e;color:#eef9fc;border-color:#5c7c8b;
+  }
+  .pg-art :is(.dp-related-card,.ph-cue-safe,.ph-paths,.ph-path-lane,
+    .ph-scenario-flow,.ph-question-visual,.ms-setting-card,.ms-start,
+    .sm-start,.mw-caveat,.se-scenario,blockquote) :is(h2,h3,h4,p,li,small) {color:#eef9fc;}
+  /* Resource library cards use a consistently light reading surface inside
+     their light content canvas, not pale text on a pale card. */
+  .pg-art .er-article :is(.er-resource,.er-path),
+  .pg-art .tr-article :is(.tr-need-card,.tr-related-item) {background:#fff;color:#12304d;border-color:#bfd6df;}
+  .pg-art .er-article :is(.er-resource,.er-path) :is(h2,h3,h4,p,li,small),
+  .pg-art .tr-article :is(.tr-need-card,.tr-related-item) :is(h2,h3,h4,p,li,small) {color:#12304d;}
+  /* Final illustration/interactive detail contrast at dark preference. */
+  .pg-art .dp-section blockquote,.pg-art .em-scenario-copy,
+  .pg-art .em-forward-grid .em-flow-lane.caution,
+  .pg-art .ms-lost-flow .ms-device-actions,
+  .pg-art .ph-timeline,.pg-art .ph-takeaway,
+  .pg-art .sm-scenario-diagram,.pg-art .se-hero-visual,
+  .pg-art .se-scenario blockquote,.pg-art .se-call blockquote,
+  .pg-art .mw-story-details,.pg-art .rw-story-details {
+    background:#244452;color:#eef9fc;border-color:#5c7b89;
+  }
+  .pg-art .em-scenario-copy :is(p,small),
+  .pg-art .em-flow-lane.caution :is(h4,p,li),
+  .pg-art .ms-device-actions p,
+  .pg-art .ph-timeline :is(li,p,small),
+  .pg-art .ph-takeaway :is(li,p,h2,h3,span),
+  .pg-art .se-hero-visual :is(p,small),
+  .pg-art .mw-story-details small,.pg-art .rw-story-details small {color:#eef9fc;}
+  .pg-art .dp-story-figure .dp-story-sequence > li,
+  .pg-art .es-story-figure .es-story-sequence > li,
+  .pg-art .ms-lost-flow ol > li,
+  .pg-art .ph-question-visual ol > li,
+  .pg-art .ph-timeline ol > li,
+  .pg-art .sm-scenario-diagram ol > li,
+  .pg-art .bec-story-figure .bec-story-grid > li,
+  .pg-art .se-boundaries ul > li,
+  .pg-art .se-scenario ol > li {background:#244452!important;color:#eef9fc!important;border-color:#5c7b89;}
+  .pg-art .ph-paths :is(h3,.ph-small-heading),
+  .pg-art .ph-path-lane h3 {color:#f1fafb;}
+  .pg-home .org-hero-aside {background:#234550;color:#f0f9fc;border-color:#5b8890;}
+  .pg-home .org-hero-aside p {color:#f0f9fc;}
+  .pg-art .ds-page .ds-workstation-note,
+  .pg-art .ir-page .ir-story p {color:#37566a;}
+  .pg-art .em-story-figure ol > li,.pg-art .em-scenario-steps li,
+  .pg-art .ms-scenario-diagram li,.pg-art .ms-lost-flow li {
+    background:#244452!important;color:#eef9fc!important;border-color:#5c7b89!important;
+  }
+  .pg-art .ms-lost-flow .ms-device-actions p {background:#244452!important;color:#eef9fc!important;}
+  .pg-art .es-rule small {color:#aaf2e5!important;}
+  .pg-art .ds-page .ds-workstation-note {color:#294b61!important;}
+  .pg-art .mw-story-details,.pg-art .rw-story-details {background:#244452!important;color:#eef9fc!important;}
+  .pg-art .mw-story-details :is(summary,small),.pg-art .rw-story-details :is(summary,small) {color:#eef9fc!important;}
+  .pg-art .ph-paths,.pg-art .ph-path-grid .ph-path-lane {background:#244452!important;color:#eef9fc!important;border-color:#5c7b89!important;}
+  .pg-art .se-hero-visual p {color:#12304d;}
+  .pg-art .em-scenario-sequence ol > li,.pg-art .ms-lost-flow ol > li {
+    background:#244452!important;color:#eef9fc!important;border-color:#5c7b89!important;
+  }
+  .pg-art .ms-takeaway {background:#254453!important;color:#eef9fc!important;}
+  .pg-art .ms-takeaway :is(h2,h3,p,.eyebrow) {color:#eef9fc!important;}
+  .pg-art .mw-story-details small,.pg-art .rw-story-details small {
+    color:#eef9fc!important;background:#244452!important;
+  }
+  .pg-art .ms-scenario-flow > li {background:#244452!important;color:#eef9fc!important;border-color:#5c7b89!important;}
+  /* Kenny's fixed peeker must remain readable but not turn into a black overlay. */
+  .sts-kenny {color-scheme:dark;--bg:#172e3d;--paper:#20394a;--tint:#264452;--tint2:#274554;
+    --ink:#f0f8fb;--muted:#c8dbe5;--line:#476478;--teal:#79e0d5;--aqua:#5de0d3;--blue:#9bd7ff;
+    background:transparent;}
+  .sts-kenny .kenny-pop-copy {background:rgba(24,49,64,.97);border:1px solid #537584;border-radius:16px; padding:12px 12px;}
+  .sts-kenny .kenny-pop-copy:before {display:none;}
+  .sts-kenny .kenny-script .kenny-line,.sts-kenny .kenny-script .kenny-subline,
+  .sts-kenny .kenny-hello {color:#f0f8fb;text-shadow:none;}
+  .sts-kenny .button-quiet,.sts-kenny .kenny-pop-close {background:#244454;color:#f0f8fb;border-color:#5b7884;}
+  .sts-kenny .kenny-peek {background:transparent;border-color:transparent;box-shadow:none;}
+  .sts-kenny .kenny-peek::before {background:#244c5a;border-color:#648a93;}
+  .sts-kenny .button-primary {background:linear-gradient(115deg,#0b776d,#0d867e);color:#fff;}
+  /* V5.1 gameplay keeps its carefully designed illustrated scenarios; surrounding
+     guidance gets matching dark ink/panels. No game questions or JS are touched. */
+  .sts-game {color-scheme:dark;--bg:#152c3a;--paper:#223c4b;--tint:#254452;--tint2:#2a4b5a;
+    --ink:#eef9fc;--muted:#c5dce5;--line:#56707e;--teal:#88ecde;--aqua:#66dfd3;--blue:#a4dafa;
+    background:var(--bg);color:var(--ink);}
+  .sts-game .welcome,.sts-game .results,.sts-game .question-body,
+  .sts-game .lesson-screen,.sts-game .lesson-hub {background:#213a49;color:#eef9fc;}
+  .sts-game .welcome-footer p,.sts-game .result-note,.sts-game .habit-path,
+  .sts-game .lesson-screen p,.sts-game .lesson-hub p {color:#c8e0e8;}
+  .sts-game .welcome-meta span,.sts-game .kenny-intro,.sts-game .learning-list,
+  .sts-game .lesson-key,.sts-game .rule {background:#2a4b54;color:#e8f6f7;border-color:#52777d;}
+  .sts-game .lesson-key strong,.sts-game .lesson-screen h2,.sts-game .lesson-hub h2 {color:#ecfaff;}
+  .sts-game .lesson-link {background:#284956;color:#f0f9fb;border-color:#5f7e87;}
+  .sts-game .lesson-link span {color:#c8dce6;}
+  .sts-game .lesson-link:hover {background:#315663;}
+  .sts-game .button-quiet {background:#284756;color:#eef9fa;border-color:#62828d;}
+  .sts-game .scenario {background:#eaf4f7;color:#153b4c;}
+  .sts-game .scenario :is(p,span,strong,small) {color:inherit;}
+  .sts-game .scenario :is(.receipt,.email-frame,.sms-frame,.boss-card,.chat-frame) {color:#163b50;}
+  .sts-game .scenario :is(.muted,.receipt-data,.receipt-data span,.sts-receipt-desc,.sts-chat-meta,.sts-boss-meta,.sms-stamp) {
+    color:#385c6e!important;
+  }
+  .sts-game .scenario :is(.receipt,.email-frame,.sms-frame,.boss-card,.chat-frame)
+    :is(.muted,small,.receipt-status) {color:#385c6e!important;}
+
+  .sts-game .prompt-title {color:#eef9fc;}
+  .sts-game .answer {background:#294855;color:#eef9fc;border-color:#627f8d;}
+  .sts-game .answer:hover:not(:disabled) {background:#335965;border-color:#69d5c8;}
+  .sts-game .answer[aria-pressed="true"] {background:#245e58;border-color:#83ecdc;}
+  .sts-game .feedback {background:#264941;color:#eff8fa;border-color:#478c7b;}
+  .sts-game .feedback.incorrect {background:#253f52;border-color:#527d97;}
+  .sts-game .feedback-kicker,.sts-game .feedback.incorrect .feedback-kicker {color:#b5ece6;}
+  .sts-game .feedback .safe-action {color:#e4f8f4;}
+  .sts-game .sts-nojs {background:#223c4b;color:#eef9fc;border-color:#537484;}
+  .sts-game a {color:#90eee0;}
+  /* Specific illustrated educational panels remain light for their annotated
+     dark-ink diagrams and accessibility, including device security widgets. */
+  .pg-art .ds-page :is(.ds-scene,.ds-inspector,.ds-counter-story,.ds-shift-strip>div,.ds-related-link,.ds-inspect-details li,.ds-disclaimer) {color:#12304d;}
+}
+
+@media print {
+  /* Printed results stay ink-on-white regardless of the OS colour preference. */
+  :root {color-scheme:light;--bg:#fff;--bg2:#fff;--ink:#12304d;--muted:#566b80;--card:#fff;}
+  body {background:#fff!important;color:#12304d!important;}
+  .topic-location {display:none!important;}
+  .sc2-result a::after,.sc2-sheet a::after {content:none!important;}
+  .sc2-sheet, .sc2-sheet * {color:#12304d!important;}
+  .sc2-sheet {background:#fff!important;}
+  .sc2-sheet a {color:#0c625a!important;text-decoration:underline!important;}
+}

@@ -1,0 +1,31 @@
+{
+  "baselineFileCount": 275,
+  "preserved": 271,
+  "changed": [
+    "public/assets/css/kenny-invitation.css",
+    "public/assets/css/theme.css",
+    "public/assets/js/kenny-invitation.js",
+    "tools/assets/theme.css"
+  ],
+  "missing": [],
+  "gameAssetsVerifiedUnchanged": {
+    "public/assets/css/spot-the-scam-game.css": true,
+    "public/assets/js/spot-the-scam-bootstrap.js": true,
+    "public/assets/js/spot-the-scam-game.js": true
+  },
+  "pdfsVerifiedUnchanged": {
+    "public/downloads/account-device-access-register.pdf": true,
+    "public/downloads/backup-restore-test-log.pdf": true,
+    "public/downloads/business-security-self-check-blank.pdf": true,
+    "public/downloads/first-hour-incident-record.pdf": true,
+    "public/downloads/payment-verification-desk-card.pdf": true,
+    "public/downloads/suspicious-message-staff-card.pdf": true
+  },
+  "sourceOnlyChanges": [
+    "tools/assets/theme.css"
+  ],
+  "directStaticAssetChanges": [
+    "public/assets/css/kenny-invitation.css",
+    "public/assets/js/kenny-invitation.js"
+  ]
+}

@@ -1,0 +1,160 @@
+phrase,expected,actual,result
+"my account was hacked",/protect-your-business/incident-response,/protect-your-business/incident-response,PASS
+"what do I do after a hack",/protect-your-business/incident-response,/protect-your-business/incident-response,PASS
+"someone accessed my account",/protect-your-business/incident-response,/protect-your-business/incident-response,PASS
+"suspicious login on my account",/protect-your-business/incident-response,/protect-your-business/incident-response,PASS
+"report a cyber attack",/protect-your-business/incident-response,/protect-your-business/incident-response,PASS
+"business account compromised",/protect-your-business/incident-response,/protect-your-business/incident-response,PASS
+"incident happened now",/protect-your-business/incident-response,/protect-your-business/incident-response,PASS
+"we got scammed",/protect-your-business/incident-response,/protect-your-business/incident-response,PASS
+"report fraud",/resources/organisations,/resources/organisations,PASS
+"where to report cybercrime",/resources/organisations,/resources/organisations,PASS
+"report online scam in Nigeria",/resources/organisations,/resources/organisations,PASS
+"where can I report phishing",/resources/organisations,/resources/organisations,PASS
+"report a data breach",/resources/organisations,/resources/organisations,PASS
+"report a suspicious transfer",/resources/organisations,/resources/organisations,PASS
+"fake bank alert",/threats/fake-bank-alerts,/threats/fake-bank-alerts,PASS
+"fake transfer alert",/threats/fake-bank-alerts,/threats/fake-bank-alerts,PASS
+"fake credit alert",/threats/fake-bank-alerts,/threats/fake-bank-alerts,PASS
+"payment not showing",/threats/fake-bank-alerts,/threats/fake-bank-alerts,PASS
+"money not reflecting",/threats/fake-bank-alerts,/threats/fake-bank-alerts,PASS
+"customer sent payment screenshot",/threats/fake-bank-alerts,/threats/fake-bank-alerts,PASS
+"confirm bank transfer",/threats/fake-bank-alerts,/threats/fake-bank-alerts,PASS
+"fake POS receipt",/threats/fake-bank-alerts,/threats/fake-bank-alerts,PASS
+"how to verify a payment",/protect-your-business/payment-security,/protect-your-business/payment-security,PASS
+"stop payment fraud",/protect-your-business/payment-security,/protect-your-business/payment-security,PASS
+"payment approval process",/protect-your-business/payment-security,/protect-your-business/payment-security,PASS
+"secure POS terminal",/protect-your-business/payment-security,/protect-your-business/payment-security,PASS
+"verify outgoing transfer",/protect-your-business/payment-security,/protect-your-business/payment-security,PASS
+"supplier payment verification",/protect-your-business/payment-security,/protect-your-business/payment-security,PASS
+"how to receive transfers safely",/protect-your-business/payment-security,/protect-your-business/payment-security,PASS
+"supplier changed bank account",/threats/business-email-compromise,/threats/business-email-compromise,PASS
+"invoice account changed",/threats/business-email-compromise,/threats/business-email-compromise,PASS
+"fraudulent supplier invoice",/threats/business-email-compromise,/threats/business-email-compromise,PASS
+"invoice scam",/threats/business-email-compromise,/threats/business-email-compromise,PASS
+"business email compromise",/threats/business-email-compromise,/threats/business-email-compromise,PASS
+"email says new account details",/threats/business-email-compromise,/threats/business-email-compromise,PASS
+"CEO asked me to transfer money",/threats/business-email-compromise,/threats/business-email-compromise,PASS
+"phishing email",/threats/phishing,/threats/phishing,PASS
+"suspicious email",/threats/phishing,/threats/phishing,PASS
+"clicked suspicious link",/threats/phishing,/threats/phishing,PASS
+"i clicked a strange link",/threats/phishing,/threats/phishing,PASS
+"fake login page",/threats/phishing,/threats/phishing,PASS
+"someone asked for my OTP",/threats/phishing,/threats/phishing,PASS
+"suspicious sms",/threats/phishing,/threats/phishing,PASS
+"someone pretending to be my boss",/threats/social-engineering,/threats/social-engineering,PASS
+"fake customer support call",/threats/social-engineering,/threats/social-engineering,PASS
+"someone asking for a code",/threats/social-engineering,/threats/social-engineering,PASS
+"urgent request from manager",/threats/social-engineering,/threats/social-engineering,PASS
+"social engineering fraud",/threats/social-engineering,/threats/social-engineering,PASS
+"whatsapp hacked",/threats/whatsapp-hijacking,/threats/whatsapp-hijacking,PASS
+"whatsapp hijacked",/threats/whatsapp-hijacking,/threats/whatsapp-hijacking,PASS
+"someone took over my whatsapp",/threats/whatsapp-hijacking,/threats/whatsapp-hijacking,PASS
+"lost access to whatsapp business",/threats/whatsapp-hijacking,/threats/whatsapp-hijacking,PASS
+"my whatsapp is sending messages",/threats/whatsapp-hijacking,/threats/whatsapp-hijacking,PASS
+"whatsapp account stolen",/threats/whatsapp-hijacking,/threats/whatsapp-hijacking,PASS
+"how to secure whatsapp business",/learn/whatsapp-security,/learn/whatsapp-security,PASS
+"whatsapp two step verification",/learn/whatsapp-security,/learn/whatsapp-security,PASS
+"review whatsapp linked devices",/learn/whatsapp-security,/learn/whatsapp-security,PASS
+"whatsapp business account recovery",/learn/whatsapp-security,/learn/whatsapp-security,PASS
+"instagram hacked",/learn/social-media-security,/learn/social-media-security,PASS
+"facebook page hacked",/learn/social-media-security,/learn/social-media-security,PASS
+"recover business facebook account",/learn/social-media-security,/learn/social-media-security,PASS
+"business instagram security",/learn/social-media-security,/learn/social-media-security,PASS
+"fake business profile",/learn/social-media-security,/learn/social-media-security,PASS
+"someone impersonating our business",/learn/social-media-security,/learn/social-media-security,PASS
+"password manager",/learn/password-security,/learn/password-security,PASS
+"strong business password",/learn/password-security,/learn/password-security,PASS
+"password reused",/learn/password-security,/learn/password-security,PASS
+"forgot password",/learn/password-security,/learn/password-security,PASS
+"how to make a strong password",/learn/password-security,/learn/password-security,PASS
+"passkey",/learn/password-security,/learn/password-security,PASS
+"remove former staff access",/protect-your-business/account-security,/protect-your-business/account-security,PASS
+"who has access to my accounts",/protect-your-business/account-security,/protect-your-business/account-security,PASS
+"account security",/protect-your-business/account-security,/protect-your-business/account-security,PASS
+"set up two factor authentication",/protect-your-business/account-security,/protect-your-business/account-security,PASS
+"secure business accounts",/protect-your-business/account-security,/protect-your-business/account-security,PASS
+"staff account permissions",/protect-your-business/account-security,/protect-your-business/account-security,PASS
+"email hacked",/learn/email-security,/learn/email-security,PASS
+"suspicious inbox forwarding",/learn/email-security,/learn/email-security,PASS
+"gmail business security",/learn/email-security,/learn/email-security,PASS
+"outlook hacked",/learn/email-security,/learn/email-security,PASS
+"protect business email",/learn/email-security,/learn/email-security,PASS
+"email account recovery",/learn/email-security,/learn/email-security,PASS
+"lost phone",/learn/mobile-security,/learn/mobile-security,PASS
+"stolen phone",/learn/mobile-security,/learn/mobile-security,PASS
+"phone missing",/learn/mobile-security,/learn/mobile-security,PASS
+"protect stolen business phone",/learn/mobile-security,/learn/mobile-security,PASS
+"android theft",/learn/mobile-security,/learn/mobile-security,PASS
+"lock my lost phone",/learn/mobile-security,/learn/mobile-security,PASS
+"phone has no network",/threats/sim-swap-fraud,/threats/sim-swap-fraud,PASS
+"sim swap fraud",/threats/sim-swap-fraud,/threats/sim-swap-fraud,PASS
+"my sim stopped working",/threats/sim-swap-fraud,/threats/sim-swap-fraud,PASS
+"no service on phone",/threats/sim-swap-fraud,/threats/sim-swap-fraud,PASS
+"my number was taken over",/threats/sim-swap-fraud,/threats/sim-swap-fraud,PASS
+"virus on computer",/threats/malware,/threats/malware,PASS
+"computer infected",/threats/malware,/threats/malware,PASS
+"malware warning",/threats/malware,/threats/malware,PASS
+"suspicious software installed",/threats/malware,/threats/malware,PASS
+"fake antivirus pop up",/threats/malware,/threats/malware,PASS
+"laptop showing malware warning",/threats/malware,/threats/malware,PASS
+"files locked",/threats/ransomware,/threats/ransomware,PASS
+"ransomware attack",/threats/ransomware,/threats/ransomware,PASS
+"computer files encrypted",/threats/ransomware,/threats/ransomware,PASS
+"ransom note",/threats/ransomware,/threats/ransomware,PASS
+"my files are held hostage",/threats/ransomware,/threats/ransomware,PASS
+"windows 10 support ended",/protect-your-business/device-security,/protect-your-business/device-security,PASS
+"shared work computer",/protect-your-business/device-security,/protect-your-business/device-security,PASS
+"business laptop security",/protect-your-business/device-security,/protect-your-business/device-security,PASS
+"device security checklist",/protect-your-business/device-security,/protect-your-business/device-security,PASS
+"update business devices",/protect-your-business/device-security,/protect-your-business/device-security,PASS
+"secure shop wifi",/learn/business-wifi,/learn/business-wifi,PASS
+"guest wifi for customers",/learn/business-wifi,/learn/business-wifi,PASS
+"router password",/learn/business-wifi,/learn/business-wifi,PASS
+"wifi hacked",/learn/business-wifi,/learn/business-wifi,PASS
+"business wi fi security",/learn/business-wifi,/learn/business-wifi,PASS
+"how to backup my files",/learn/backup-and-recovery,/learn/backup-and-recovery,PASS
+"lost business files",/learn/backup-and-recovery,/learn/backup-and-recovery,PASS
+"backup stopped working",/learn/backup-and-recovery,/learn/backup-and-recovery,PASS
+"restore lost data",/learn/backup-and-recovery,/learn/backup-and-recovery,PASS
+"cloud backup",/learn/backup-and-recovery,/learn/backup-and-recovery,PASS
+"external drive backup",/learn/backup-and-recovery,/learn/backup-and-recovery,PASS
+"customer data privacy",/learn/data-protection,/learn/data-protection,PASS
+"data protection Nigeria",/learn/data-protection,/learn/data-protection,PASS
+"ndpa compliance basics",/learn/data-protection,/learn/data-protection,PASS
+"sharing customer details",/learn/data-protection,/learn/data-protection,PASS
+"customer records exposed",/learn/data-protection,/learn/data-protection,PASS
+"train my staff",/learn/employee-security,/learn/employee-security,PASS
+"staff cyber awareness",/learn/employee-security,/learn/employee-security,PASS
+"employee phishing training",/learn/employee-security,/learn/employee-security,PASS
+"new staff cybersecurity",/learn/employee-security,/learn/employee-security,PASS
+"teach staff about scams",/learn/employee-security,/learn/employee-security,PASS
+"staff reported suspicious message",/learn/employee-security,/learn/employee-security,PASS
+"phishing examples",/learn/phishing-guide,/learn/phishing-guide,PASS
+"training examples of fake messages",/learn/phishing-guide,/learn/phishing-guide,PASS
+"how to recognise fake email",/learn/phishing-guide,/learn/phishing-guide,PASS
+"phishing staff exercise",/learn/phishing-guide,/learn/phishing-guide,PASS
+"cybersecurity for beginners",/learn/cybersecurity-basics,/learn/cybersecurity-basics,PASS
+"where to start with cybersecurity",/learn/cybersecurity-basics,/learn/cybersecurity-basics,PASS
+"small business cybersecurity basics",/learn/cybersecurity-basics,/learn/cybersecurity-basics,PASS
+"how can i protect my shop",/learn/cybersecurity-basics,/learn/cybersecurity-basics,PASS
+"security self check",/resources/security-checklist,/resources/security-checklist,PASS
+"check my business security",/resources/security-checklist,/resources/security-checklist,PASS
+"15 questions",/resources/security-checklist,/resources/security-checklist,PASS
+"security checklist online",/resources/security-checklist,/resources/security-checklist,PASS
+"security action plan",/resources/security-checklist,/resources/security-checklist,PASS
+"download printable checklist",/resources/downloads,/resources/downloads,PASS
+"payment verification card",/resources/downloads,/resources/downloads,PASS
+"incident record template",/resources/downloads,/resources/downloads,PASS
+"staff security poster",/resources/downloads,/resources/downloads,PASS
+"download backup log",/resources/downloads,/resources/downloads,PASS
+"access register pdf",/resources/downloads,/resources/downloads,PASS
+"free antivirus",/resources/tools,/resources/tools,PASS
+"free cybersecurity tools",/resources/tools,/resources/tools,PASS
+"microsoft authenticator",/resources/tools,/resources/tools,PASS
+"google play protect",/resources/tools,/resources/tools,PASS
+"security tools for Nigerian SMEs",/resources/tools,/resources/tools,PASS
+"official cybersecurity guides",/resources/external,/resources/external,PASS
+"free cyber security training resources",/resources/external,/resources/external,PASS
+"government security learning links",/resources/external,/resources/external,PASS
+"external cybersecurity resources",/resources/external,/resources/external,PASS
