@@ -1,0 +1,21 @@
+check,result,evidence
+Single canonical game page,PASS,Dedicated generator route exists; legacy route absent
+Canonical metadata,PASS,Generated canonical link
+Game script route scope,PASS,Dedicated game module only on game route
+No JS lessons,PASS,Five links in static lessons
+Site shell,PASS,"Header, footer, search rendered"
+Sitemap entry,PASS,Canonical route indexed
+Search phrases,PASS,159 mapped intent phrases retained; game searchable
+15 question self-check,PASS,V2 source and key unchanged
+Six downloadable PDFs,PASS,Count of PDF assets
+CSP unchanged,PASS,Original policy retained
+Module syntax,PASS,"Node syntax check, module files"
+Game module syntax,PASS,"Node syntax check, module files"
+Game routes,PASS,All five locally generated guide routes
+Legacy payment path absent,PASS,Correct payment security URL
+No site-wide game download,PASS,Game module only on its own page
+Homepage invitation,PASS,Homepage static + timed invitation
+Contextual links,PASS,Six relevant reading pages
+About team,PASS,Team page remains generated; content not modified
+Photos,PASS,Existing photographs retained
+Retired Audio Guide,PASS,No HTML generated; redirect retained
