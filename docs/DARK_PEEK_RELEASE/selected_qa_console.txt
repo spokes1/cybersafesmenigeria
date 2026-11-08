@@ -1,0 +1,10 @@
+light peeker size {'x': 1318, 'y': 834, 'width': 48, 'height': 52}
+dark .tipc h2 {'text': 'rgb(255, 247, 238)', 'back': 'linear-gradient(125deg, rgb(59, 51, 47), rgb(52, 54, 58))'}
+dark .tipc .slide.on h3 {'text': 'rgb(255, 247, 238)', 'back': 'linear-gradient(125deg, rgb(59, 51, 47), rgb(52, 54, 58))'}
+dark .tipc .slide.on p {'text': 'rgb(241, 222, 208)', 'back': 'linear-gradient(125deg, rgb(59, 51, 47), rgb(52, 54, 58))'}
+dark peeker size {'x': 1318, 'y': 834, 'width': 48, 'height': 52}
+.ac-exit-figure {'bg': 'rgb(37, 63, 80)', 'text': 'rgb(243, 249, 252)'} ratio 10.37
+.ac-exit-flow li {'bg': 'rgb(32, 55, 71)', 'text': 'rgb(243, 249, 252)'} ratio 11.64
+.ac-scenario-steps li {'bg': 'rgb(32, 55, 71)', 'text': 'rgb(243, 249, 252)'} ratio 11.64
+.ac-takeaway {'bg': 'rgb(37, 63, 80)', 'text': 'rgb(243, 249, 252)'} ratio 10.37
+.ac-map-card {'bg': 'rgb(32, 55, 71)', 'text': 'rgb(243, 249, 252)'} ratio 11.64
