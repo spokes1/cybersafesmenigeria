@@ -1,0 +1,362 @@
+[
+  {
+    "route": "/about/contact",
+    "h1": "Contact",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": null,
+    "screenshot": "all_dark_00.png"
+  },
+  {
+    "route": "/about",
+    "h1": "About CyberSafe SME Nigeria",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": null,
+    "screenshot": "all_dark_01.png"
+  },
+  {
+    "route": "/about/mission",
+    "h1": "Our Mission",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nAbout\n/\nOur Mission",
+    "screenshot": "all_dark_02.png"
+  },
+  {
+    "route": "/about/team",
+    "h1": "Meet the Team",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": null,
+    "screenshot": "all_dark_03.png"
+  },
+  {
+    "route": "/",
+    "h1": "Protect the business you\u2019ve worked hard to build.",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": null,
+    "screenshot": "all_dark_04.png"
+  },
+  {
+    "route": "/learn/backup-and-recovery",
+    "h1": "Backup & Recovery",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nLearn\n/\nBackup & Recovery",
+    "screenshot": "all_dark_05.png"
+  },
+  {
+    "route": "/learn/business-wifi",
+    "h1": "Business Wi-Fi Security",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nLearn\n/\nBusiness Wi-Fi",
+    "screenshot": "all_dark_06.png"
+  },
+  {
+    "route": "/learn/cybersecurity-basics",
+    "h1": "You already run a digital business. Are the important parts protected?",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nLearn\n/\nCybersecurity Basics",
+    "screenshot": "all_dark_07.png"
+  },
+  {
+    "route": "/learn/data-protection",
+    "h1": "Data Protection",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nLearn\n/\nData Protection",
+    "screenshot": "all_dark_08.png"
+  },
+  {
+    "route": "/learn/email-security",
+    "h1": "Email Security",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nLearn\n/\nEmail Security",
+    "screenshot": "all_dark_09.png"
+  },
+  {
+    "route": "/learn/employee-security",
+    "h1": "Employee Security",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nLearn\n/\nEmployee Security",
+    "screenshot": "all_dark_10.png"
+  },
+  {
+    "route": "/learn",
+    "h1": "Learn",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": null,
+    "screenshot": "all_dark_11.png"
+  },
+  {
+    "route": "/learn/mobile-security",
+    "h1": "Mobile Security",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nLearn\n/\nMobile Security",
+    "screenshot": "all_dark_12.png"
+  },
+  {
+    "route": "/learn/password-security",
+    "h1": "Password Security",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nLearn\n/\nPassword Security",
+    "screenshot": "all_dark_13.png"
+  },
+  {
+    "route": "/learn/phishing-guide",
+    "h1": "Phishing: How Nigerian SMEs Are Targeted and What to Do About It",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nLearn\n/\nPhishing Guide",
+    "screenshot": "all_dark_14.png"
+  },
+  {
+    "route": "/learn/social-media-security",
+    "h1": "Social Media Security",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nLearn\n/\nSocial Media Security",
+    "screenshot": "all_dark_15.png"
+  },
+  {
+    "route": "/learn/spot-the-scam",
+    "h1": "Spot the Scam: Five safety habits",
+    "h1color": "rgb(238, 249, 252)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nLearn\n/\nSpot the Scam",
+    "screenshot": "all_dark_16.png"
+  },
+  {
+    "route": "/learn/whatsapp-security",
+    "h1": "Your business runs on WhatsApp. Who controls the account?",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nLearn\n/\nWhatsApp Security",
+    "screenshot": "all_dark_17.png"
+  },
+  {
+    "route": "/privacy",
+    "h1": "Privacy Policy",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nLegal\n/\nPrivacy Policy",
+    "screenshot": "all_dark_18.png"
+  },
+  {
+    "route": "/protect-your-business/account-security",
+    "h1": "Account Security",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nProtect Your Business\n/\nAccount Security",
+    "screenshot": "all_dark_19.png"
+  },
+  {
+    "route": "/protect-your-business/device-security",
+    "h1": "Device Security.",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nProtect Your Business\n/\nDevice Security",
+    "screenshot": "all_dark_20.png"
+  },
+  {
+    "route": "/protect-your-business/incident-response",
+    "h1": "Incident Response.",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nProtect Your Business\n/\nIncident Response",
+    "screenshot": "all_dark_21.png"
+  },
+  {
+    "route": "/protect-your-business",
+    "h1": "Protect Your Business",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": null,
+    "screenshot": "all_dark_22.png"
+  },
+  {
+    "route": "/protect-your-business/payment-security",
+    "h1": "Payment Security",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nProtect Your Business\n/\nPayment Security",
+    "screenshot": "all_dark_23.png"
+  },
+  {
+    "route": "/resources/downloads",
+    "h1": "Downloads: free security cards and templates",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nResources\n/\nDownloads",
+    "screenshot": "all_dark_24.png"
+  },
+  {
+    "route": "/resources/external",
+    "h1": "External Resources",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nResources\n/\nExternal Resources",
+    "screenshot": "all_dark_25.png"
+  },
+  {
+    "route": "/resources",
+    "h1": "Resources",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": null,
+    "screenshot": "all_dark_26.png"
+  },
+  {
+    "route": "/resources/organisations",
+    "h1": "Who should your business contact when something goes wrong online?",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nResources\n/\nCybersecurity Organisations",
+    "screenshot": "all_dark_27.png"
+  },
+  {
+    "route": "/resources/security-checklist",
+    "h1": "Business Security Self-Check",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nResources\n/\nSecurity Self-Check",
+    "screenshot": "all_dark_28.png"
+  },
+  {
+    "route": "/resources/tools",
+    "h1": "Free and Low-Cost Cybersecurity Tools",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nResources\n/\nTools",
+    "screenshot": "all_dark_29.png"
+  },
+  {
+    "route": "/terms",
+    "h1": "Terms of Use",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nLegal\n/\nTerms of Use",
+    "screenshot": "all_dark_30.png"
+  },
+  {
+    "route": "/threats/business-email-compromise",
+    "h1": "Business Email Compromise",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nThreats\n/\nBusiness Email Compromise",
+    "screenshot": "all_dark_31.png"
+  },
+  {
+    "route": "/threats/fake-bank-alerts",
+    "h1": "Fake Bank Alerts",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nThreats\n/\nFake Bank Alerts",
+    "screenshot": "all_dark_32.png"
+  },
+  {
+    "route": "/threats",
+    "h1": "Threats",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": null,
+    "screenshot": "all_dark_33.png"
+  },
+  {
+    "route": "/threats/malware",
+    "h1": "Malware.",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nThreats\n/\nMalware",
+    "screenshot": "all_dark_34.png"
+  },
+  {
+    "route": "/threats/phishing",
+    "h1": "Phishing",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nThreats\n/\nPhishing",
+    "screenshot": "all_dark_35.png"
+  },
+  {
+    "route": "/threats/ransomware",
+    "h1": "Ransomware.",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nThreats\n/\nRansomware",
+    "screenshot": "all_dark_36.png"
+  },
+  {
+    "route": "/threats/sim-swap-fraud",
+    "h1": "SIM Swap Fraud",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nThreats\n/\nSIM Swap Fraud",
+    "screenshot": "all_dark_37.png"
+  },
+  {
+    "route": "/threats/social-engineering",
+    "h1": "Social Engineering",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nThreats\n/\nSocial Engineering",
+    "screenshot": "all_dark_38.png"
+  },
+  {
+    "route": "/threats/whatsapp-hijacking",
+    "h1": "WhatsApp Hijacking",
+    "h1color": "rgb(240, 248, 251)",
+    "overflow": 0,
+    "bodybg": "rgb(18, 37, 52)",
+    "topic": "Home\n/\nThreats\n/\nWhatsApp Hijacking",
+    "screenshot": "all_dark_39.png"
+  }
+]

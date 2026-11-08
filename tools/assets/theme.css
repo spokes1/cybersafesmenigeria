@@ -1,0 +1,219 @@
+/* CyberSafe SME Nigeria: owner-approved light visual polish and system colour scheme.
+   This is an additive layer; original article diagrams and V5.1 game logic are not changed.
+   Loaded after page-specific CSS so shared theme colours are consistently applied. */
+
+/* The primary experience is LIGHT: pale mint/blue edge accents, not dark panels. */
+:root { color-scheme: light; }
+.pg-home #main > .hero:first-child:not(.hub) {
+  isolation: isolate;
+  background:
+    radial-gradient(ellipse 43% 70% at 100% 9%, rgba(133,218,208,.30), transparent 85%),
+    radial-gradient(ellipse 43% 70% at 0% 8%, rgba(166,210,245,.26), transparent 84%),
+    linear-gradient(155deg, #fcfefe 14%, #f7fcfc 60%, #eef8fa 100%);
+}
+.pg-home #main > .hero:first-child:not(.hub)::after {
+  content:""; position:absolute; z-index:0; pointer-events:none;
+  left:-9%; bottom:-89px; width:118%; height:160px;
+  background:linear-gradient(100deg, rgba(170,233,220,.33), rgba(186,224,249,.38), rgba(198,237,230,.27));
+  border-radius:51% 49% 0 0/65% 67% 0 0;
+  transform:rotate(-1deg);
+}
+.pg-home #main > .hero:first-child:not(.hub) > .wrap { position:relative; z-index:1; }
+.pg-home #main > .hero:first-child:not(.hub) .photo {
+  box-shadow: 0 26px 46px -34px rgba(18,62,90,.32), 0 8px 24px -16px rgba(18,62,90,.16);
+}
+.pg-home #main > section.t { background-color: #edf8f9; }
+.pg-home .home-game-invite,
+.pg-home .home-incident-inner { box-shadow:0 16px 38px -31px rgba(18,64,90,.23); }
+.pg-home .fc.b { border-color:#c3e2dd; }
+.pg-home .card { box-shadow:0 3px 8px rgba(18,48,77,.035), 0 18px 39px -25px rgba(18,48,77,.18); }
+.pg-home .final { background:linear-gradient(127deg,#e3f5f0,#e5f3fc 58%,#edf9f7); }
+
+/* A consistent, small topic identifier above editorial content; H1s remain unique. */
+.topic-location { border-bottom:1px solid var(--line); background:var(--bg2); font-size:12.5px; }
+.topic-location .wrap { min-height:46px;display:flex;gap:9px;align-items:center;flex-wrap:wrap;padding-top:9px;padding-bottom:9px; }
+.topic-location a { color:var(--muted);font-weight:650;text-decoration:none; }
+.topic-location a:hover { color:var(--brand);text-decoration:underline;text-underline-offset:3px; }
+.topic-location span { color:var(--muted);opacity:.67; }
+.topic-location strong { color:var(--brand);font-weight:800; }
+@media(max-width:520px) {
+  .topic-location .wrap {font-size:12px;gap:6px;min-height:42px;}
+  .pg-home #main > .hero:first-child:not(.hub)::after {bottom:-119px;opacity:.5;}
+}
+
+/* Accessible dark alternative follows operating-system preference. The light
+   homepage above remains the default. Educational diagrams may retain their
+   pale canvases where they require dark ink and familiar illustrated colours. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --bg:#122534; --bg2:#192f40; --tint:#203848; --tint2:#243d50;
+    --card:#20394a; --ink:#f0f8fb; --muted:#cadbe5; --line:#476478;
+    --brand:#82e8d9; --brand2:#5edbd1; --soft:#234b49; --blue:#9bd7ff;
+    --ok:#91e4a7; --warn:#ffb47a; --warnsoft:#4c362c;
+    --grad-btn:linear-gradient(135deg,#0c766f,#075e65);
+    --grad-tile:linear-gradient(135deg,#0e8079,#15a99d);
+    --shadow:0 4px 18px rgba(1,13,25,.15),0 18px 38px -16px rgba(1,13,25,.32);
+  }
+  body,body.pg-art { background:var(--bg);color:var(--ink);--brand2:#5edbd1;--warnsoft:#4c362c;--shadow:0 8px 24px rgba(1,13,25,.25); }
+  body.pg-home, body.pg-art { color:var(--ink); }
+  header.top { background:rgba(22,45,60,.97);border-color:var(--line); }
+  .lg { background:var(--ink); }
+  .btn:not(.p),.sbtn,.burger,.panel,#mnav,.sd,.si button,.chips button,
+  .pg-home .pill,.pg-home .fc,.pg-home .card,.pg-home .chkcard,.pg-home .stack .card,
+  .pg-art .card,.pg-art .pill { background:var(--card);color:var(--ink);border-color:var(--line); }
+  .btn.p {background:var(--grad-btn);color:#fff;box-shadow:0 8px 23px rgba(1,28,26,.26);}
+  .btn:not(.p):hover, .sbtn:hover,.burger:hover,.panel a:hover { background:var(--soft); }
+  .panel {box-shadow:0 28px 45px -18px rgba(0,5,10,.6);}
+  .panel a,.dd>a.l,#mnav details a,.pg-home .fc span { color:var(--muted); }
+  .dd>a.l:hover,.dd>a.l[aria-current],.dd:focus-within>a.l {color:var(--ink);background:var(--soft);}
+  #mnav details,#mnav,.panel {border-color:var(--line);}
+  .sr {background:rgba(0,12,24,.75);}
+  .sd,.si,.sb {background:var(--bg2);color:var(--ink);}
+  .si input { color:var(--ink); }
+  .si input::placeholder {color:var(--muted);opacity:1;}
+  .sb .rs a,.sb .rs em {color:var(--ink);}
+  .sb .rs a.on,.sb .rs a:hover,.sb .rs a:focus-visible {background:var(--soft);}
+  .sb .search-retry {color:var(--ink);background:var(--soft);border-color:var(--line);}
+  .topic-location {background:#1b3444;}
+  .topic-location strong {color:var(--brand);}
+  footer {background:#1a3443;border-color:var(--line);}
+  footer a, footer p, .fb {color:var(--muted);}
+  .skip {background:var(--card);color:var(--ink);}
+  .pg-home .hero, .pg-home #main > .hero:first-child:not(.hub) {
+    background:radial-gradient(ellipse 52% 73% at 100% 0%,rgba(25,121,111,.22),transparent 82%),
+               radial-gradient(ellipse 50% 67% at 0% 0%,rgba(43,103,149,.24),transparent 78%),
+               linear-gradient(156deg,#162e40,#172f40 74%,#203b4b);
+  }
+  .pg-home #main > .hero:first-child:not(.hub)::after {
+    background:linear-gradient(100deg,rgba(31,137,127,.21),rgba(37,119,160,.18),rgba(50,140,120,.13));
+  }
+  .pg-home .hero .lead,.pg-home .sub,.pg-home .note,.pg-home p,
+  .pg-art .lead,.pg-art p,.pg-art li {color:inherit;}
+  .pg-home .lead,.pg-home .sub,.pg-home .card p,.pg-home .fc span,.pg-art .lead,
+  .pg-home .note,.pg-art .card p,.pg-art .body {color:var(--muted);}
+  .pg-home #main > section.t {background-color:var(--tint);}
+  .pg-home #main > section:not(.hero):not(.t):not(#tips) {background-image:
+    radial-gradient(ellipse 32% 65% at 0% 48%,rgba(31,153,143,.07),transparent 82%),
+    radial-gradient(ellipse 32% 65% at 100% 50%,rgba(47,142,181,.07),transparent 80%);}
+  .pg-home main>section.t {background-image:linear-gradient(110deg,#1b3543,#1e3a49,#203949);}
+  .pg-home .card,.pg-home .chkcard,.pg-home .beginner-path li,.pg-home .about-benefits li {background:var(--card);color:var(--ink);border-color:var(--line);}
+  .pg-home .fc.b {background:var(--card);}
+  .pg-home .home-game-invite,.pg-home .home-incident-inner,.pg-home .final {
+    background:linear-gradient(110deg,#21453e,#203e51);color:var(--ink);border-color:var(--line);
+  }
+  .pg-home .tip {background:linear-gradient(120deg,#493525,#3a352f);border-color:#755d4b;}
+  .pg-home .tip p {color:#f1dcca;}
+  .pg-home .tag,.pg-art .tag {background:var(--soft);color:var(--brand);}
+  .pg-home .th {background:linear-gradient(120deg,#2c5555,#304f68);}
+  .pg-home .th.o {background:linear-gradient(120deg,#60452e,#58452d);}
+  .pg-home .th.g {background:linear-gradient(120deg,#294c3c,#325b43);}
+  .pg-home .th.b {background:linear-gradient(120deg,#2b4964,#365870);}
+  .pg-home .th span {background:var(--bg2);}
+  .pg-home .photo {background:var(--tint2);border-color:var(--line);}
+  .pg-home .pill,.pg-home .eyebrow,.pg-art .eyebrow small {color:var(--brand);}
+  .pg-home h1 em,.pg-art h1 em {background:linear-gradient(90deg,#84eadc,#a1defb);-webkit-background-clip:text;background-clip:text;color:transparent;}
+  .pg-art .hero {background:radial-gradient(60% 80% at 95% 0%,rgba(49,151,143,.20),transparent 78%),radial-gradient(60% 75% at 0% 0%,rgba(38,125,160,.18),transparent 77%);}
+  .pg-art .note {background:var(--soft);color:var(--ink);}
+  .pg-art .note.w {background:var(--warnsoft);color:var(--ink);}
+  .pg-art .read a,.pg-home .more,.pg-home .fine a,.pg-art .card .tag {color:var(--brand);}
+  .pg-home .resource-four-grid .card,.pg-home .about-team-grid .person {background:var(--card);color:var(--ink);}
+  /* Bespoke editorial hero components were originally hardcoded to pale
+     canvases. Their copy must not inherit white text on a white background. */
+  :is(.pg-art,.pg-home) #main > :is(header.cb-hero,header.ws-hero,header.ds-hero,header.ir-hero,
+    header.er-hero,header.org-hero,header.tr-hero,header.mw-hero,header.rw-hero,
+    header.se-hero) {
+    background:radial-gradient(ellipse 60% 85% at 100% 0%,rgba(38,128,134,.22),transparent 80%),
+               linear-gradient(140deg,#1b3546,#213e4e);
+    color:var(--ink);
+  }
+  :is(.pg-art,.pg-home) #main > :is(header.cb-hero,header.ws-hero,header.ds-hero,header.ir-hero,
+    header.er-hero,header.org-hero,header.tr-hero,header.mw-hero,header.rw-hero,
+    header.se-hero) :is(.cb-hero-copy,.ws-hero-content,.ds-hero-copy,.ir-hero-copy,
+    .er-hero-body,.org-hero-copy,.tr-hero-text,.mw-hero-copy,.rw-hero-copy,.se-hero-copy)
+    :is(h1,h1 span,h1 strong,h2,p,small) {color:var(--ink)!important;}
+  :is(.pg-art,.pg-home) #main > :is(header.cb-hero,header.ws-hero,header.ds-hero,header.ir-hero,
+    header.er-hero,header.org-hero,header.tr-hero,header.mw-hero,header.rw-hero,
+    header.se-hero) :is(.cb-hero-copy,.ws-hero-content,.ds-hero-copy,.ir-hero-copy,
+    .er-hero-body,.org-hero-copy,.tr-hero-text,.mw-hero-copy,.rw-hero-copy,.se-hero-copy)
+    :is(.pill,.eyebrow,.tag,.label) {color:var(--brand)!important;}
+  :is(.pg-art,.pg-home) #main > :is(header.cb-hero,header.ws-hero,header.ds-hero,header.ir-hero,
+    header.er-hero,header.org-hero,header.tr-hero,header.mw-hero,header.rw-hero,
+    header.se-hero) h1 em {
+    background:none!important;color:#a6f1e3!important;-webkit-text-fill-color:#a6f1e3!important;
+  }
+  /* The Self-Check's percentage used a hardcoded light-theme ink colour. */
+  .pg-art .sc2-result .sc2-metric {color:var(--ink);}
+  .pg-art .sc2-answer-group {border-color:var(--line);}
+  .pg-art .sc2-nojs,.pg-art .sc2-download {background:var(--card);color:var(--ink);border-color:var(--line);}
+  .pg-art .cs-editorial-photo img {background:var(--tint);border-color:var(--line);}
+  .pg-art .cs-editorial-photo figcaption {color:var(--muted);}
+  .pg-art .sc2-privacy,.pg-art .sc2-group,.pg-art .sc2-question,
+  .pg-art .sc2-result,.pg-art .sc2-choices label {background:var(--card);color:var(--ink);border-color:var(--line);}
+  .pg-art .sc2-group legend,.pg-art .sc2-question h3 {color:var(--ink);}
+  .pg-art .sc2-question p {color:var(--muted);}
+  .pg-art .sc2-choices label:has(:checked) {background:var(--soft);color:var(--ink);}
+  .pg-art .sc2 input,.pg-art .sc2 button:not(.btn),.pg-art .sc2 select {color:var(--ink);background:var(--bg2);border-color:var(--line);}
+  .pg-art .sc2 input[type="radio"] {accent-color:#55d2c3;}
+  .pg-art .sc2-result a {color:var(--brand);}
+  /* Kenny's fixed peeker must remain readable but not turn into a black overlay. */
+  .sts-kenny {color-scheme:dark;--bg:#172e3d;--paper:#20394a;--tint:#264452;--tint2:#274554;
+    --ink:#f0f8fb;--muted:#c8dbe5;--line:#476478;--teal:#79e0d5;--aqua:#5de0d3;--blue:#9bd7ff;
+    background:transparent;}
+  .sts-kenny .kenny-pop-copy {background:rgba(24,49,64,.97);border:1px solid #537584;border-radius:16px; padding:12px 12px;}
+  .sts-kenny .kenny-pop-copy:before {display:none;}
+  .sts-kenny .kenny-script .kenny-line,.sts-kenny .kenny-script .kenny-subline,
+  .sts-kenny .kenny-hello {color:#f0f8fb;text-shadow:none;}
+  .sts-kenny .button-quiet,.sts-kenny .kenny-pop-close {background:#244454;color:#f0f8fb;border-color:#5b7884;}
+  .sts-kenny .kenny-peek {background:linear-gradient(140deg,#244c5a,#1b3c4e);border-color:#648a93;}
+  .sts-kenny .button-primary {background:linear-gradient(115deg,#0b776d,#0d867e);color:#fff;}
+  /* V5.1 gameplay keeps its carefully designed illustrated scenarios; surrounding
+     guidance gets matching dark ink/panels. No game questions or JS are touched. */
+  .sts-game {color-scheme:dark;--bg:#152c3a;--paper:#223c4b;--tint:#254452;--tint2:#2a4b5a;
+    --ink:#eef9fc;--muted:#c5dce5;--line:#56707e;--teal:#88ecde;--aqua:#66dfd3;--blue:#a4dafa;
+    background:var(--bg);color:var(--ink);}
+  .sts-game .welcome,.sts-game .results,.sts-game .question-body,
+  .sts-game .lesson-screen,.sts-game .lesson-hub {background:#213a49;color:#eef9fc;}
+  .sts-game .welcome-footer p,.sts-game .result-note,.sts-game .habit-path,
+  .sts-game .lesson-screen p,.sts-game .lesson-hub p {color:#c8e0e8;}
+  .sts-game .welcome-meta span,.sts-game .kenny-intro,.sts-game .learning-list,
+  .sts-game .lesson-key,.sts-game .rule {background:#2a4b54;color:#e8f6f7;border-color:#52777d;}
+  .sts-game .lesson-key strong,.sts-game .lesson-screen h2,.sts-game .lesson-hub h2 {color:#ecfaff;}
+  .sts-game .lesson-link {background:#284956;color:#f0f9fb;border-color:#5f7e87;}
+  .sts-game .lesson-link span {color:#c8dce6;}
+  .sts-game .lesson-link:hover {background:#315663;}
+  .sts-game .button-quiet {background:#284756;color:#eef9fa;border-color:#62828d;}
+  .sts-game .scenario {background:#eaf4f7;color:#153b4c;}
+  .sts-game .scenario :is(p,span,strong,small) {color:inherit;}
+  .sts-game .scenario :is(.receipt,.email-frame,.sms-frame,.boss-card,.chat-frame) {color:#163b50;}
+  .sts-game .scenario :is(.muted,.receipt-data,.receipt-data span,.sts-receipt-desc,.sts-chat-meta,.sts-boss-meta,.sms-stamp) {
+    color:#385c6e!important;
+  }
+  .sts-game .scenario :is(.receipt,.email-frame,.sms-frame,.boss-card,.chat-frame)
+    :is(.muted,small,.receipt-status) {color:#385c6e!important;}
+
+  .sts-game .prompt-title {color:#eef9fc;}
+  .sts-game .answer {background:#294855;color:#eef9fc;border-color:#627f8d;}
+  .sts-game .answer:hover:not(:disabled) {background:#335965;border-color:#69d5c8;}
+  .sts-game .answer[aria-pressed="true"] {background:#245e58;border-color:#83ecdc;}
+  .sts-game .feedback {background:#264941;color:#eff8fa;border-color:#478c7b;}
+  .sts-game .feedback.incorrect {background:#253f52;border-color:#527d97;}
+  .sts-game .feedback-kicker,.sts-game .feedback.incorrect .feedback-kicker {color:#b5ece6;}
+  .sts-game .feedback .safe-action {color:#e4f8f4;}
+  .sts-game .sts-nojs {background:#223c4b;color:#eef9fc;border-color:#537484;}
+  .sts-game a {color:#90eee0;}
+  /* Specific illustrated educational panels remain light for their annotated
+     dark-ink diagrams and accessibility, including device security widgets. */
+  .pg-art .ds-page :is(.ds-scene,.ds-inspector,.ds-counter-story,.ds-shift-strip>div,.ds-related-link,.ds-inspect-details li,.ds-disclaimer) {color:#12304d;}
+}
+
+@media print {
+  /* Printed results stay ink-on-white regardless of the OS colour preference. */
+  :root {color-scheme:light;--bg:#fff;--bg2:#fff;--ink:#12304d;--muted:#566b80;--card:#fff;}
+  body {background:#fff!important;color:#12304d!important;}
+  .topic-location {display:none!important;}
+  .sc2-result a::after,.sc2-sheet a::after {content:none!important;}
+  .sc2-sheet, .sc2-sheet * {color:#12304d!important;}
+  .sc2-sheet {background:#fff!important;}
+  .sc2-sheet a {color:#0c625a!important;text-decoration:underline!important;}
+}
