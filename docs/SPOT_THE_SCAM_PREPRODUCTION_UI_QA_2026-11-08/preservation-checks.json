@@ -1,0 +1,77 @@
+[
+  {
+    "file": "public/downloads/backup-restore-test-log.pdf",
+    "bytes": 22155,
+    "unchanged": true
+  },
+  {
+    "file": "public/downloads/payment-verification-desk-card.pdf",
+    "bytes": 22523,
+    "unchanged": true
+  },
+  {
+    "file": "public/downloads/first-hour-incident-record.pdf",
+    "bytes": 22477,
+    "unchanged": true
+  },
+  {
+    "file": "public/downloads/suspicious-message-staff-card.pdf",
+    "bytes": 22077,
+    "unchanged": true
+  },
+  {
+    "file": "public/downloads/account-device-access-register.pdf",
+    "bytes": 22464,
+    "unchanged": true
+  },
+  {
+    "file": "public/downloads/business-security-self-check-blank.pdf",
+    "bytes": 27887,
+    "unchanged": true
+  },
+  {
+    "file": "public/assets/photos/hero-shop-owner.webp",
+    "bytes": 57054,
+    "unchanged": true
+  },
+  {
+    "file": "public/assets/photos/made-for-nigeria.webp",
+    "bytes": 38074,
+    "unchanged": true
+  },
+  {
+    "file": "public/assets/photos/about-team.webp",
+    "bytes": 44362,
+    "unchanged": true
+  },
+  {
+    "file": "public/assets/js/spot-the-scam-game.js",
+    "bytes": 18873,
+    "unchanged": true
+  },
+  {
+    "file": "public/assets/js/scenarios.js",
+    "bytes": 5949,
+    "unchanged": true
+  },
+  {
+    "file": "public/assets/css/spot-the-scam-game.css",
+    "bytes": 32985,
+    "unchanged": true
+  },
+  {
+    "file": "tools/content/search-phrases.json",
+    "bytes": 28096,
+    "unchanged": true
+  },
+  {
+    "file": "tools/content/selfcheck-v2.json",
+    "bytes": 6776,
+    "unchanged": true
+  },
+  {
+    "file": "netlify.toml",
+    "bytes": 2689,
+    "unchanged": true
+  }
+]

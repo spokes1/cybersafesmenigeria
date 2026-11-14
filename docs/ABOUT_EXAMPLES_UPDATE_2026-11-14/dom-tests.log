@@ -1,0 +1,46 @@
+Validated 41 HTML files including redirects and 404.
+#075a50 on #d9f1eb: 6.85:1
+#eff8fc on #23434f: 9.81:1
+#ffffff on #2b5159: 8.66:1
+#f3fcfa on #25574f: 7.87:1
+#a6f3e3 on #193d38: 9.37:1
+✔ phishing: starts unselected, opens each detail, preserves content and viewed history (27.834542ms)
+✔ phishing: direct detail hash opens the corresponding panel (23.893905ms)
+✔ engineering: starts unselected, opens each detail, preserves content and viewed history (6.541567ms)
+✔ engineering: direct detail hash opens the corresponding panel (16.597357ms)
+✔ malware: starts unselected, opens each detail, preserves content and viewed history (14.507078ms)
+✔ malware: direct detail hash opens the corresponding panel (21.279944ms)
+✔ bec: starts unselected, opens each detail, preserves content and viewed history (10.716738ms)
+✔ bec: direct detail hash opens the corresponding panel (29.125072ms)
+✔ social: starts unselected, opens each detail, preserves content and viewed history (5.854098ms)
+✔ social: direct detail hash opens the corresponding panel (10.041478ms)
+✔ tools: starts unselected, opens each detail, preserves content and viewed history (5.069872ms)
+✔ tools: direct detail hash opens the corresponding panel (13.572305ms)
+✔ basics: starts unselected, opens each detail, preserves content and viewed history (4.997162ms)
+✔ basics: direct detail hash opens the corresponding panel (18.948832ms)
+✔ device: starts unselected, opens each detail, preserves content and viewed history (8.776144ms)
+✔ device: direct detail hash opens the corresponding panel (15.021836ms)
+✔ organisations: starts unselected, opens each detail, preserves content and viewed history (9.507241ms)
+✔ organisations: direct detail hash opens the corresponding panel (21.679508ms)
+✔ incident: starts unselected, opens each detail, preserves content and viewed history (9.836659ms)
+✔ incident: direct detail hash opens the corresponding panel (17.565209ms)
+✔ whatsapp: starts unselected, opens each detail, preserves content and viewed history (8.36936ms)
+✔ whatsapp: direct detail hash opens the corresponding panel (14.170398ms)
+✔ ransomware: starts unselected, opens each detail, preserves content and viewed history (25.728618ms)
+✔ ransomware: direct detail hash opens the corresponding panel (21.280536ms)
+✔ phishing anchors accept Space; a hash change reveals a hidden descendant target (5.856772ms)
+✔ About has one hero, three sections, two correct team cards, and original contact guidance (2.332095ms)
+✔ legacy About URLs are redirect shells and excluded from search and sitemap (0.540978ms)
+✔ all generated internal anchors and accessible references resolve; no visitor links point at retired About pages (223.634082ms)
+✔ combined About notice opens at 10 visible seconds and is once per session across all sections (9.056428ms)
+✔ combined About notice excludes time in hidden tabs (4.48571ms)
+✔ combined About notice defers during text input and opens on the next short retry (39.011115ms)
+✔ declared example text/background pairs meet 4.5:1 contrast in both themes (7.844997ms)
+ℹ tests 32
+ℹ suites 0
+ℹ pass 32
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 919.253621

@@ -1,0 +1,10 @@
+Change,Path
+ADDED,docs/ABOUT_MISSION_TEAM_ACCEPTANCE_2026-11-08.csv
+ADDED,docs/ABOUT_MISSION_TEAM_IMPLEMENTATION_QA_2026-11-08.md
+ADDED,docs/ABOUT_MISSION_TEAM_MEASURED_QA_2026-11-08.csv
+MODIFIED,docs/VERIFICATION_REGISTER.csv
+MODIFIED,public/about/index.html
+MODIFIED,public/about/mission/index.html
+MODIFIED,public/about/team/index.html
+MODIFIED,public/assets/css/site.css
+MODIFIED,tools/content/about.mjs

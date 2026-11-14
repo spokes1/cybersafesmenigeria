@@ -1,0 +1,348 @@
+[
+  {
+    "width": 320,
+    "theme": "light",
+    "status": {
+      "overflow": 0,
+      "menu": "none",
+      "burger": "grid",
+      "bg": "rgb(251, 253, 254)",
+      "heroTip": "Supplier bank details changed? Pause and call the supplier using a number you already trust.",
+      "tips": "1 of 5",
+      "logo": 35681
+    },
+    "errors": [],
+    "screenshot": "homepage_320_light.png"
+  },
+  {
+    "width": 375,
+    "theme": "light",
+    "status": {
+      "overflow": 0,
+      "menu": "none",
+      "burger": "grid",
+      "bg": "rgb(251, 253, 254)",
+      "heroTip": "Supplier bank details changed? Pause and call the supplier using a number you already trust.",
+      "tips": "1 of 5",
+      "logo": 35681
+    },
+    "errors": [],
+    "screenshot": "homepage_375_light.png"
+  },
+  {
+    "width": 390,
+    "theme": "light",
+    "status": {
+      "overflow": 0,
+      "menu": "none",
+      "burger": "grid",
+      "bg": "rgb(251, 253, 254)",
+      "heroTip": "Supplier bank details changed? Pause and call the supplier using a number you already trust.",
+      "tips": "1 of 5",
+      "logo": 35681
+    },
+    "errors": [],
+    "screenshot": "homepage_390_light.png"
+  },
+  {
+    "test": "mobile_menu",
+    "open": "open",
+    "expanded": "true"
+  },
+  {
+    "width": 390,
+    "theme": "dark",
+    "status": {
+      "overflow": 0,
+      "menu": "none",
+      "burger": "grid",
+      "bg": "rgb(18, 37, 52)",
+      "heroTip": "Supplier bank details changed? Pause and call the supplier using a number you already trust.",
+      "tips": "1 of 5",
+      "logo": 35681
+    },
+    "errors": [],
+    "screenshot": "homepage_390_dark.png"
+  },
+  {
+    "width": 768,
+    "theme": "light",
+    "status": {
+      "overflow": 0,
+      "menu": "none",
+      "burger": "grid",
+      "bg": "rgb(251, 253, 254)",
+      "heroTip": "Supplier bank details changed? Pause and call the supplier using a number you already trust.",
+      "tips": "1 of 5",
+      "logo": 35681
+    },
+    "errors": [],
+    "screenshot": "homepage_768_light.png"
+  },
+  {
+    "width": 980,
+    "theme": "light",
+    "status": {
+      "overflow": 0,
+      "menu": "none",
+      "burger": "grid",
+      "bg": "rgb(251, 253, 254)",
+      "heroTip": "Supplier bank details changed? Pause and call the supplier using a number you already trust.",
+      "tips": "1 of 5",
+      "logo": 35681
+    },
+    "errors": [],
+    "screenshot": "homepage_980_light.png"
+  },
+  {
+    "width": 981,
+    "theme": "light",
+    "status": {
+      "overflow": 0,
+      "menu": "block",
+      "burger": "none",
+      "bg": "rgb(251, 253, 254)",
+      "heroTip": "Supplier bank details changed? Pause and call the supplier using a number you already trust.",
+      "tips": "1 of 5",
+      "logo": 35681
+    },
+    "errors": [],
+    "screenshot": "homepage_981_light.png"
+  },
+  {
+    "width": 1100,
+    "theme": "light",
+    "status": {
+      "overflow": 0,
+      "menu": "block",
+      "burger": "none",
+      "bg": "rgb(251, 253, 254)",
+      "heroTip": "Supplier bank details changed? Pause and call the supplier using a number you already trust.",
+      "tips": "1 of 5",
+      "logo": 35681
+    },
+    "errors": [],
+    "screenshot": "homepage_1100_light.png"
+  },
+  {
+    "width": 1366,
+    "theme": "light",
+    "status": {
+      "overflow": 0,
+      "menu": "block",
+      "burger": "none",
+      "bg": "rgb(251, 253, 254)",
+      "heroTip": "Supplier bank details changed? Pause and call the supplier using a number you already trust.",
+      "tips": "1 of 5",
+      "logo": 35681
+    },
+    "errors": [],
+    "screenshot": "homepage_1366_light.png"
+  },
+  {
+    "test": "tips_next",
+    "before": "1 of 5",
+    "after": "2 of 5",
+    "hero": "Received an urgent link? Check the sender and website independently before you click."
+  },
+  {
+    "width": 1366,
+    "theme": "dark",
+    "status": {
+      "overflow": 0,
+      "menu": "block",
+      "burger": "none",
+      "bg": "rgb(18, 37, 52)",
+      "heroTip": "Supplier bank details changed? Pause and call the supplier using a number you already trust.",
+      "tips": "1 of 5",
+      "logo": 35681
+    },
+    "errors": [],
+    "screenshot": "homepage_1366_dark.png"
+  },
+  {
+    "width": 1440,
+    "theme": "light",
+    "status": {
+      "overflow": 0,
+      "menu": "block",
+      "burger": "none",
+      "bg": "rgb(251, 253, 254)",
+      "heroTip": "Supplier bank details changed? Pause and call the supplier using a number you already trust.",
+      "tips": "1 of 5",
+      "logo": 35681
+    },
+    "errors": [],
+    "screenshot": "homepage_1440_light.png"
+  },
+  {
+    "article": "/learn/cybersecurity-basics",
+    "theme": "light",
+    "topic": "Home\n/\nLearn\n/\nCybersecurity Basics",
+    "h1": "You already run a digital business. Are the important parts protected?",
+    "h1count": 1,
+    "overflow": 0,
+    "screenshot": "article_cybersecurity-basics_light.png"
+  },
+  {
+    "article": "/learn/cybersecurity-basics",
+    "theme": "dark",
+    "topic": "Home\n/\nLearn\n/\nCybersecurity Basics",
+    "h1": "You already run a digital business. Are the important parts protected?",
+    "h1count": 1,
+    "overflow": 0,
+    "screenshot": "article_cybersecurity-basics_dark.png"
+  },
+  {
+    "article": "/learn/whatsapp-security",
+    "theme": "light",
+    "topic": "Home\n/\nLearn\n/\nWhatsApp Security",
+    "h1": "Your business runs on WhatsApp. Who controls the account?",
+    "h1count": 1,
+    "overflow": 0,
+    "screenshot": "article_whatsapp-security_light.png"
+  },
+  {
+    "article": "/learn/phishing-guide",
+    "theme": "light",
+    "topic": "Home\n/\nLearn\n/\nPhishing Guide",
+    "h1": "Phishing: How Nigerian SMEs Are Targeted and What to Do About It",
+    "h1count": 1,
+    "overflow": 0,
+    "screenshot": "article_phishing-guide_light.png"
+  },
+  {
+    "article": "/protect-your-business/device-security",
+    "theme": "light",
+    "topic": "Home\n/\nProtect Your Business\n/\nDevice Security",
+    "h1": "Device Security.",
+    "h1count": 1,
+    "overflow": 0,
+    "screenshot": "article_device-security_light.png"
+  },
+  {
+    "article": "/resources/organisations",
+    "theme": "light",
+    "topic": "Home\n/\nResources\n/\nCybersecurity Organisations",
+    "h1": "Who should your business contact when something goes wrong online?",
+    "h1count": 1,
+    "overflow": 0,
+    "screenshot": "article_organisations_light.png"
+  },
+  {
+    "test": "selfcheck",
+    "theme": "light",
+    "visible": true,
+    "linkLabels": [
+      "Password Security",
+      "Account Security",
+      "Payment Security",
+      "Business Email Compromise",
+      "Social Engineering",
+      "Device Security",
+      "Backup & Recovery",
+      "Incident Response",
+      "WhatsApp Security",
+      "Device Security",
+      "Security Tools",
+      "Data Protection",
+      "Backup & Recovery",
+      "Employee Security",
+      "Employee Security",
+      "Password Security",
+      "Account Security",
+      "Payment Security"
+    ],
+    "links": [
+      "/learn/password-security",
+      "/protect-your-business/account-security",
+      "/protect-your-business/payment-security",
+      "/threats/business-email-compromise",
+      "/threats/social-engineering",
+      "/protect-your-business/device-security",
+      "/learn/backup-and-recovery",
+      "/protect-your-business/incident-response",
+      "/learn/whatsapp-security",
+      "/protect-your-business/device-security",
+      "/resources/tools",
+      "/learn/data-protection",
+      "/learn/backup-and-recovery",
+      "/learn/employee-security",
+      "/learn/employee-security",
+      "/learn/password-security",
+      "/protect-your-business/account-security",
+      "/protect-your-business/payment-security"
+    ],
+    "rawUrls": false,
+    "printableURLs": false,
+    "stored": "no",
+    "answered": "15 of 15 questions answered. Browser storage is unavailable: your answers will last only for this page session.",
+    "errors": [],
+    "screenshot": "selfcheck_results_light.png"
+  },
+  {
+    "test": "selfcheck_print",
+    "theme": "light",
+    "color": "rgb(18, 48, 77)",
+    "background": "rgb(255, 255, 255)",
+    "linkAfter": "none"
+  },
+  {
+    "test": "selfcheck",
+    "theme": "dark",
+    "visible": true,
+    "linkLabels": [
+      "Password Security",
+      "Account Security",
+      "Payment Security",
+      "Business Email Compromise",
+      "Social Engineering",
+      "Device Security",
+      "Backup & Recovery",
+      "Incident Response",
+      "WhatsApp Security",
+      "Device Security",
+      "Security Tools",
+      "Data Protection",
+      "Backup & Recovery",
+      "Employee Security",
+      "Employee Security",
+      "Password Security",
+      "Account Security",
+      "Payment Security"
+    ],
+    "links": [
+      "/learn/password-security",
+      "/protect-your-business/account-security",
+      "/protect-your-business/payment-security",
+      "/threats/business-email-compromise",
+      "/threats/social-engineering",
+      "/protect-your-business/device-security",
+      "/learn/backup-and-recovery",
+      "/protect-your-business/incident-response",
+      "/learn/whatsapp-security",
+      "/protect-your-business/device-security",
+      "/resources/tools",
+      "/learn/data-protection",
+      "/learn/backup-and-recovery",
+      "/learn/employee-security",
+      "/learn/employee-security",
+      "/learn/password-security",
+      "/protect-your-business/account-security",
+      "/protect-your-business/payment-security"
+    ],
+    "rawUrls": false,
+    "printableURLs": false,
+    "stored": "no",
+    "answered": "15 of 15 questions answered. Browser storage is unavailable: your answers will last only for this page session.",
+    "errors": [],
+    "screenshot": "selfcheck_results_dark.png"
+  },
+  {
+    "test": "selfcheck_print",
+    "theme": "dark",
+    "color": "rgb(18, 48, 77)",
+    "background": "rgb(255, 255, 255)",
+    "linkAfter": "none"
+  }
+]

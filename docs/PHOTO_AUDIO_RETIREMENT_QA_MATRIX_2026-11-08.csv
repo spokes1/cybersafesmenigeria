@@ -1,0 +1,20 @@
+ID,QA requirement,status,evidence_or_limit
+IMG-01,BEC illustration at approved scenario,PASS,Source+generated anchor and 320–1366px Chromium screenshots; original diagram byte-preserved
+IMG-02,Malware illustration at Abeokuta story,PASS,Source+generated anchor and 320–1366px Chromium screenshots; Warning Desk preserved
+IMG-03,Incident Response illustration at three-calls example,PASS,Source+generated anchor and 320–1366px Chromium screenshots; Switchboard and print card preserved
+IMG-04,"WebP checksums, intrinsic dimensions, loading and ratio",PASS,"All three supplied files exact SHA-256; 1448×1086, browser decode & ratio checks"
+IMG-05,Descriptive alt and illustrative captions,PASS,Manifest text used; synthetic photos not presented as real incidents
+IMG-06,Responsive sizes 320/375/390/768/1366,PASS,Chromium no horizontal overflow and captions visible
+IMG-07,Keyboard/no-JS/reduced-motion/print compatibility,PASS,"Existing interaction buttons, no-JS guidance, reduced-motion checks; Incident Response deliberately prints original First-Response Card only"
+AUD-01,"No Audio Guide generator registration, card or CTA",PASS,"Source, Resources hub and visible output checks"
+AUD-02A,Two Netlify redirects configured at HTTP 301,PASS,"netlify.toml parsed, targets exist and no loop in rule set"
+AUD-02B,Hosted redirect HTTP status and Location,NOT TESTED,Cannot verify live Netlify response without a staging deployment; owner has forbidden deployment
+AUD-03,"Retired page absent from public, sitemap and search",PASS,"Clean build, directory and structured index checks"
+AUD-04,Old MP4 removed after reference audit,PASS,"public/audio_file.mp4 deleted, build ignore and preserve removed; no surviving code/page reference"
+AUD-05,Resources layout reflows with no gap,PASS,"Rendered at 320,390,768,1366; four cards and Self-Check section retained"
+REG-01,Prior Checklists/Guides cleanup unaffected,PASS,Four 301 configuration rules preserved and retired public directories absent
+REG-02,Prior brand/footer cleanup preserved,PASS,"No unrelated page or footer HTML changes, no old credit reintroduced"
+REG-03,"15 Self-Check, six PDFs, Cyber Tips, header-only search",PASS,"Canonical 15 entries, six byte-identical PDFs, 136 Chromium checks and unchanged global scripts"
+REG-04,Source build and internal links,PASS,node tools/build.mjs: 39 pages + 404; 37 search entries resolving; repeat build byte-identical
+REG-05,"Complete review deliverables, no deployment",PASS,"Full repo, changed ZIP, images, QA screenshots/report; no GitHub/Netlify action"
+DEVICE,"Physical phones, manual screen reader and actual printer",NOT TESTED,Offline Chromium preview only

@@ -1,0 +1,20 @@
+{
+  "public/downloads/first-hour-incident-record.pdf": "5d767f824e0ef19ee5771bdde77e1f819d781b26320a8aec82cb50a8d93390f7",
+  "public/downloads/backup-restore-test-log.pdf": "e93b6dd1c8bdd9a61eb92cab525218051ad53ebe538dd8e26cb5464bfa74f671",
+  "public/downloads/payment-verification-desk-card.pdf": "b2349af7dcc80790566542c576b3a6fab436b1c6ff2ff951f9b88819b4cd0679",
+  "public/downloads/suspicious-message-staff-card.pdf": "7d5b69dbd5e5ba2123c820b7abe804187ad2dd5913586a9e94b13bfe2e20e59d",
+  "public/downloads/business-security-self-check-blank.pdf": "62c7521fbac528e951adf24aca94fc50037ea29c2759ecf333596febbb4d51d1",
+  "public/downloads/account-device-access-register.pdf": "20dfaf8211116b1040786b7688beb374ec9e0bd364d8ef61d01a1d081d630429",
+  "tools/content/selfcheck-v2.json": "34e21f16ecb560188c69e887313d1af06c4a537b7f4ec04a163b5b2a3710d96c",
+  "public/assets/logo/cybersafe-mark-white.png": "ac7b26579911ae68a08b6ce78a9cbc8bb582dbcb9d19908eae0726fb463502a3",
+  "public/assets/logo/favicon.png": "4de3e764b1c107e64660443e321b50c5e74da6bf589f370a1a10a1669dbde096",
+  "public/assets/logo/apple-touch-icon.png": "e2dfac372dd230cb13ab339dbe465ecedfdf6a19afb95c5da310562b1783e48f",
+  "public/assets/logo/cybersafe-logo-white.png": "48826274e5608ee2d999c1f774564cd6ad85a50bfa46cc8c71d58fae59be0150",
+  "public/assets/photos/cybersafe-incident-response-team.webp": "4d32e107962f15e361796d46c59f1a61975ed370f6fe30e65d8a469791204174",
+  "public/assets/photos/made-for-nigeria.webp": "96b9e4428f3c868225a1fea5ef1dd1bc7569996247577a3bd7916a62e890759f",
+  "public/assets/photos/cybersafe-bec-supplier-verification.webp": "ec55aaa5846e1248c51ab15a4f3e7852a17dd90ad87c00c19b06236758ad2dea",
+  "public/assets/photos/phishing-guide.webp": "5d20356c4f20c77ee1d17b587049fc208c61505daaa79ab4a43f6a42396531d2",
+  "public/assets/photos/cybersafe-malware-print-shop.webp": "90310af4029c4d7abbce87ae8551f799309eeb8ada04bea88838e3e26e4e44db",
+  "public/assets/photos/hero-shop-owner.webp": "a5441f944b825a12c588dca64ec63a3bc733cf0ec07b885b2b66a375eb368fea",
+  "public/assets/photos/about-team.webp": "1670786cb2c91a3160f279de5dca4fc0b9280d5213e5efad2d1569a7ffb095b1"
+}

@@ -1,0 +1,32 @@
+{
+  "pages": 40,
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "widths": [
+    390,
+    1440
+  ],
+  "consistencyCaptures": 3560,
+  "extraGameAndOverlayCaptures": 220,
+  "totalThemeCaptures": 3780,
+  "flags": {
+    "surfaces": 0,
+    "icons": 0,
+    "failures": 0,
+    "overflow": 0
+  },
+  "lightTextStyleComparisons": 80,
+  "lightTextStylesUnchanged": 80,
+  "noticeDeadlineCases": 15,
+  "noticeDelayMs": 10000,
+  "limits": [
+    "Linux Chromium with virtual mobile viewports, not physical iOS/Android or other engines.",
+    "Local browser tests use fallback fonts because of environment Google Fonts certificate trust.",
+    "Computed contrast checks are triage, not a full WCAG certification.",
+    "Dark-surface and SVG checks exclude approved game evidence mockups, raster photos/artwork and print-only output. Game text, state flows and WebGL load are checked separately.",
+    "Before/after text-style fingerprints do not claim pixel-identical rendering; the logo and icon colours intentionally change in both themes.",
+    "Notice deadlines use browser virtual time; visibility and history suspension are dispatched test events. Busy interactions defer notices."
+  ]
+}

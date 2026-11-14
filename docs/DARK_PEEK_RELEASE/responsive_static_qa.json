@@ -1,0 +1,726 @@
+{
+  "checks": 76,
+  "issues": [],
+  "data": [
+    {
+      "page": "about/contact/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "about/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "about/mission/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "about/team/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "learn/backup-and-recovery/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "learn/business-wifi/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "learn/cybersecurity-basics/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "learn/data-protection/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "learn/email-security/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "learn/employee-security/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "learn/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "learn/mobile-security/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "learn/password-security/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "learn/phishing-guide/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "learn/social-media-security/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "learn/spot-the-scam/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "learn/whatsapp-security/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "privacy/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "protect-your-business/account-security/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "protect-your-business/device-security/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "protect-your-business/incident-response/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "protect-your-business/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "protect-your-business/payment-security/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "resources/downloads/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "resources/external/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "resources/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "resources/organisations/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "resources/security-checklist/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "resources/tools/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "terms/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "threats/business-email-compromise/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "threats/fake-bank-alerts/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "threats/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "threats/malware/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "threats/phishing/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "threats/ransomware/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "threats/sim-swap-fraud/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "threats/social-engineering/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "threats/whatsapp-hijacking/index.html",
+      "dark390": {
+        "width": 390,
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "index.html",
+      "mode": "light",
+      "width": 320,
+      "metrics": {
+        "docWidth": 320,
+        "bodyWidth": 320,
+        "h1": 1
+      }
+    },
+    {
+      "page": "protect-your-business/account-security/index.html",
+      "mode": "light",
+      "width": 320,
+      "metrics": {
+        "docWidth": 320,
+        "bodyWidth": 320,
+        "h1": 1
+      }
+    },
+    {
+      "page": "learn/spot-the-scam/index.html",
+      "mode": "light",
+      "width": 320,
+      "metrics": {
+        "docWidth": 320,
+        "bodyWidth": 320,
+        "h1": 1
+      }
+    },
+    {
+      "page": "index.html",
+      "mode": "dark",
+      "width": 320,
+      "metrics": {
+        "docWidth": 320,
+        "bodyWidth": 320,
+        "h1": 1
+      }
+    },
+    {
+      "page": "protect-your-business/account-security/index.html",
+      "mode": "dark",
+      "width": 320,
+      "metrics": {
+        "docWidth": 320,
+        "bodyWidth": 320,
+        "h1": 1
+      }
+    },
+    {
+      "page": "learn/spot-the-scam/index.html",
+      "mode": "dark",
+      "width": 320,
+      "metrics": {
+        "docWidth": 320,
+        "bodyWidth": 320,
+        "h1": 1
+      }
+    },
+    {
+      "page": "index.html",
+      "mode": "light",
+      "width": 375,
+      "metrics": {
+        "docWidth": 375,
+        "bodyWidth": 375,
+        "h1": 1
+      }
+    },
+    {
+      "page": "protect-your-business/account-security/index.html",
+      "mode": "light",
+      "width": 375,
+      "metrics": {
+        "docWidth": 375,
+        "bodyWidth": 375,
+        "h1": 1
+      }
+    },
+    {
+      "page": "learn/spot-the-scam/index.html",
+      "mode": "light",
+      "width": 375,
+      "metrics": {
+        "docWidth": 375,
+        "bodyWidth": 375,
+        "h1": 1
+      }
+    },
+    {
+      "page": "index.html",
+      "mode": "dark",
+      "width": 375,
+      "metrics": {
+        "docWidth": 375,
+        "bodyWidth": 375,
+        "h1": 1
+      }
+    },
+    {
+      "page": "protect-your-business/account-security/index.html",
+      "mode": "dark",
+      "width": 375,
+      "metrics": {
+        "docWidth": 375,
+        "bodyWidth": 375,
+        "h1": 1
+      }
+    },
+    {
+      "page": "learn/spot-the-scam/index.html",
+      "mode": "dark",
+      "width": 375,
+      "metrics": {
+        "docWidth": 375,
+        "bodyWidth": 375,
+        "h1": 1
+      }
+    },
+    {
+      "page": "index.html",
+      "mode": "light",
+      "width": 390,
+      "metrics": {
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "protect-your-business/account-security/index.html",
+      "mode": "light",
+      "width": 390,
+      "metrics": {
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "learn/spot-the-scam/index.html",
+      "mode": "light",
+      "width": 390,
+      "metrics": {
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "index.html",
+      "mode": "dark",
+      "width": 390,
+      "metrics": {
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "protect-your-business/account-security/index.html",
+      "mode": "dark",
+      "width": 390,
+      "metrics": {
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "learn/spot-the-scam/index.html",
+      "mode": "dark",
+      "width": 390,
+      "metrics": {
+        "docWidth": 390,
+        "bodyWidth": 390,
+        "h1": 1
+      }
+    },
+    {
+      "page": "index.html",
+      "mode": "light",
+      "width": 768,
+      "metrics": {
+        "docWidth": 768,
+        "bodyWidth": 768,
+        "h1": 1
+      }
+    },
+    {
+      "page": "protect-your-business/account-security/index.html",
+      "mode": "light",
+      "width": 768,
+      "metrics": {
+        "docWidth": 768,
+        "bodyWidth": 768,
+        "h1": 1
+      }
+    },
+    {
+      "page": "learn/spot-the-scam/index.html",
+      "mode": "light",
+      "width": 768,
+      "metrics": {
+        "docWidth": 768,
+        "bodyWidth": 768,
+        "h1": 1
+      }
+    },
+    {
+      "page": "index.html",
+      "mode": "dark",
+      "width": 768,
+      "metrics": {
+        "docWidth": 768,
+        "bodyWidth": 768,
+        "h1": 1
+      }
+    },
+    {
+      "page": "protect-your-business/account-security/index.html",
+      "mode": "dark",
+      "width": 768,
+      "metrics": {
+        "docWidth": 768,
+        "bodyWidth": 768,
+        "h1": 1
+      }
+    },
+    {
+      "page": "learn/spot-the-scam/index.html",
+      "mode": "dark",
+      "width": 768,
+      "metrics": {
+        "docWidth": 768,
+        "bodyWidth": 768,
+        "h1": 1
+      }
+    },
+    {
+      "page": "index.html",
+      "mode": "light",
+      "width": 1366,
+      "metrics": {
+        "docWidth": 1366,
+        "bodyWidth": 1366,
+        "h1": 1
+      }
+    },
+    {
+      "page": "protect-your-business/account-security/index.html",
+      "mode": "light",
+      "width": 1366,
+      "metrics": {
+        "docWidth": 1366,
+        "bodyWidth": 1366,
+        "h1": 1
+      }
+    },
+    {
+      "page": "learn/spot-the-scam/index.html",
+      "mode": "light",
+      "width": 1366,
+      "metrics": {
+        "docWidth": 1366,
+        "bodyWidth": 1366,
+        "h1": 1
+      }
+    },
+    {
+      "page": "index.html",
+      "mode": "dark",
+      "width": 1366,
+      "metrics": {
+        "docWidth": 1366,
+        "bodyWidth": 1366,
+        "h1": 1
+      }
+    },
+    {
+      "page": "protect-your-business/account-security/index.html",
+      "mode": "dark",
+      "width": 1366,
+      "metrics": {
+        "docWidth": 1366,
+        "bodyWidth": 1366,
+        "h1": 1
+      }
+    },
+    {
+      "page": "learn/spot-the-scam/index.html",
+      "mode": "dark",
+      "width": 1366,
+      "metrics": {
+        "docWidth": 1366,
+        "bodyWidth": 1366,
+        "h1": 1
+      }
+    },
+    {
+      "page": "index.html",
+      "mode": "light",
+      "width": 1440,
+      "metrics": {
+        "docWidth": 1440,
+        "bodyWidth": 1440,
+        "h1": 1
+      }
+    },
+    {
+      "page": "protect-your-business/account-security/index.html",
+      "mode": "light",
+      "width": 1440,
+      "metrics": {
+        "docWidth": 1440,
+        "bodyWidth": 1440,
+        "h1": 1
+      }
+    },
+    {
+      "page": "learn/spot-the-scam/index.html",
+      "mode": "light",
+      "width": 1440,
+      "metrics": {
+        "docWidth": 1440,
+        "bodyWidth": 1440,
+        "h1": 1
+      }
+    },
+    {
+      "page": "index.html",
+      "mode": "dark",
+      "width": 1440,
+      "metrics": {
+        "docWidth": 1440,
+        "bodyWidth": 1440,
+        "h1": 1
+      }
+    },
+    {
+      "page": "protect-your-business/account-security/index.html",
+      "mode": "dark",
+      "width": 1440,
+      "metrics": {
+        "docWidth": 1440,
+        "bodyWidth": 1440,
+        "h1": 1
+      }
+    },
+    {
+      "page": "learn/spot-the-scam/index.html",
+      "mode": "dark",
+      "width": 1440,
+      "metrics": {
+        "docWidth": 1440,
+        "bodyWidth": 1440,
+        "h1": 1
+      }
+    }
+  ]
+}

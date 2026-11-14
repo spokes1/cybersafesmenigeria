@@ -1,0 +1,46 @@
+{
+  "routes": 40,
+  "main_states": 1420,
+  "extra_states": 220,
+  "all_states": 1640,
+  "contrast_flags": 0,
+  "root_overflow_flags": 0,
+  "baseline_flags_by_theme": {
+    "light": 46,
+    "dark": 2062
+  },
+  "light_default_comparisons": 80,
+  "light_defaults_identical": 74,
+  "light_default_changes": [
+    {
+      "route": "/protect-your-business/device-security",
+      "width": 390
+    },
+    {
+      "route": "/protect-your-business/incident-response",
+      "width": 390
+    },
+    {
+      "route": "/threats/ransomware",
+      "width": 390
+    },
+    {
+      "route": "/protect-your-business/device-security",
+      "width": 1440
+    },
+    {
+      "route": "/protect-your-business/incident-response",
+      "width": 1440
+    },
+    {
+      "route": "/threats/ransomware",
+      "width": 1440
+    }
+  ],
+  "limits": [
+    "Computed text contrast triage is not a full WCAG audit or certification.",
+    "Raster backgrounds, gradient-clipped type, shadow DOM and decorative icons require separate visual review.",
+    "Chromium on Linux; mobile viewport checks do not replace physical Android/iOS tests.",
+    "Google Fonts CSS is replaced by an empty response in local QA due environment certificate trust; production font links are unchanged."
+  ]
+}

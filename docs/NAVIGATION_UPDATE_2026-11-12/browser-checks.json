@@ -1,0 +1,509 @@
+{
+  "checks": [
+    {
+      "case": "page navigation and branding",
+      "route": "/",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/about",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/about/contact",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/about/mission",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/about/team",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/learn",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/learn/backup-and-recovery",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/learn/business-wifi",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/learn/cybersecurity-basics",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/learn/data-protection",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/learn/email-security",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/learn/employee-security",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/learn/mobile-security",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/learn/password-security",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/learn/phishing-guide",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/learn/social-media-security",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/learn/spot-the-scam",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/learn/whatsapp-security",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/privacy",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/protect-your-business",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/protect-your-business/account-security",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/protect-your-business/device-security",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/protect-your-business/incident-response",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/protect-your-business/payment-security",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/resources",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/resources/downloads",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/resources/external",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/resources/organisations",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/resources/security-checklist",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/resources/tools",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/terms",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/threats",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/threats/business-email-compromise",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/threats/fake-bank-alerts",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/threats/malware",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/threats/phishing",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/threats/ransomware",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/threats/sim-swap-fraud",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/threats/social-engineering",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/threats/whatsapp-hijacking",
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/about",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/about/contact",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/about/mission",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/about/team",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/learn",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/learn/backup-and-recovery",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/learn/business-wifi",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/learn/cybersecurity-basics",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/learn/data-protection",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/learn/email-security",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/learn/employee-security",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/learn/mobile-security",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/learn/password-security",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/learn/phishing-guide",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/learn/social-media-security",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/learn/spot-the-scam",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/learn/whatsapp-security",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/privacy",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/protect-your-business",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/protect-your-business/account-security",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/protect-your-business/device-security",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/protect-your-business/incident-response",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/protect-your-business/payment-security",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/resources",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/resources/downloads",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/resources/external",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/resources/organisations",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/resources/security-checklist",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/resources/tools",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/terms",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/threats",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/threats/business-email-compromise",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/threats/fake-bank-alerts",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/threats/malware",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/threats/phishing",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/threats/ransomware",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/threats/sim-swap-fraud",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/threats/social-engineering",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "page navigation and branding",
+      "route": "/threats/whatsapp-hijacking",
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "case": "desktop motion on, desktop resize and live reduced-motion preference",
+      "passed": true
+    },
+    {
+      "case": "touch-capable desktop has no mobile control",
+      "passed": true
+    },
+    {
+      "case": "Pixel 7 mobile pause/resume and landscape visibility",
+      "passed": true
+    },
+    {
+      "case": "iPhone 13 mobile pause/resume and landscape visibility",
+      "passed": true
+    },
+    {
+      "case": "iPad Pro 11 mobile pause/resume and landscape visibility",
+      "passed": true
+    }
+  ],
+  "pageErrors": [],
+  "limits": [
+    "Linux Chromium device emulation, not physical mobile devices or Safari.",
+    "Local font CSS is replaced by an empty response because of environment certificate trust. Production fonts are unchanged."
+  ]
+}

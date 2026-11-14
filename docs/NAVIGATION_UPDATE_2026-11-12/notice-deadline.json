@@ -1,0 +1,122 @@
+[
+  {
+    "route": "/about/mission",
+    "theme": "light",
+    "width": 390,
+    "opensAtScheduledDeadline": true,
+    "oncePerPageSession": true,
+    "deadline": 10010,
+    "openedAt": 10010
+  },
+  {
+    "route": "/about/team",
+    "theme": "light",
+    "width": 390,
+    "opensAtScheduledDeadline": true,
+    "oncePerPageSession": true,
+    "deadline": 10007,
+    "openedAt": 10007
+  },
+  {
+    "route": "/about/contact",
+    "theme": "light",
+    "width": 390,
+    "opensAtScheduledDeadline": true,
+    "oncePerPageSession": true,
+    "deadline": 10061,
+    "openedAt": 10061
+  },
+  {
+    "route": "/about/mission",
+    "theme": "light",
+    "width": 1440,
+    "opensAtScheduledDeadline": true,
+    "oncePerPageSession": true,
+    "deadline": 10004,
+    "openedAt": 10004
+  },
+  {
+    "route": "/about/team",
+    "theme": "light",
+    "width": 1440,
+    "opensAtScheduledDeadline": true,
+    "oncePerPageSession": true,
+    "deadline": 10051,
+    "openedAt": 10051
+  },
+  {
+    "route": "/about/contact",
+    "theme": "light",
+    "width": 1440,
+    "opensAtScheduledDeadline": true,
+    "oncePerPageSession": true,
+    "deadline": 10016,
+    "openedAt": 10016
+  },
+  {
+    "route": "/about/mission",
+    "theme": "dark",
+    "width": 390,
+    "opensAtScheduledDeadline": true,
+    "oncePerPageSession": true,
+    "deadline": 10018,
+    "openedAt": 10018
+  },
+  {
+    "route": "/about/team",
+    "theme": "dark",
+    "width": 390,
+    "opensAtScheduledDeadline": true,
+    "oncePerPageSession": true,
+    "deadline": 10007,
+    "openedAt": 10007
+  },
+  {
+    "route": "/about/contact",
+    "theme": "dark",
+    "width": 390,
+    "opensAtScheduledDeadline": true,
+    "oncePerPageSession": true,
+    "deadline": 10043,
+    "openedAt": 10043
+  },
+  {
+    "route": "/about/mission",
+    "theme": "dark",
+    "width": 1440,
+    "opensAtScheduledDeadline": true,
+    "oncePerPageSession": true,
+    "deadline": 10003,
+    "openedAt": 10003
+  },
+  {
+    "route": "/about/team",
+    "theme": "dark",
+    "width": 1440,
+    "opensAtScheduledDeadline": true,
+    "oncePerPageSession": true,
+    "deadline": 10007,
+    "openedAt": 10007
+  },
+  {
+    "route": "/about/contact",
+    "theme": "dark",
+    "width": 1440,
+    "opensAtScheduledDeadline": true,
+    "oncePerPageSession": true,
+    "deadline": 10005,
+    "openedAt": 10005
+  },
+  {
+    "case": "search defers notice, then opens within 200 ms after closing",
+    "passed": true
+  },
+  {
+    "case": "visibility suspension does not count towards 10 visible seconds",
+    "passed": true
+  },
+  {
+    "case": "history suspension does not count towards 10 visible seconds",
+    "passed": true
+  }
+]

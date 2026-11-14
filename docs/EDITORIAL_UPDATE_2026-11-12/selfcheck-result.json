@@ -1,0 +1,14 @@
+[
+  {
+    "theme": "light",
+    "questionIDsHidden": true,
+    "factualProgressPreserved": true,
+    "listsUnnumbered": true
+  },
+  {
+    "theme": "dark",
+    "questionIDsHidden": true,
+    "factualProgressPreserved": true,
+    "listsUnnumbered": true
+  }
+]

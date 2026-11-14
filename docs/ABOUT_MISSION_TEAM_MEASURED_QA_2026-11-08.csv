@@ -1,0 +1,137 @@
+Check,Result,Evidence
+About approved text 01,PASS,
+About approved text 02,PASS,
+About approved text 03,PASS,
+About approved text 04,PASS,
+About approved text 05,PASS,
+About approved text 06,PASS,
+About approved text 07,PASS,
+About approved text 08,PASS,
+About approved text 09,PASS,
+About approved text 10,PASS,
+About approved text 11,PASS,
+About approved text 12,PASS,
+About approved text 13,PASS,
+About approved text 14,PASS,
+About heading: About CyberSafe SME Nigeria,PASS,
+About heading: Why CyberSafe exists,PASS,
+About heading: What you can do with CyberSafe,PASS,
+About heading: A resource built for learning,PASS,
+Mission approved text 01,PASS,
+Mission approved text 02,PASS,
+Mission approved text 03,PASS,
+Mission approved text 04,PASS,
+Mission approved text 05,PASS,
+Mission approved text 06,PASS,
+Mission approved text 07,PASS,
+Mission approved text 08,PASS,
+Mission approved text 09,PASS,
+Mission approved text 10,PASS,
+Mission approved text 11,PASS,
+Mission approved text 12,PASS,
+Mission approved text 13,PASS,
+Mission approved text 14,PASS,
+Mission approved text 15,PASS,
+Mission approved text 16,PASS,
+Mission approved text 17,PASS,
+Mission heading: Our Mission,PASS,
+Mission heading: Why this matters,PASS,
+Mission heading: How we approach cybersecurity education,PASS,
+Mission heading: What we hope to achieve,PASS,
+Mission heading: Our commitment,PASS,
+Team exactly two cards,PASS,
+Team exact approved pairs,PASS,
+Team removed legacy roster Dada Damilare,PASS,
+Team removed legacy roster Ehigiator Peter,PASS,
+Team removed legacy roster Adebakin Ifeoluwa,PASS,
+Team removed legacy roster Ekere Gideon,PASS,
+Contact generated unchanged,PASS,
+Contact source function unchanged,PASS,
+About CTA direct route,PASS,
+About CTA exact label,PASS,
+About three directory cards,PASS,
+Photo file preserved hash,PASS,
+Homepage photo present,PASS,
+Homepage photo never labelled as two named team,PASS,
+Old unfinished Learn statement removed,PASS,
+No search engine changes,PASS,
+Search index unchanged,PASS,
+15-question self-check unchanged,PASS,
+All six PDF downloads unchanged,PASS,
+Prior approved redirects unchanged,PASS,
+About 320px no horizontal overflow,PASS,overflow=0
+About 320px one h1,PASS,
+About 320px no JS errors,PASS,[]
+About 320px CTA visible,PASS,
+About 320px CTA target,PASS,
+Mission 320px no horizontal overflow,PASS,overflow=0
+Mission 320px one h1,PASS,
+Mission 320px no JS errors,PASS,[]
+Team 320px no horizontal overflow,PASS,overflow=0
+Team 320px one h1,PASS,
+Team 320px no JS errors,PASS,[]
+Team 320px two in viewport,PASS,"[{'x': 22, 'right': 298, 'top': 585.1468505859375}, {'x': 22, 'right': 298, 'top': 700.0531005859375}]"
+Team 320px centered or two-column,PASS,"[{'x': 22, 'right': 298, 'top': 585.1468505859375}, {'x': 22, 'right': 298, 'top': 700.0531005859375}]"
+About 375px no horizontal overflow,PASS,overflow=0
+About 375px one h1,PASS,
+About 375px no JS errors,PASS,[]
+About 375px CTA visible,PASS,
+About 375px CTA target,PASS,
+Mission 375px no horizontal overflow,PASS,overflow=0
+Mission 375px one h1,PASS,
+Mission 375px no JS errors,PASS,[]
+Team 375px no horizontal overflow,PASS,overflow=0
+Team 375px one h1,PASS,
+Team 375px no JS errors,PASS,[]
+Team 375px two in viewport,PASS,"[{'x': 22, 'right': 353, 'top': -244.60693359375}, {'x': 22, 'right': 353, 'top': -129.70068359375}]"
+Team 375px centered or two-column,PASS,"[{'x': 22, 'right': 353, 'top': -244.60693359375}, {'x': 22, 'right': 353, 'top': -129.70068359375}]"
+About 390px no horizontal overflow,PASS,overflow=0
+About 390px one h1,PASS,
+About 390px no JS errors,PASS,[]
+About 390px CTA visible,PASS,
+About 390px CTA target,PASS,
+Mission 390px no horizontal overflow,PASS,overflow=0
+Mission 390px one h1,PASS,
+Mission 390px no JS errors,PASS,[]
+Team 390px no horizontal overflow,PASS,overflow=0
+Team 390px one h1,PASS,
+Team 390px no JS errors,PASS,[]
+Team 390px two in viewport,PASS,"[{'x': 22, 'right': 368, 'top': -220.60592651367188}, {'x': 22, 'right': 368, 'top': -105.69970703125}]"
+Team 390px centered or two-column,PASS,"[{'x': 22, 'right': 368, 'top': -220.60592651367188}, {'x': 22, 'right': 368, 'top': -105.69970703125}]"
+About 768px no horizontal overflow,PASS,overflow=0
+About 768px one h1,PASS,
+About 768px no JS errors,PASS,[]
+About 768px CTA visible,PASS,
+About 768px CTA target,PASS,
+Mission 768px no horizontal overflow,PASS,overflow=0
+Mission 768px one h1,PASS,
+Mission 768px no JS errors,PASS,[]
+Team 768px no horizontal overflow,PASS,overflow=0
+Team 768px one h1,PASS,
+Team 768px no JS errors,PASS,[]
+Team 768px two in viewport,PASS,"[{'x': 35, 'right': 375, 'top': 46.995758056640625}, {'x': 393, 'right': 733, 'top': 46.995758056640625}]"
+Team 768px centered or two-column,PASS,"[{'x': 35, 'right': 375, 'top': 46.995758056640625}, {'x': 393, 'right': 733, 'top': 46.995758056640625}]"
+About 1366px no horizontal overflow,PASS,overflow=0
+About 1366px one h1,PASS,
+About 1366px no JS errors,PASS,[]
+About 1366px CTA visible,PASS,
+About 1366px CTA target,PASS,
+Mission 1366px no horizontal overflow,PASS,overflow=0
+Mission 1366px one h1,PASS,
+Mission 1366px no JS errors,PASS,[]
+Team 1366px no horizontal overflow,PASS,overflow=0
+Team 1366px one h1,PASS,
+Team 1366px no JS errors,PASS,[]
+Team 1366px two in viewport,PASS,"[{'x': 334, 'right': 674, 'top': 328.9355163574219}, {'x': 692, 'right': 1032, 'top': 328.9355163574219}]"
+Team 1366px centered or two-column,PASS,"[{'x': 334, 'right': 674, 'top': 328.9355163574219}, {'x': 692, 'right': 1032, 'top': 328.9355163574219}]"
+CTA keyboard focus,PASS,
+CTA focus visible CSS,PASS,
+Header-only search trigger,PASS,
+Search opens on About,PASS,
+Search closes on Escape,PASS,
+Homepage still five tips,PASS,
+Homepage next control present,PASS,
+About noJS page readable,PASS,
+Mission noJS page readable,PASS,
+Team noJS page readable,PASS,
+About reduced motion CTA readable,PASS,

@@ -1,0 +1,20 @@
+ID,Check,Status,Evidence and limitation
+IA-01,Retired HTML routes and canonicals,PASS,40 generated pages; neither retired index.html present
+IA-02,Hosted permanent 301 redirects,NOT TESTED,"Netlify config contains four 301 rules, both URL forms; hosted HTTP not tested"
+IA-03,"Header, footer and mobile Resources menu",PASS,Four category links; browser and static checks
+IA-04,Homepage four category cards responsive,PASS,320 / 375 / 390 / 768 / 1366px Chromium
+IA-05,Cyber Tips CTA to Learn,PASS,Generator homepage link points to /learn
+IA-06,Learn hub and approved article retention,PASS,34 unaffected main bodies unchanged; all existing article routes intact
+IA-07,Six branded PDF resources,PASS,Six PDF files byte-identical; valid text and name on every page; physical print NOT TESTED
+IA-08,V2 15-question Self-Check,PASS,"15 questions, 100% result, simulated local storage, reset preserves old v1 entry, three-page print"
+IA-09,Search entries,PASS,"38 valid entries, retired routes absent"
+IA-10,Sitemap,PASS,40 retained pages; retired routes absent
+IA-11,Repeat build/link checks,PASS,"Generated 40 pages + 404 (1162 KB of HTML); Search index: 38 entries, all resolving"
+IA-12,Third-party footer credit removed,PASS,"Whole generated and active-source text scan, footer screenshots"
+IA-13,Retired developer instructions,PASS,"AGENTS.md updated, superseded reference pages and report retired"
+P1-PRIVACY,Local-only v2 privacy/legacy copy,PASS,"Privacy Policy, Terms and browser storage tests"
+P2-IMAGES,New scenario photographs,NOT TESTED,"Not authorised: image concepts await owner approval, existing photos unchanged"
+P3-AUDIO,Audio-guide metadata and fallback,PASS,"ffprobe: 82.176s AAC/MP4; duration, download link, no-transcript disclosure"
+P3-SCREENREADER,Manual screen-reader verification,NOT TESTED,Requires human NVDA/VoiceOver/TalkBack testing
+P3-PHYSICALPRINT,Physical print and greyscale check,NOT TESTED,No physical printer test; PDF extract and browser-generated report tested
+P3-STAGING,Hosted Netlify staging,NOT TESTED,No deployment performed

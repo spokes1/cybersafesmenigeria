@@ -1,0 +1,30 @@
+[
+  {
+    "theme": "light",
+    "run": "wrong",
+    "score": "0\n/5\nYOUR SCORE",
+    "errors": [],
+    "resultsVisible": true
+  },
+  {
+    "theme": "light",
+    "run": "right",
+    "score": "5\n/5\nYOUR SCORE",
+    "errors": [],
+    "resultsVisible": true
+  },
+  {
+    "theme": "dark",
+    "run": "wrong",
+    "score": "0\n/5\nYOUR SCORE",
+    "errors": [],
+    "resultsVisible": true
+  },
+  {
+    "theme": "dark",
+    "run": "right",
+    "score": "5\n/5\nYOUR SCORE",
+    "errors": [],
+    "resultsVisible": true
+  }
+]

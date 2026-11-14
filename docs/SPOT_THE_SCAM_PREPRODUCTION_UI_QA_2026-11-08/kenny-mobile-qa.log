@@ -1,0 +1,11 @@
+path blank
+ready sts-kenny is-ready peeker True
+after 2s invitation True actions False {'enabled': True, 'active': True, 'kind': 'invitation', 'eligible': True, 'blocked': False, 'session': {'appearance': 1, 'declines': 0, 'played': False, 'completed': False, 'checkinShown': False, 'activeMs': 0, 'globalActiveMs': 0, 'pendingOffer': True, 'acceptedWithoutPlay': False}}
+invitation actions True announcement Kenny invites you to play Spot the Scam. Choose Play now, Not now, or close.
+after not now peeker True panel False
+manually reopens invitation True
+after played manual greeting Hello again!
+Hope you’re enjoying the CyberSafe guides. Keep learning at your own pace. actions shown? False
+before completed, automatic checkin? False
+postgame checkin opened? True text  session {'appearance': 1, 'declines': 2, 'played': True, 'completed': True, 'checkinShown': True, 'activeMs': 0, 'globalActiveMs': 300994, 'pendingOffer': False, 'acceptedWithoutPlay': False}
+checkin closed peeker visible? True errors []

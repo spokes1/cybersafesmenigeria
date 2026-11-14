@@ -1,0 +1,13 @@
+area,check,result,notes
+Build,node tools/build.mjs,PASS,Generated 40 pages plus 404
+Search,Verified visitor phrases,PASS,159 verified phrases resolving
+Homepage,Spot the Scam promo card removed,PASS,Game invite card removed from homepage source
+Homepage,Cyber Tips moved higher,PASS,Tips section reordered above incident-help strip
+Homepage,Cyber Tips pause button removed,PASS,tipplay control removed from source markup
+Homepage,Cyber Tips interval 5 seconds,PASS,INTERVAL changed to 5000 ms
+Homepage,Threat card icon refresh,PASS,PNG icons replaced with inline SVG icons
+Cybersecurity Basics,Self-check wording corrected,PASS,Now reads 15-question Security Self-Check
+Dark mode,Reading-time badge darker style,PASS,Dark pill overrides added in theme.css
+Dark mode,Email Security mailbox routing contrast,PASS,Dark interactive overrides added in theme.css
+Dark mode,Malware hero illustration contrast,PASS,Dark illustration overrides added in theme.css
+Dark mode,Related card readability,PASS,Related-card overrides added for affected patterns

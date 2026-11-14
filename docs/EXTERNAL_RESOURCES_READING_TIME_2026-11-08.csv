@@ -1,0 +1,2 @@
+﻿Route,Word count (reader-visible editorial text),Words per minute,Calculated minutes rounded up,Displayed header label,Excluded text,Optional story
+/resources/external,1568,220,8,8 min read,"Global header/footer/search, UI counters, external URL strings, internal editorial notes",None
