@@ -1,0 +1,1315 @@
+[
+  {
+    "route": "/learn/employee-security",
+    "theme": "light",
+    "width": 1440,
+    "state": "default",
+    "failures": [],
+    "overflow": false,
+    "surfaces": [],
+    "icons": []
+  },
+  {
+    "route": "/threats/phishing",
+    "theme": "light",
+    "width": 1440,
+    "state": "default",
+    "failures": [],
+    "overflow": false,
+    "surfaces": [],
+    "icons": [
+      {
+        "parent": "span.ic",
+        "trail": "svg < span.ic < div.eyebrow < section.rv.ph-section",
+        "symbol": "/assets/icons.svg#shield",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 2.49
+      },
+      {
+        "parent": "span.ic",
+        "trail": "svg < span.ic < div.eyebrow < section.rv.ph-section",
+        "symbol": "/assets/icons.svg#shield",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 2.49
+      },
+      {
+        "parent": "span.ic",
+        "trail": "svg < span.ic < div.eyebrow < section.rv.ph-section",
+        "symbol": "/assets/icons.svg#shield",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 2.49
+      },
+      {
+        "parent": "span.ic",
+        "trail": "svg < span.ic < div.eyebrow < section.rv.ph-section",
+        "symbol": "/assets/icons.svg#alert",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 2.49
+      },
+      {
+        "parent": "span.ic",
+        "trail": "svg < span.ic < div.eyebrow < section.rv.ph-section",
+        "symbol": "/assets/icons.svg#shield",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 2.49
+      },
+      {
+        "parent": "span.ic",
+        "trail": "svg < span.ic < div.eyebrow < section.rv.ph-section",
+        "symbol": "/assets/icons.svg#shield",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 2.49
+      },
+      {
+        "parent": "span.ic",
+        "trail": "svg < span.ic < div.eyebrow < section.rv.ph-section",
+        "symbol": "/assets/icons.svg#shield",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 2.49
+      },
+      {
+        "parent": "span.ic",
+        "trail": "svg < span.ic < div.eyebrow < section.rv.ph-section.ph-takeaway.ph-three-decisions",
+        "symbol": "/assets/icons.svg#shield",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 2.49
+      },
+      {
+        "parent": "span.ic",
+        "trail": "svg < span.ic < div.eyebrow < section.rv.ph-section.ph-start",
+        "symbol": "/assets/icons.svg#ok",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 2.49
+      },
+      {
+        "parent": "span.ic",
+        "trail": "svg < span.ic < div.eyebrow < section.rv",
+        "symbol": "/assets/icons.svg#book",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 2.49
+      },
+      {
+        "parent": "div.ci",
+        "trail": "svg < div.ci < a.card.ph-related < div.grid",
+        "symbol": "/assets/icons.svg#mail",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 2.49
+      },
+      {
+        "parent": "div.ci",
+        "trail": "svg < div.ci < a.card.ph-related < div.grid",
+        "symbol": "/assets/icons.svg#lock",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 1.81
+      },
+      {
+        "parent": "div.ci",
+        "trail": "svg < div.ci < a.card.ph-related < div.grid",
+        "symbol": "/assets/icons.svg#users",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 2.28
+      }
+    ]
+  },
+  {
+    "route": "/threats/malware",
+    "theme": "light",
+    "width": 1440,
+    "state": "default",
+    "failures": [],
+    "overflow": false,
+    "surfaces": [],
+    "icons": []
+  },
+  {
+    "route": "/resources/external",
+    "theme": "light",
+    "width": 1440,
+    "state": "default",
+    "failures": [],
+    "overflow": false,
+    "surfaces": [],
+    "icons": []
+  },
+  {
+    "route": "/resources/organisations",
+    "theme": "light",
+    "width": 1440,
+    "state": "default",
+    "failures": [],
+    "overflow": false,
+    "surfaces": [],
+    "icons": []
+  },
+  {
+    "route": "/resources/tools",
+    "theme": "light",
+    "width": 1440,
+    "state": "default",
+    "failures": [],
+    "overflow": false,
+    "surfaces": [],
+    "icons": []
+  },
+  {
+    "route": "/threats/social-engineering",
+    "theme": "light",
+    "width": 1440,
+    "state": "default",
+    "failures": [],
+    "overflow": false,
+    "surfaces": [],
+    "icons": []
+  },
+  {
+    "route": "/learn/employee-security",
+    "theme": "dark",
+    "width": 1440,
+    "state": "default",
+    "failures": [],
+    "overflow": false,
+    "surfaces": [],
+    "icons": [
+      {
+        "parent": "span.es-flow-icon",
+        "trail": "svg < span.es-flow-icon < li < ol.es-report-flow",
+        "symbol": "/assets/icons.svg#eye",
+        "fg": "rgb(130, 232, 217)",
+        "ratio": 1.28
+      },
+      {
+        "parent": "span.es-flow-icon",
+        "trail": "svg < span.es-flow-icon < li < ol.es-report-flow",
+        "symbol": "/assets/icons.svg#clock",
+        "fg": "rgb(130, 232, 217)",
+        "ratio": 1.28
+      },
+      {
+        "parent": "span.es-flow-icon",
+        "trail": "svg < span.es-flow-icon < li < ol.es-report-flow",
+        "symbol": "/assets/icons.svg#chat",
+        "fg": "rgb(130, 232, 217)",
+        "ratio": 1.28
+      },
+      {
+        "parent": "span.es-flow-icon",
+        "trail": "svg < span.es-flow-icon < li < ol.es-report-flow",
+        "symbol": "/assets/icons.svg#ok",
+        "fg": "rgb(130, 232, 217)",
+        "ratio": 1.28
+      },
+      {
+        "parent": "span.es-story-icon",
+        "trail": "svg < span.es-story-icon < li < ol.es-story-sequence",
+        "symbol": "/assets/icons.svg#file",
+        "fg": "rgb(238, 249, 252)",
+        "ratio": 1.05
+      },
+      {
+        "parent": "span.es-story-icon",
+        "trail": "svg < span.es-story-icon < li < ol.es-story-sequence",
+        "symbol": "/assets/icons.svg#clock",
+        "fg": "rgb(238, 249, 252)",
+        "ratio": 1.05
+      },
+      {
+        "parent": "span.es-story-icon",
+        "trail": "svg < span.es-story-icon < li < ol.es-story-sequence",
+        "symbol": "/assets/icons.svg#chat",
+        "fg": "rgb(238, 249, 252)",
+        "ratio": 1.05
+      },
+      {
+        "parent": "span.es-story-icon",
+        "trail": "svg < span.es-story-icon < li < ol.es-story-sequence",
+        "symbol": "/assets/icons.svg#lock",
+        "fg": "rgb(238, 249, 252)",
+        "ratio": 1.05
+      },
+      {
+        "parent": "span.es-journey-icon",
+        "trail": "svg < span.es-journey-icon < li.es-journey-card.es-active < ol.es-journey-stages",
+        "symbol": "/assets/icons.svg#users",
+        "fg": "rgb(130, 232, 217)",
+        "ratio": 1.28
+      },
+      {
+        "parent": "span.es-journey-icon",
+        "trail": "svg < span.es-journey-icon < li.es-journey-card < ol.es-journey-stages",
+        "symbol": "/assets/icons.svg#shield",
+        "fg": "rgb(130, 232, 217)",
+        "ratio": 1.28
+      },
+      {
+        "parent": "span.es-journey-icon",
+        "trail": "svg < span.es-journey-icon < li.es-journey-card < ol.es-journey-stages",
+        "symbol": "/assets/icons.svg#chat",
+        "fg": "rgb(130, 232, 217)",
+        "ratio": 1.28
+      },
+      {
+        "parent": "span.es-journey-icon",
+        "trail": "svg < span.es-journey-icon < li.es-journey-card < ol.es-journey-stages",
+        "symbol": "/assets/icons.svg#lock",
+        "fg": "rgb(130, 232, 217)",
+        "ratio": 1.28
+      }
+    ]
+  },
+  {
+    "route": "/threats/phishing",
+    "theme": "dark",
+    "width": 1440,
+    "state": "default",
+    "failures": [],
+    "overflow": false,
+    "surfaces": [
+      {
+        "selector": "div.ph-response-panel",
+        "parent": "section.rv.ph-section",
+        "bg": "rgb(240, 248, 248)",
+        "image": "none",
+        "text": "What happened? Choose the relevant response.Clicked onlyStop inte"
+      }
+    ],
+    "icons": [
+      {
+        "parent": "span.ic",
+        "trail": "svg < span.ic < div.eyebrow < section.rv.ph-section",
+        "symbol": "/assets/icons.svg#shield",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 2.92
+      },
+      {
+        "parent": "span.ic",
+        "trail": "svg < span.ic < div.eyebrow < section.rv.ph-section",
+        "symbol": "/assets/icons.svg#shield",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 2.92
+      },
+      {
+        "parent": "span.ic",
+        "trail": "svg < span.ic < div.eyebrow < section.rv.ph-section",
+        "symbol": "/assets/icons.svg#shield",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 2.92
+      },
+      {
+        "parent": "span.ic",
+        "trail": "svg < span.ic < div.eyebrow < section.rv.ph-section",
+        "symbol": "/assets/icons.svg#alert",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 2.92
+      },
+      {
+        "parent": "span.ic",
+        "trail": "svg < span.ic < div.eyebrow < section.rv.ph-section",
+        "symbol": "/assets/icons.svg#shield",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 2.92
+      },
+      {
+        "parent": "span.ic",
+        "trail": "svg < span.ic < div.eyebrow < section.rv.ph-section",
+        "symbol": "/assets/icons.svg#shield",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 2.92
+      },
+      {
+        "parent": "span.ph-response-icon",
+        "trail": "svg < span.ph-response-icon < a.b2-response-link < li.ph-response-card",
+        "symbol": "/assets/icons.svg#alert",
+        "fg": "rgb(130, 232, 217)",
+        "ratio": 1.28
+      },
+      {
+        "parent": "span.ph-response-icon",
+        "trail": "svg < span.ph-response-icon < a.b2-response-link < li.ph-response-card",
+        "symbol": "/assets/icons.svg#key",
+        "fg": "rgb(130, 232, 217)",
+        "ratio": 1.28
+      },
+      {
+        "parent": "span.ph-response-icon",
+        "trail": "svg < span.ph-response-icon < a.b2-response-link < li.ph-response-card",
+        "symbol": "/assets/icons.svg#file",
+        "fg": "rgb(130, 232, 217)",
+        "ratio": 1.28
+      },
+      {
+        "parent": "span.ph-response-icon",
+        "trail": "svg < span.ph-response-icon < a.b2-response-link < li.ph-response-card",
+        "symbol": "/assets/icons.svg#bank",
+        "fg": "rgb(255, 180, 122)",
+        "ratio": 1.57
+      },
+      {
+        "parent": "span.ic",
+        "trail": "svg < span.ic < div.eyebrow < section.rv.ph-section",
+        "symbol": "/assets/icons.svg#shield",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 2.92
+      },
+      {
+        "parent": "span.ph-sequence-icon",
+        "trail": "svg < span.ph-sequence-icon < li < ol",
+        "symbol": "/assets/icons.svg#mail",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 1.45
+      },
+      {
+        "parent": "span.ph-sequence-icon",
+        "trail": "svg < span.ph-sequence-icon < li < ol",
+        "symbol": "/assets/icons.svg#lock",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 1.45
+      },
+      {
+        "parent": "span.ph-sequence-icon",
+        "trail": "svg < span.ph-sequence-icon < li < ol",
+        "symbol": "/assets/icons.svg#phone",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 1.45
+      },
+      {
+        "parent": "span.ph-sequence-icon",
+        "trail": "svg < span.ph-sequence-icon < li < ol",
+        "symbol": "/assets/icons.svg#users",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 1.45
+      },
+      {
+        "parent": "span.ic",
+        "trail": "svg < span.ic < div.eyebrow < section.rv.ph-section.ph-takeaway.ph-three-decisions",
+        "symbol": "/assets/icons.svg#shield",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 2.92
+      },
+      {
+        "parent": "span.ic",
+        "trail": "svg < span.ic < div.eyebrow < section.rv.ph-section.ph-start",
+        "symbol": "/assets/icons.svg#ok",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 2.92
+      },
+      {
+        "parent": "span.ic",
+        "trail": "svg < span.ic < div.eyebrow < section.rv",
+        "symbol": "/assets/icons.svg#book",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 2.92
+      },
+      {
+        "parent": "div.ci",
+        "trail": "svg < div.ci < a.card.ph-related < div.grid",
+        "symbol": "/assets/icons.svg#mail",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 2.92
+      },
+      {
+        "parent": "div.ci",
+        "trail": "svg < div.ci < a.card.ph-related < div.grid",
+        "symbol": "/assets/icons.svg#lock",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 1.81
+      },
+      {
+        "parent": "div.ci",
+        "trail": "svg < div.ci < a.card.ph-related < div.grid",
+        "symbol": "/assets/icons.svg#users",
+        "fg": "rgb(255, 255, 255)",
+        "ratio": 2.28
+      }
+    ]
+  },
+  {
+    "route": "/threats/malware",
+    "theme": "dark",
+    "width": 1440,
+    "state": "default",
+    "failures": [],
+    "overflow": false,
+    "surfaces": [
+      {
+        "selector": "div.mw-art-window",
+        "parent": "div.mw-hero-art",
+        "bg": "rgb(238, 242, 244)",
+        "image": "none",
+        "text": "Work deviceUnexpected change?Pause sensitive workReport through y"
+      },
+      {
+        "selector": "div.mw-art-top",
+        "parent": "div.mw-art-window",
+        "bg": "rgb(220, 230, 235)",
+        "image": "none",
+        "text": "Work device"
+      },
+      {
+        "selector": "div.mw-art-document",
+        "parent": "div.mw-art-window",
+        "bg": "rgb(247, 250, 251)",
+        "image": "none",
+        "text": "Unexpected change?Pause sensitive workReport through your trusted"
+      },
+      {
+        "selector": "span",
+        "parent": "div.mw-art-bottom",
+        "bg": "rgb(247, 251, 251)",
+        "image": "none",
+        "text": "Observe"
+      },
+      {
+        "selector": "span",
+        "parent": "div.mw-art-bottom",
+        "bg": "rgb(247, 251, 251)",
+        "image": "none",
+        "text": "Pause"
+      },
+      {
+        "selector": "span",
+        "parent": "div.mw-art-bottom",
+        "bg": "rgb(247, 251, 251)",
+        "image": "none",
+        "text": "Report"
+      },
+      {
+        "selector": "div.mw-desk-icon",
+        "parent": "div.mw-desk-side",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": ""
+      }
+    ],
+    "icons": [
+      {
+        "parent": "div.mw-art-document",
+        "trail": "svg < div.mw-art-document < div.mw-art-window < div.mw-hero-art",
+        "symbol": "/assets/icons.svg#file",
+        "fg": "rgb(130, 232, 217)",
+        "ratio": 1.29
+      },
+      {
+        "parent": "span",
+        "trail": "svg < span < div.mw-art-bottom < div.mw-hero-art",
+        "symbol": "/assets/icons.svg#eye",
+        "fg": "rgb(130, 232, 217)",
+        "ratio": 1.39
+      },
+      {
+        "parent": "span",
+        "trail": "svg < span < div.mw-art-bottom < div.mw-hero-art",
+        "symbol": "/assets/icons.svg#pause",
+        "fg": "rgb(130, 232, 217)",
+        "ratio": 1.39
+      },
+      {
+        "parent": "span",
+        "trail": "svg < span < div.mw-art-bottom < div.mw-hero-art",
+        "symbol": "/assets/icons.svg#shield",
+        "fg": "rgb(130, 232, 217)",
+        "ratio": 1.39
+      },
+      {
+        "parent": "div.mw-desk-title",
+        "trail": "svg < div.mw-desk-title < div.mw-desk-side < div.mw-warning-desk.mw-enhanced",
+        "symbol": "/assets/icons.svg#laptop",
+        "fg": "rgb(130, 232, 217)",
+        "ratio": 1.45
+      },
+      {
+        "parent": "div.mw-desk-icon",
+        "trail": "svg < div.mw-desk-icon < div.mw-desk-side < div.mw-warning-desk.mw-enhanced",
+        "symbol": "/assets/icons.svg#monitor",
+        "fg": "rgb(155, 215, 255)",
+        "ratio": 1.55
+      }
+    ]
+  },
+  {
+    "route": "/resources/external",
+    "theme": "dark",
+    "width": 1440,
+    "state": "default",
+    "failures": [],
+    "overflow": false,
+    "surfaces": [
+      {
+        "selector": "span",
+        "parent": "div.er-hero-meta",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "8 min read"
+      },
+      {
+        "selector": "span",
+        "parent": "div.er-hero-meta",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "3 learning paths"
+      },
+      {
+        "selector": "span",
+        "parent": "div.er-hero-meta",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "9 official resources"
+      },
+      {
+        "selector": "article.wrap.er-article",
+        "parent": "main",
+        "bg": "rgb(237, 246, 248)",
+        "image": "none",
+        "text": "01You don't have to learn everything at onceYou run a business. Y"
+      },
+      {
+        "selector": "div.er-path",
+        "parent": "div.er-path-grid",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "011. I want to understand the basicsBegin with the NCC Cyber Secu"
+      },
+      {
+        "selector": "p.er-first-action",
+        "parent": "div.er-path",
+        "bg": "rgb(240, 248, 248)",
+        "image": "none",
+        "text": "Suggested first action: Choose one important account or device an"
+      },
+      {
+        "selector": "div.er-path",
+        "parent": "div.er-path-grid",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "022. I need something to discuss with employeesUse a short awaren"
+      },
+      {
+        "selector": "p.er-first-action",
+        "parent": "div.er-path",
+        "bg": "rgb(240, 248, 248)",
+        "image": "none",
+        "text": "Suggested first action: Ask employees what they would do if someo"
+      },
+      {
+        "selector": "div.er-path",
+        "parent": "div.er-path-grid",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "033. I want to understand a particular concernFor cybersecurity a"
+      },
+      {
+        "selector": "p.er-first-action",
+        "parent": "div.er-path",
+        "bg": "rgb(240, 248, 248)",
+        "image": "none",
+        "text": "Suggested first action: Write down the problem you are trying to "
+      },
+      {
+        "selector": "article.er-resource",
+        "parent": "div.er-resource-grid",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "01 / 01Nigerian Communications Commission \u2014 Cyber Security Awaren"
+      },
+      {
+        "selector": "article.er-resource",
+        "parent": "div.er-resource-grid",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "01 / 02Nigeria Computer Emergency Response Team (ngCERT) \u2014 Alerts"
+      },
+      {
+        "selector": "article.er-resource",
+        "parent": "div.er-resource-grid",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "01 / 03Nigeria Data Protection Commission \u2014 Privacy GuidanceBest "
+      },
+      {
+        "selector": "article.er-resource",
+        "parent": "div.er-resource-grid",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "02 / 01UK National Cyber Security Centre \u2014 Small Organisations Gu"
+      },
+      {
+        "selector": "article.er-resource",
+        "parent": "div.er-resource-grid",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "02 / 02NIST \u2014 Small Business Cybersecurity CornerBest for: Busine"
+      },
+      {
+        "selector": "article.er-resource",
+        "parent": "div.er-resource-grid",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "02 / 03NIST \u2014 Small Business Cybersecurity: Non-Employer FirmsBes"
+      },
+      {
+        "selector": "article.er-resource",
+        "parent": "div.er-resource-grid",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "03 / 01WhatsApp Help Center \u2014 Suspicious Messages and ScamsBest f"
+      },
+      {
+        "selector": "article.er-resource",
+        "parent": "div.er-resource-grid",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "03 / 02Microsoft Security \u2014 Cybersecurity Awareness ResourcesBest"
+      },
+      {
+        "selector": "article.er-resource",
+        "parent": "div.er-resource-grid",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "03 / 03UK NCSC \u2014 Suspected Phishing Email ExerciseBest for: A man"
+      },
+      {
+        "selector": "div.er-trust-item",
+        "parent": "div.er-trust-list",
+        "bg": "rgb(251, 253, 254)",
+        "image": "none",
+        "text": "Check the web address. Open the official organisation or service "
+      },
+      {
+        "selector": "div.er-trust-item",
+        "parent": "div.er-trust-list",
+        "bg": "rgb(251, 253, 254)",
+        "image": "none",
+        "text": "Check the intended audience. A technical vulnerability bulletin m"
+      },
+      {
+        "selector": "div.er-trust-item",
+        "parent": "div.er-trust-list",
+        "bg": "rgb(251, 253, 254)",
+        "image": "none",
+        "text": "Check the date and product version. Advice about app settings, ac"
+      },
+      {
+        "selector": "div.er-trust-item",
+        "parent": "div.er-trust-list",
+        "bg": "rgb(251, 253, 254)",
+        "image": "none",
+        "text": "Check the country. International advice about recognising phishin"
+      },
+      {
+        "selector": "div.er-trust-item",
+        "parent": "div.er-trust-list",
+        "bg": "rgb(251, 253, 254)",
+        "image": "none",
+        "text": "Avoid unnecessary disclosure. You should not need to upload custo"
+      },
+      {
+        "selector": "li",
+        "parent": "ol",
+        "bg": "rgb(246, 251, 250)",
+        "image": "none",
+        "text": "Choose one problem: For example, unexpected WhatsApp verification"
+      },
+      {
+        "selector": "li",
+        "parent": "ol",
+        "bg": "rgb(246, 251, 250)",
+        "image": "none",
+        "text": "Read one relevant guide: Spend a few minutes reviewing its practi"
+      },
+      {
+        "selector": "li",
+        "parent": "ol",
+        "bg": "rgb(246, 251, 250)",
+        "image": "none",
+        "text": "Ask what happens in your business: Who receives the message? Who "
+      },
+      {
+        "selector": "li",
+        "parent": "ol",
+        "bg": "rgb(246, 251, 250)",
+        "image": "none",
+        "text": "Agree on one action: Such as never sharing verification codes or "
+      },
+      {
+        "selector": "li",
+        "parent": "ol",
+        "bg": "rgb(246, 251, 250)",
+        "image": "none",
+        "text": "Review the rule later: Check that employees still know what to do"
+      },
+      {
+        "selector": "li",
+        "parent": "ul",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "Tools & Resources: /resources/tools \u2014 Practical security features"
+      },
+      {
+        "selector": "li",
+        "parent": "ul",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "Cybersecurity Organisations: /resources/organisations \u2014 Nigerian "
+      },
+      {
+        "selector": "li",
+        "parent": "ul",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "Cybersecurity Basics: /learn/cybersecurity-basics \u2014 Start with th"
+      },
+      {
+        "selector": "li",
+        "parent": "ul",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "Employee Security: /learn/employee-security \u2014 Help staff understa"
+      },
+      {
+        "selector": "section.er-section.er-finish",
+        "parent": "article.wrap.er-article",
+        "bg": "rgb(240, 248, 248)",
+        "image": "none",
+        "text": "START HEREChoose one guide and one business habit to improve this"
+      }
+    ],
+    "icons": []
+  },
+  {
+    "route": "/resources/organisations",
+    "theme": "dark",
+    "width": 1440,
+    "state": "default",
+    "failures": [],
+    "overflow": false,
+    "surfaces": [
+      {
+        "selector": "article.wrap.org-article",
+        "parent": "main",
+        "bg": "rgb(237, 246, 248)",
+        "image": "none",
+        "text": "01Start with your situationStart with the problem, not the agency"
+      },
+      {
+        "selector": "div.org-selector",
+        "parent": "section.org-section",
+        "bg": "rgb(248, 252, 253)",
+        "image": "none",
+        "text": "Suspicious transferAccount misuseSIM issueData exposureInfected d"
+      },
+      {
+        "selector": "button",
+        "parent": "div.org-choice-buttons",
+        "bg": "rgb(232, 246, 243)",
+        "image": "none",
+        "text": "Suspicious transfer"
+      },
+      {
+        "selector": "button",
+        "parent": "div.org-choice-buttons",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "Account misuse"
+      },
+      {
+        "selector": "button",
+        "parent": "div.org-choice-buttons",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "SIM issue"
+      },
+      {
+        "selector": "button",
+        "parent": "div.org-choice-buttons",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "Data exposure"
+      },
+      {
+        "selector": "button",
+        "parent": "div.org-choice-buttons",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "Infected device"
+      },
+      {
+        "selector": "section.org-case",
+        "parent": "div.org-situations",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "Money was sent to a suspicious accountFirst: Contact your bank or"
+      },
+      {
+        "selector": "p.org-first",
+        "parent": "section.org-case",
+        "bg": "rgb(238, 248, 246)",
+        "image": "none",
+        "text": "First: Contact your bank or payment provider immediately through "
+      },
+      {
+        "selector": "a",
+        "parent": "div",
+        "bg": "rgb(248, 252, 253)",
+        "image": "none",
+        "text": "NPF-NCCC reporting portal (opens in a new tab)"
+      },
+      {
+        "selector": "a",
+        "parent": "div",
+        "bg": "rgb(248, 252, 253)",
+        "image": "none",
+        "text": "EFCC website (opens in a new tab)"
+      },
+      {
+        "selector": "a",
+        "parent": "div",
+        "bg": "rgb(248, 252, 253)",
+        "image": "none",
+        "text": "CBN complaint guidance (opens in a new tab)"
+      },
+      {
+        "selector": "div.org-scope-note",
+        "parent": "div.org-selector",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "The first-response advice above is general. When an incident affe"
+      },
+      {
+        "selector": "article.org-profile",
+        "parent": "div.org-directory",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "ngCERTNigeria Computer Emergency Response Team (ngCERT)Best for: "
+      },
+      {
+        "selector": "p.org-purpose",
+        "parent": "div.org-profile-content",
+        "bg": "rgb(240, 248, 248)",
+        "image": "none",
+        "text": "Best for: Reporting cybersecurity incidents and finding Nigerian "
+      },
+      {
+        "selector": "article.org-profile",
+        "parent": "div.org-directory",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "NPF-NCCCNigeria Police Force National Cybercrime Centre (NPF-NCCC"
+      },
+      {
+        "selector": "span.org-acronym",
+        "parent": "div.org-profile-heading",
+        "bg": "rgb(234, 243, 251)",
+        "image": "none",
+        "text": "NPF-NCCC"
+      },
+      {
+        "selector": "p.org-purpose",
+        "parent": "div.org-profile-content",
+        "bg": "rgb(240, 248, 248)",
+        "image": "none",
+        "text": "Best for: Suspected cybercrime, online fraud, impersonation, unau"
+      },
+      {
+        "selector": "article.org-profile",
+        "parent": "div.org-directory",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "NDPCNigeria Data Protection Commission (NDPC)Best for: Personal d"
+      },
+      {
+        "selector": "p.org-purpose",
+        "parent": "div.org-profile-content",
+        "bg": "rgb(240, 248, 248)",
+        "image": "none",
+        "text": "Best for: Personal data protection requirements, privacy concerns"
+      },
+      {
+        "selector": "article.org-profile",
+        "parent": "div.org-directory",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "CBNCentral Bank of Nigeria (CBN)Best for: Escalating complaints a"
+      },
+      {
+        "selector": "p.org-purpose",
+        "parent": "div.org-profile-content",
+        "bg": "rgb(240, 248, 248)",
+        "image": "none",
+        "text": "Best for: Escalating complaints about CBN-regulated financial ins"
+      },
+      {
+        "selector": "article.org-profile",
+        "parent": "div.org-directory",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "NCCNigerian Communications Commission (NCC)Best for: Escalating u"
+      },
+      {
+        "selector": "p.org-purpose",
+        "parent": "div.org-profile-content",
+        "bg": "rgb(240, 248, 248)",
+        "image": "none",
+        "text": "Best for: Escalating unresolved complaints concerning telecommuni"
+      },
+      {
+        "selector": "article.org-profile",
+        "parent": "div.org-directory",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "EFCCEconomic and Financial Crimes Commission (EFCC)Best for: Repo"
+      },
+      {
+        "selector": "p.org-purpose",
+        "parent": "div.org-profile-content",
+        "bg": "rgb(240, 248, 248)",
+        "image": "none",
+        "text": "Best for: Reporting suspected economic and financial crimes throu"
+      },
+      {
+        "selector": "article.org-profile",
+        "parent": "div.org-directory",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "NITDANational Information Technology Development Agency (NITDA)Be"
+      },
+      {
+        "selector": "p.org-purpose",
+        "parent": "div.org-profile-content",
+        "bg": "rgb(240, 248, 248)",
+        "image": "none",
+        "text": "Best for: Nigerian information-technology policy, standards, cybe"
+      },
+      {
+        "selector": "div.org-faq",
+        "parent": "div.org-copy",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "Should I contact ngCERT or the police?They have different roles. "
+      },
+      {
+        "selector": "div.org-faq",
+        "parent": "div.org-copy",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "If I have lost money, which organisation comes first?Your bank or"
+      },
+      {
+        "selector": "div.org-faq",
+        "parent": "div.org-copy",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "If my SIM has been swapped, should I complain to the NCC first?Co"
+      },
+      {
+        "selector": "div.org-faq",
+        "parent": "div.org-copy",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "Do I need to know for certain that customer data was stolen befor"
+      },
+      {
+        "selector": "div.org-faq",
+        "parent": "div.org-copy",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "Will reporting guarantee a refund, account recovery or prosecutio"
+      },
+      {
+        "selector": "section.org-section",
+        "parent": "article.wrap.org-article",
+        "bg": "rgb(245, 251, 250)",
+        "image": "none",
+        "text": "05Three trusted contactsStart hereSave three verified contacts fo"
+      },
+      {
+        "selector": "li",
+        "parent": "ul",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "Incident Response: /protect-your-business/incident-response \u2014 Cho"
+      },
+      {
+        "selector": "li",
+        "parent": "ul",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "Payment Security: /protect-your-business/payment-security \u2014 Verif"
+      },
+      {
+        "selector": "li",
+        "parent": "ul",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "SIM Swap Fraud: /threats/sim-swap-fraud \u2014 Protect your number and"
+      },
+      {
+        "selector": "li",
+        "parent": "ul",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "Data Protection: /learn/data-protection \u2014 Understand how to handl"
+      }
+    ],
+    "icons": []
+  },
+  {
+    "route": "/resources/tools",
+    "theme": "dark",
+    "width": 1440,
+    "state": "default",
+    "failures": [],
+    "overflow": false,
+    "surfaces": [
+      {
+        "selector": "div.tr-hero-art",
+        "parent": "div.wrap.tr-hero-grid",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "YOUR BUSINESS ESSENTIALSAccountsDevicesRecordsRecoveryStart with "
+      },
+      {
+        "selector": "div.tr-art-top",
+        "parent": "div.tr-hero-art",
+        "bg": "rgb(234, 243, 251)",
+        "image": "none",
+        "text": "YOUR BUSINESS ESSENTIALS"
+      },
+      {
+        "selector": "div",
+        "parent": "div.tr-art-tiles",
+        "bg": "rgb(240, 248, 248)",
+        "image": "none",
+        "text": "Accounts"
+      },
+      {
+        "selector": "div",
+        "parent": "div.tr-art-tiles",
+        "bg": "rgb(234, 243, 251)",
+        "image": "none",
+        "text": "Devices"
+      },
+      {
+        "selector": "div",
+        "parent": "div.tr-art-tiles",
+        "bg": "rgb(240, 248, 248)",
+        "image": "none",
+        "text": "Records"
+      },
+      {
+        "selector": "div",
+        "parent": "div.tr-art-tiles",
+        "bg": "rgb(234, 243, 251)",
+        "image": "none",
+        "text": "Recovery"
+      },
+      {
+        "selector": "article.wrap.art-main.tr-article",
+        "parent": "main",
+        "bg": "rgb(237, 246, 248)",
+        "image": "none",
+        "text": "You don't need every security tool. Start with the right one.A sh"
+      },
+      {
+        "selector": "div.tr-needs.tr-enhanced",
+        "parent": "div.tr-section-content",
+        "bg": "rgb(251, 253, 254)",
+        "image": "none",
+        "text": "AccountsDevicesInformationExposure & recovery01 \u00b7 AccountsAccount"
+      },
+      {
+        "selector": "button.tr-need-button",
+        "parent": "div.tr-need-controls",
+        "bg": "rgb(231, 245, 242)",
+        "image": "none",
+        "text": "Accounts"
+      },
+      {
+        "selector": "button.tr-need-button",
+        "parent": "div.tr-need-controls",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "Devices"
+      },
+      {
+        "selector": "button.tr-need-button",
+        "parent": "div.tr-need-controls",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "Information"
+      },
+      {
+        "selector": "button.tr-need-button",
+        "parent": "div.tr-need-controls",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "Exposure & recovery"
+      },
+      {
+        "selector": "section.tr-need-card.is-selected",
+        "parent": "div.tr-need-grid",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "01 \u00b7 AccountsAccounts: Secure your Gmail, Microsoft, banking or s"
+      },
+      {
+        "selector": "section.tr-need-card",
+        "parent": "div.tr-need-grid",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "02 \u00b7 DevicesDevices: Protect an Android phone or Windows laptop. "
+      },
+      {
+        "selector": "section.tr-need-card",
+        "parent": "div.tr-need-grid",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "03 \u00b7 InformationInformation: Keep business records in an organise"
+      },
+      {
+        "selector": "section.tr-need-card",
+        "parent": "div.tr-need-grid",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "04 \u00b7 Exposure & recoveryExposure and recovery: Review unfamiliar "
+      },
+      {
+        "selector": "section.tr-section.tr-start",
+        "parent": "article.wrap.art-main.tr-article",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "Start here: one account, one device, one backupChoose the main em"
+      },
+      {
+        "selector": "div.tr-related-item",
+        "parent": "div.tr-related-grid",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "Password Security \u2014 /learn/password-security \u2014 Protect logins and"
+      },
+      {
+        "selector": "div.tr-related-item",
+        "parent": "div.tr-related-grid",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "Device Security \u2014 /protect-your-business/device-security \u2014 Use th"
+      },
+      {
+        "selector": "div.tr-related-item",
+        "parent": "div.tr-related-grid",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "Backup & Recovery \u2014 /learn/backup-and-recovery \u2014 Prepare safe cop"
+      },
+      {
+        "selector": "div.tr-related-item",
+        "parent": "div.tr-related-grid",
+        "bg": "rgb(255, 255, 255)",
+        "image": "none",
+        "text": "Incident Response \u2014 /protect-your-business/incident-response \u2014 Le"
+      }
+    ],
+    "icons": []
+  },
+  {
+    "route": "/threats/social-engineering",
+    "theme": "dark",
+    "width": 1440,
+    "state": "default",
+    "failures": [],
+    "overflow": false,
+    "surfaces": [
+      {
+        "selector": "p",
+        "parent": "div.se-hero-visual",
+        "bg": "rgb(240, 248, 248)",
+        "image": "none",
+        "text": "Being helpful does not mean giving someone access."
+      }
+    ],
+    "icons": [
+      {
+        "parent": "span",
+        "trail": "svg < span < div.se-hero-line < div.se-hero-visual",
+        "symbol": "/assets/icons.svg#phone",
+        "fg": "rgb(155, 215, 255)",
+        "ratio": 1.38
+      },
+      {
+        "parent": "span",
+        "trail": "svg < span < div.se-hero-line < div.se-hero-visual",
+        "symbol": "/assets/icons.svg#shield",
+        "fg": "rgb(130, 232, 217)",
+        "ratio": 1.28
+      },
+      {
+        "parent": "div.se-safer-icon",
+        "trail": "svg < div.se-safer-icon < div.se-safer < figure.se-call",
+        "symbol": "/assets/icons.svg#shield",
+        "fg": "rgb(130, 232, 217)",
+        "ratio": 1.27
+      },
+      {
+        "parent": "span.se-boundary-icon",
+        "trail": "svg < span.se-boundary-icon < li < ul",
+        "symbol": "/assets/icons.svg#money",
+        "fg": "rgb(238, 249, 252)",
+        "ratio": 1.06
+      },
+      {
+        "parent": "span.se-boundary-icon",
+        "trail": "svg < span.se-boundary-icon < li < ul",
+        "symbol": "/assets/icons.svg#key",
+        "fg": "rgb(238, 249, 252)",
+        "ratio": 1.06
+      },
+      {
+        "parent": "span.se-boundary-icon",
+        "trail": "svg < span.se-boundary-icon < li < ul",
+        "symbol": "/assets/icons.svg#file",
+        "fg": "rgb(238, 249, 252)",
+        "ratio": 1.06
+      },
+      {
+        "parent": "span.se-boundary-icon",
+        "trail": "svg < span.se-boundary-icon < li < ul",
+        "symbol": "/assets/icons.svg#monitor",
+        "fg": "rgb(238, 249, 252)",
+        "ratio": 1.06
+      },
+      {
+        "parent": "span.se-boundary-icon",
+        "trail": "svg < span.se-boundary-icon < li < ul",
+        "symbol": "/assets/icons.svg#building",
+        "fg": "rgb(238, 249, 252)",
+        "ratio": 1.06
+      },
+      {
+        "parent": "span.se-scenario-icon",
+        "trail": "svg < span.se-scenario-icon < li < ol",
+        "symbol": "/assets/icons.svg#phone",
+        "fg": "rgb(155, 215, 255)",
+        "ratio": 1.38
+      },
+      {
+        "parent": "span.se-scenario-icon",
+        "trail": "svg < span.se-scenario-icon < li < ol",
+        "symbol": "/assets/icons.svg#lock",
+        "fg": "rgb(155, 215, 255)",
+        "ratio": 1.38
+      },
+      {
+        "parent": "span.se-scenario-icon",
+        "trail": "svg < span.se-scenario-icon < li < ol",
+        "symbol": "/assets/icons.svg#shield",
+        "fg": "rgb(155, 215, 255)",
+        "ratio": 1.38
+      },
+      {
+        "parent": "span.se-scenario-icon",
+        "trail": "svg < span.se-scenario-icon < li < ol",
+        "symbol": "/assets/icons.svg#list",
+        "fg": "rgb(155, 215, 255)",
+        "ratio": 1.38
+      }
+    ]
+  }
+]

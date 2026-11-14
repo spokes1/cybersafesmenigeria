@@ -1,0 +1,22 @@
+ID,Status,Evidence / limitation
+S-01,PASS,"One labelled field, X close, four discreet suggestions; no old tutorial or shortcut footer."
+S-02,PASS,"Typing updates existing route links, six maximum. Open/close and chips tested."
+S-03,PASS,159/159 approved visitor phrases have their specified primary route ranked first. Full CSV attached.
+S-04,PASS,Urgent queries favour incident/reporting pages; WhatsApp hacked favours WhatsApp Hijacking.
+S-05,PASS,what is phishing and password tips do not default to Incident Response.
+S-06,PASS,"No-match message, simulated 503 index failure and retry checked."
+S-07,PASS,"Delayed index fetch, multiple rapid changes, latest query wins; static index fetched once."
+S-08,PASS,"Slash, Ctrl+K shortcut, and non-interference with other form input tested. Command+K not tested on macOS."
+S-09,PASS,"Focus moves to input, Escape/X/backdrop close, focus returns to launcher, Shift+Tab trap checked."
+S-10,NOT TESTED,"DOM semantics verified: named dialog, native nav/list/links, polite live region, no invalid listbox. Manual VoiceOver/NVDA check not performed."
+S-11,PASS,"Chromium simulations at 320,375,390,768,1366px; no horizontal overflow, close/results visible. Physical keyboard-on-screen not tested."
+S-12,PASS,"Only same-site static search index requested, user strings rendered escaped, Self-Check storage not read by search. No production network capture."
+S-13,PASS,"One header launcher, zero main search launchers; visual keyboard legend removed."
+V-01,PASS,"Calm incident strip after four homepage goal cards, before tips; Incident Response URL correct."
+V-02,PASS,Empty Being written next replaced by 3 real beginner links; new Self-Check CTA label.
+V-03,PASS,"Contact now says bank/provider first for payment fraud, links Incident Response and Organisations; preserves disclaimer."
+V-04,PASS,Homepage practical-resource goal card uses exact approved revised wording and /resources route.
+V-05,PASS,"Other articles main bodies byte-identical, 15-item Self-Check score/reset tested, six PDFs and three photos byte-identical, tips 7-sec rotation tested."
+V-06,PASS,Audio Guide remains retired; photos and all three redirects remain unchanged.
+V-07,PASS,"node tools/build.mjs passed; 39 routes + 404, 37 index entries, all 159 phrase destinations exist."
+V-08,PASS,"Full source + public repository ZIP, changed files, screenshots, reports created for review. No deployment/push."

@@ -1,0 +1,60 @@
+[
+  {
+    "mode": "light",
+    "peekerBBox": {
+      "x": 1318,
+      "y": 834,
+      "width": 48,
+      "height": 52
+    }
+  },
+  {
+    "mode": "dark",
+    "peekerBBox": {
+      "x": 1318,
+      "y": 834,
+      "width": 48,
+      "height": 52
+    }
+  },
+  {
+    "selector": ".ac-exit-figure",
+    "computed": {
+      "bg": "rgb(37, 63, 80)",
+      "text": "rgb(243, 249, 252)"
+    },
+    "contrast": 10.37
+  },
+  {
+    "selector": ".ac-exit-flow li",
+    "computed": {
+      "bg": "rgb(32, 55, 71)",
+      "text": "rgb(243, 249, 252)"
+    },
+    "contrast": 11.64
+  },
+  {
+    "selector": ".ac-scenario-steps li",
+    "computed": {
+      "bg": "rgb(32, 55, 71)",
+      "text": "rgb(243, 249, 252)"
+    },
+    "contrast": 11.64
+  },
+  {
+    "selector": ".ac-takeaway",
+    "computed": {
+      "bg": "rgb(37, 63, 80)",
+      "text": "rgb(243, 249, 252)"
+    },
+    "contrast": 10.37
+  },
+  {
+    "selector": ".ac-map-card",
+    "computed": {
+      "bg": "rgb(32, 55, 71)",
+      "text": "rgb(243, 249, 252)"
+    },
+    "contrast": 11.64
+  }
+]

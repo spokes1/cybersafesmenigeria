@@ -1,0 +1,8 @@
+initial status False True focus True path blank curious True open False played False complete False greeted False
+after11s status False True focus True path blank curious False open False played False complete False greeted False
+after20s status False True focus True path blank curious False open True played False complete False greeted False
+dismissed status False True focus True path blank curious True open False played False complete False greeted False
+afterDismiss12s status False True focus True path blank curious False open False played False complete False greeted False
+manualInv status False True focus True path blank curious False open True played False complete False greeted False
+manualAfterPlay status False True focus True path blank curious True open True played True complete True greeted False
+after5m status False True focus True path blank curious False open True played True complete True greeted True

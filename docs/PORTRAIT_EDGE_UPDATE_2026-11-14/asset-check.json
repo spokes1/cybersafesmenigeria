@@ -1,0 +1,18 @@
+{
+  "portraitMappings": [
+    {
+      "name": "Coker Kehinde",
+      "photo": "/assets/photos/coker-kehinde.png",
+      "alt": "Coker Kehinde"
+    },
+    {
+      "name": "Collins Eyetu",
+      "photo": "/assets/photos/collins-eyetu.jpg",
+      "alt": "Collins Eyetu"
+    }
+  ],
+  "originalImageBytesPreserved": true,
+  "decorativeLineRemoved": true,
+  "keyboardFocusPreserved": true,
+  "stylesheetVersion": 4
+}

@@ -1,0 +1,101 @@
+[
+  {
+    "width": 320,
+    "desktopNav": false,
+    "burger": true,
+    "menuOperates": true,
+    "horizontalOverflowPx": 0,
+    "tipsNextBefore": "1 of 5",
+    "tipsNextAfter": "2 of 5",
+    "heroTipAfterNext": "Received an urgent link? Check the sender and website independently before you click.",
+    "errors": []
+  },
+  {
+    "width": 375,
+    "desktopNav": false,
+    "burger": true,
+    "menuOperates": true,
+    "horizontalOverflowPx": 0,
+    "tipsNextBefore": "1 of 5",
+    "tipsNextAfter": "2 of 5",
+    "heroTipAfterNext": "Received an urgent link? Check the sender and website independently before you click.",
+    "errors": []
+  },
+  {
+    "width": 390,
+    "desktopNav": false,
+    "burger": true,
+    "menuOperates": true,
+    "horizontalOverflowPx": 0,
+    "tipsNextBefore": "1 of 5",
+    "tipsNextAfter": "2 of 5",
+    "heroTipAfterNext": "Received an urgent link? Check the sender and website independently before you click.",
+    "errors": []
+  },
+  {
+    "width": 768,
+    "desktopNav": false,
+    "burger": true,
+    "menuOperates": true,
+    "horizontalOverflowPx": 0,
+    "tipsNextBefore": "1 of 5",
+    "tipsNextAfter": "2 of 5",
+    "heroTipAfterNext": "Received an urgent link? Check the sender and website independently before you click.",
+    "errors": []
+  },
+  {
+    "width": 980,
+    "desktopNav": false,
+    "burger": true,
+    "menuOperates": true,
+    "horizontalOverflowPx": 0,
+    "tipsNextBefore": "1 of 5",
+    "tipsNextAfter": "2 of 5",
+    "heroTipAfterNext": "Received an urgent link? Check the sender and website independently before you click.",
+    "errors": []
+  },
+  {
+    "width": 981,
+    "desktopNav": true,
+    "burger": false,
+    "menuOperates": null,
+    "horizontalOverflowPx": 0,
+    "tipsNextBefore": "1 of 5",
+    "tipsNextAfter": "2 of 5",
+    "heroTipAfterNext": "Received an urgent link? Check the sender and website independently before you click.",
+    "errors": []
+  },
+  {
+    "width": 1100,
+    "desktopNav": true,
+    "burger": false,
+    "menuOperates": null,
+    "horizontalOverflowPx": 0,
+    "tipsNextBefore": "1 of 5",
+    "tipsNextAfter": "2 of 5",
+    "heroTipAfterNext": "Received an urgent link? Check the sender and website independently before you click.",
+    "errors": []
+  },
+  {
+    "width": 1366,
+    "desktopNav": true,
+    "burger": false,
+    "menuOperates": null,
+    "horizontalOverflowPx": 0,
+    "tipsNextBefore": "1 of 5",
+    "tipsNextAfter": "2 of 5",
+    "heroTipAfterNext": "Received an urgent link? Check the sender and website independently before you click.",
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "desktopNav": true,
+    "burger": false,
+    "menuOperates": null,
+    "horizontalOverflowPx": 0,
+    "tipsNextBefore": "1 of 5",
+    "tipsNextAfter": "2 of 5",
+    "heroTipAfterNext": "Received an urgent link? Check the sender and website independently before you click.",
+    "errors": []
+  }
+]

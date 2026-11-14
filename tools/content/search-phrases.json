@@ -1,0 +1,956 @@
+[
+  {
+    "group": "Urgent help",
+    "phrase": "my account was hacked",
+    "primary": "/protect-your-business/incident-response",
+    "secondary": "/resources/organisations"
+  },
+  {
+    "group": "Urgent help",
+    "phrase": "what do I do after a hack",
+    "primary": "/protect-your-business/incident-response",
+    "secondary": "/resources/organisations"
+  },
+  {
+    "group": "Urgent help",
+    "phrase": "someone accessed my account",
+    "primary": "/protect-your-business/incident-response",
+    "secondary": "/resources/organisations"
+  },
+  {
+    "group": "Urgent help",
+    "phrase": "suspicious login on my account",
+    "primary": "/protect-your-business/incident-response",
+    "secondary": "/resources/organisations"
+  },
+  {
+    "group": "Urgent help",
+    "phrase": "report a cyber attack",
+    "primary": "/protect-your-business/incident-response",
+    "secondary": "/resources/organisations"
+  },
+  {
+    "group": "Urgent help",
+    "phrase": "business account compromised",
+    "primary": "/protect-your-business/incident-response",
+    "secondary": "/resources/organisations"
+  },
+  {
+    "group": "Urgent help",
+    "phrase": "incident happened now",
+    "primary": "/protect-your-business/incident-response",
+    "secondary": "/resources/organisations"
+  },
+  {
+    "group": "Urgent help",
+    "phrase": "we got scammed",
+    "primary": "/protect-your-business/incident-response",
+    "secondary": "/resources/organisations"
+  },
+  {
+    "group": "Urgent help",
+    "phrase": "report fraud",
+    "primary": "/resources/organisations",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Urgent help",
+    "phrase": "where to report cybercrime",
+    "primary": "/resources/organisations",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Urgent help",
+    "phrase": "report online scam in Nigeria",
+    "primary": "/resources/organisations",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Urgent help",
+    "phrase": "where can I report phishing",
+    "primary": "/resources/organisations",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Urgent help",
+    "phrase": "report a data breach",
+    "primary": "/resources/organisations",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Urgent help",
+    "phrase": "report a suspicious transfer",
+    "primary": "/resources/organisations",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Payment scams",
+    "phrase": "fake bank alert",
+    "primary": "/threats/fake-bank-alerts",
+    "secondary": "/protect-your-business/payment-security"
+  },
+  {
+    "group": "Payment scams",
+    "phrase": "fake transfer alert",
+    "primary": "/threats/fake-bank-alerts",
+    "secondary": "/protect-your-business/payment-security"
+  },
+  {
+    "group": "Payment scams",
+    "phrase": "fake credit alert",
+    "primary": "/threats/fake-bank-alerts",
+    "secondary": "/protect-your-business/payment-security"
+  },
+  {
+    "group": "Payment scams",
+    "phrase": "payment not showing",
+    "primary": "/threats/fake-bank-alerts",
+    "secondary": "/protect-your-business/payment-security"
+  },
+  {
+    "group": "Payment scams",
+    "phrase": "money not reflecting",
+    "primary": "/threats/fake-bank-alerts",
+    "secondary": "/protect-your-business/payment-security"
+  },
+  {
+    "group": "Payment scams",
+    "phrase": "customer sent payment screenshot",
+    "primary": "/threats/fake-bank-alerts",
+    "secondary": "/protect-your-business/payment-security"
+  },
+  {
+    "group": "Payment scams",
+    "phrase": "confirm bank transfer",
+    "primary": "/threats/fake-bank-alerts",
+    "secondary": "/protect-your-business/payment-security"
+  },
+  {
+    "group": "Payment scams",
+    "phrase": "fake POS receipt",
+    "primary": "/threats/fake-bank-alerts",
+    "secondary": "/protect-your-business/payment-security"
+  },
+  {
+    "group": "Payment scams",
+    "phrase": "how to verify a payment",
+    "primary": "/protect-your-business/payment-security",
+    "secondary": "/threats/fake-bank-alerts"
+  },
+  {
+    "group": "Payment scams",
+    "phrase": "stop payment fraud",
+    "primary": "/protect-your-business/payment-security",
+    "secondary": "/threats/fake-bank-alerts"
+  },
+  {
+    "group": "Payment scams",
+    "phrase": "payment approval process",
+    "primary": "/protect-your-business/payment-security",
+    "secondary": "/threats/fake-bank-alerts"
+  },
+  {
+    "group": "Payment scams",
+    "phrase": "secure POS terminal",
+    "primary": "/protect-your-business/payment-security",
+    "secondary": "/threats/fake-bank-alerts"
+  },
+  {
+    "group": "Payment scams",
+    "phrase": "verify outgoing transfer",
+    "primary": "/protect-your-business/payment-security",
+    "secondary": "/threats/fake-bank-alerts"
+  },
+  {
+    "group": "Payment scams",
+    "phrase": "supplier payment verification",
+    "primary": "/protect-your-business/payment-security",
+    "secondary": "/threats/fake-bank-alerts"
+  },
+  {
+    "group": "Payment scams",
+    "phrase": "how to receive transfers safely",
+    "primary": "/protect-your-business/payment-security",
+    "secondary": "/threats/fake-bank-alerts"
+  },
+  {
+    "group": "Payment scams",
+    "phrase": "supplier changed bank account",
+    "primary": "/threats/business-email-compromise",
+    "secondary": "/protect-your-business/payment-security"
+  },
+  {
+    "group": "Payment scams",
+    "phrase": "invoice account changed",
+    "primary": "/threats/business-email-compromise",
+    "secondary": "/protect-your-business/payment-security"
+  },
+  {
+    "group": "Payment scams",
+    "phrase": "fraudulent supplier invoice",
+    "primary": "/threats/business-email-compromise",
+    "secondary": "/protect-your-business/payment-security"
+  },
+  {
+    "group": "Payment scams",
+    "phrase": "invoice scam",
+    "primary": "/threats/business-email-compromise",
+    "secondary": "/protect-your-business/payment-security"
+  },
+  {
+    "group": "Payment scams",
+    "phrase": "business email compromise",
+    "primary": "/threats/business-email-compromise",
+    "secondary": "/protect-your-business/payment-security"
+  },
+  {
+    "group": "Payment scams",
+    "phrase": "email says new account details",
+    "primary": "/threats/business-email-compromise",
+    "secondary": "/protect-your-business/payment-security"
+  },
+  {
+    "group": "Payment scams",
+    "phrase": "CEO asked me to transfer money",
+    "primary": "/threats/business-email-compromise",
+    "secondary": "/protect-your-business/payment-security"
+  },
+  {
+    "group": "Messages and scams",
+    "phrase": "phishing email",
+    "primary": "/threats/phishing",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Messages and scams",
+    "phrase": "suspicious email",
+    "primary": "/threats/phishing",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Messages and scams",
+    "phrase": "clicked suspicious link",
+    "primary": "/threats/phishing",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Messages and scams",
+    "phrase": "i clicked a strange link",
+    "primary": "/threats/phishing",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Messages and scams",
+    "phrase": "fake login page",
+    "primary": "/threats/phishing",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Messages and scams",
+    "phrase": "someone asked for my OTP",
+    "primary": "/threats/phishing",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Messages and scams",
+    "phrase": "suspicious sms",
+    "primary": "/threats/phishing",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Messages and scams",
+    "phrase": "someone pretending to be my boss",
+    "primary": "/threats/social-engineering",
+    "secondary": "/threats/phishing"
+  },
+  {
+    "group": "Messages and scams",
+    "phrase": "fake customer support call",
+    "primary": "/threats/social-engineering",
+    "secondary": "/threats/phishing"
+  },
+  {
+    "group": "Messages and scams",
+    "phrase": "someone asking for a code",
+    "primary": "/threats/social-engineering",
+    "secondary": "/threats/phishing"
+  },
+  {
+    "group": "Messages and scams",
+    "phrase": "urgent request from manager",
+    "primary": "/threats/social-engineering",
+    "secondary": "/threats/phishing"
+  },
+  {
+    "group": "Messages and scams",
+    "phrase": "social engineering fraud",
+    "primary": "/threats/social-engineering",
+    "secondary": "/threats/phishing"
+  },
+  {
+    "group": "WhatsApp and social",
+    "phrase": "whatsapp hacked",
+    "primary": "/threats/whatsapp-hijacking",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "WhatsApp and social",
+    "phrase": "whatsapp hijacked",
+    "primary": "/threats/whatsapp-hijacking",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "WhatsApp and social",
+    "phrase": "someone took over my whatsapp",
+    "primary": "/threats/whatsapp-hijacking",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "WhatsApp and social",
+    "phrase": "lost access to whatsapp business",
+    "primary": "/threats/whatsapp-hijacking",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "WhatsApp and social",
+    "phrase": "my whatsapp is sending messages",
+    "primary": "/threats/whatsapp-hijacking",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "WhatsApp and social",
+    "phrase": "whatsapp account stolen",
+    "primary": "/threats/whatsapp-hijacking",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "WhatsApp and social",
+    "phrase": "how to secure whatsapp business",
+    "primary": "/learn/whatsapp-security",
+    "secondary": "/threats/whatsapp-hijacking"
+  },
+  {
+    "group": "WhatsApp and social",
+    "phrase": "whatsapp two step verification",
+    "primary": "/learn/whatsapp-security",
+    "secondary": "/threats/whatsapp-hijacking"
+  },
+  {
+    "group": "WhatsApp and social",
+    "phrase": "review whatsapp linked devices",
+    "primary": "/learn/whatsapp-security",
+    "secondary": "/threats/whatsapp-hijacking"
+  },
+  {
+    "group": "WhatsApp and social",
+    "phrase": "whatsapp business account recovery",
+    "primary": "/learn/whatsapp-security",
+    "secondary": "/threats/whatsapp-hijacking"
+  },
+  {
+    "group": "WhatsApp and social",
+    "phrase": "instagram hacked",
+    "primary": "/learn/social-media-security",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "WhatsApp and social",
+    "phrase": "facebook page hacked",
+    "primary": "/learn/social-media-security",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "WhatsApp and social",
+    "phrase": "recover business facebook account",
+    "primary": "/learn/social-media-security",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "WhatsApp and social",
+    "phrase": "business instagram security",
+    "primary": "/learn/social-media-security",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "WhatsApp and social",
+    "phrase": "fake business profile",
+    "primary": "/learn/social-media-security",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "WhatsApp and social",
+    "phrase": "someone impersonating our business",
+    "primary": "/learn/social-media-security",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Accounts",
+    "phrase": "password manager",
+    "primary": "/learn/password-security",
+    "secondary": "/protect-your-business/account-security"
+  },
+  {
+    "group": "Accounts",
+    "phrase": "strong business password",
+    "primary": "/learn/password-security",
+    "secondary": "/protect-your-business/account-security"
+  },
+  {
+    "group": "Accounts",
+    "phrase": "password reused",
+    "primary": "/learn/password-security",
+    "secondary": "/protect-your-business/account-security"
+  },
+  {
+    "group": "Accounts",
+    "phrase": "forgot password",
+    "primary": "/learn/password-security",
+    "secondary": "/protect-your-business/account-security"
+  },
+  {
+    "group": "Accounts",
+    "phrase": "how to make a strong password",
+    "primary": "/learn/password-security",
+    "secondary": "/protect-your-business/account-security"
+  },
+  {
+    "group": "Accounts",
+    "phrase": "passkey",
+    "primary": "/learn/password-security",
+    "secondary": "/protect-your-business/account-security"
+  },
+  {
+    "group": "Accounts",
+    "phrase": "remove former staff access",
+    "primary": "/protect-your-business/account-security",
+    "secondary": "/learn/password-security"
+  },
+  {
+    "group": "Accounts",
+    "phrase": "who has access to my accounts",
+    "primary": "/protect-your-business/account-security",
+    "secondary": "/learn/password-security"
+  },
+  {
+    "group": "Accounts",
+    "phrase": "account security",
+    "primary": "/protect-your-business/account-security",
+    "secondary": "/learn/password-security"
+  },
+  {
+    "group": "Accounts",
+    "phrase": "set up two factor authentication",
+    "primary": "/protect-your-business/account-security",
+    "secondary": "/learn/password-security"
+  },
+  {
+    "group": "Accounts",
+    "phrase": "secure business accounts",
+    "primary": "/protect-your-business/account-security",
+    "secondary": "/learn/password-security"
+  },
+  {
+    "group": "Accounts",
+    "phrase": "staff account permissions",
+    "primary": "/protect-your-business/account-security",
+    "secondary": "/learn/password-security"
+  },
+  {
+    "group": "Accounts",
+    "phrase": "email hacked",
+    "primary": "/learn/email-security",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Accounts",
+    "phrase": "suspicious inbox forwarding",
+    "primary": "/learn/email-security",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Accounts",
+    "phrase": "gmail business security",
+    "primary": "/learn/email-security",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Accounts",
+    "phrase": "outlook hacked",
+    "primary": "/learn/email-security",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Accounts",
+    "phrase": "protect business email",
+    "primary": "/learn/email-security",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Accounts",
+    "phrase": "email account recovery",
+    "primary": "/learn/email-security",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Devices",
+    "phrase": "lost phone",
+    "primary": "/learn/mobile-security",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Devices",
+    "phrase": "stolen phone",
+    "primary": "/learn/mobile-security",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Devices",
+    "phrase": "phone missing",
+    "primary": "/learn/mobile-security",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Devices",
+    "phrase": "protect stolen business phone",
+    "primary": "/learn/mobile-security",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Devices",
+    "phrase": "android theft",
+    "primary": "/learn/mobile-security",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Devices",
+    "phrase": "lock my lost phone",
+    "primary": "/learn/mobile-security",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Devices",
+    "phrase": "phone has no network",
+    "primary": "/threats/sim-swap-fraud",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Devices",
+    "phrase": "sim swap fraud",
+    "primary": "/threats/sim-swap-fraud",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Devices",
+    "phrase": "my sim stopped working",
+    "primary": "/threats/sim-swap-fraud",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Devices",
+    "phrase": "no service on phone",
+    "primary": "/threats/sim-swap-fraud",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Devices",
+    "phrase": "my number was taken over",
+    "primary": "/threats/sim-swap-fraud",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Devices",
+    "phrase": "virus on computer",
+    "primary": "/threats/malware",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Devices",
+    "phrase": "computer infected",
+    "primary": "/threats/malware",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Devices",
+    "phrase": "malware warning",
+    "primary": "/threats/malware",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Devices",
+    "phrase": "suspicious software installed",
+    "primary": "/threats/malware",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Devices",
+    "phrase": "fake antivirus pop up",
+    "primary": "/threats/malware",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Devices",
+    "phrase": "laptop showing malware warning",
+    "primary": "/threats/malware",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Devices",
+    "phrase": "files locked",
+    "primary": "/threats/ransomware",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Devices",
+    "phrase": "ransomware attack",
+    "primary": "/threats/ransomware",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Devices",
+    "phrase": "computer files encrypted",
+    "primary": "/threats/ransomware",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Devices",
+    "phrase": "ransom note",
+    "primary": "/threats/ransomware",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Devices",
+    "phrase": "my files are held hostage",
+    "primary": "/threats/ransomware",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Devices",
+    "phrase": "windows 10 support ended",
+    "primary": "/protect-your-business/device-security",
+    "secondary": "/learn/mobile-security"
+  },
+  {
+    "group": "Devices",
+    "phrase": "shared work computer",
+    "primary": "/protect-your-business/device-security",
+    "secondary": "/learn/mobile-security"
+  },
+  {
+    "group": "Devices",
+    "phrase": "business laptop security",
+    "primary": "/protect-your-business/device-security",
+    "secondary": "/learn/mobile-security"
+  },
+  {
+    "group": "Devices",
+    "phrase": "device security checklist",
+    "primary": "/protect-your-business/device-security",
+    "secondary": "/learn/mobile-security"
+  },
+  {
+    "group": "Devices",
+    "phrase": "update business devices",
+    "primary": "/protect-your-business/device-security",
+    "secondary": "/learn/mobile-security"
+  },
+  {
+    "group": "Devices",
+    "phrase": "secure shop wifi",
+    "primary": "/learn/business-wifi",
+    "secondary": "/protect-your-business/device-security"
+  },
+  {
+    "group": "Devices",
+    "phrase": "guest wifi for customers",
+    "primary": "/learn/business-wifi",
+    "secondary": "/protect-your-business/device-security"
+  },
+  {
+    "group": "Devices",
+    "phrase": "router password",
+    "primary": "/learn/business-wifi",
+    "secondary": "/protect-your-business/device-security"
+  },
+  {
+    "group": "Devices",
+    "phrase": "wifi hacked",
+    "primary": "/learn/business-wifi",
+    "secondary": "/protect-your-business/device-security"
+  },
+  {
+    "group": "Devices",
+    "phrase": "business wi fi security",
+    "primary": "/learn/business-wifi",
+    "secondary": "/protect-your-business/device-security"
+  },
+  {
+    "group": "Data and backup",
+    "phrase": "how to backup my files",
+    "primary": "/learn/backup-and-recovery",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Data and backup",
+    "phrase": "lost business files",
+    "primary": "/learn/backup-and-recovery",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Data and backup",
+    "phrase": "backup stopped working",
+    "primary": "/learn/backup-and-recovery",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Data and backup",
+    "phrase": "restore lost data",
+    "primary": "/learn/backup-and-recovery",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Data and backup",
+    "phrase": "cloud backup",
+    "primary": "/learn/backup-and-recovery",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Data and backup",
+    "phrase": "external drive backup",
+    "primary": "/learn/backup-and-recovery",
+    "secondary": "/protect-your-business/incident-response"
+  },
+  {
+    "group": "Data and backup",
+    "phrase": "customer data privacy",
+    "primary": "/learn/data-protection",
+    "secondary": "/resources/organisations"
+  },
+  {
+    "group": "Data and backup",
+    "phrase": "data protection Nigeria",
+    "primary": "/learn/data-protection",
+    "secondary": "/resources/organisations"
+  },
+  {
+    "group": "Data and backup",
+    "phrase": "ndpa compliance basics",
+    "primary": "/learn/data-protection",
+    "secondary": "/resources/organisations"
+  },
+  {
+    "group": "Data and backup",
+    "phrase": "sharing customer details",
+    "primary": "/learn/data-protection",
+    "secondary": "/resources/organisations"
+  },
+  {
+    "group": "Data and backup",
+    "phrase": "customer records exposed",
+    "primary": "/learn/data-protection",
+    "secondary": "/resources/organisations"
+  },
+  {
+    "group": "Team and learning",
+    "phrase": "train my staff",
+    "primary": "/learn/employee-security",
+    "secondary": "/threats/phishing"
+  },
+  {
+    "group": "Team and learning",
+    "phrase": "staff cyber awareness",
+    "primary": "/learn/employee-security",
+    "secondary": "/threats/phishing"
+  },
+  {
+    "group": "Team and learning",
+    "phrase": "employee phishing training",
+    "primary": "/learn/employee-security",
+    "secondary": "/threats/phishing"
+  },
+  {
+    "group": "Team and learning",
+    "phrase": "new staff cybersecurity",
+    "primary": "/learn/employee-security",
+    "secondary": "/threats/phishing"
+  },
+  {
+    "group": "Team and learning",
+    "phrase": "teach staff about scams",
+    "primary": "/learn/employee-security",
+    "secondary": "/threats/phishing"
+  },
+  {
+    "group": "Team and learning",
+    "phrase": "staff reported suspicious message",
+    "primary": "/learn/employee-security",
+    "secondary": "/threats/phishing"
+  },
+  {
+    "group": "Team and learning",
+    "phrase": "phishing examples",
+    "primary": "/learn/phishing-guide",
+    "secondary": "/threats/phishing"
+  },
+  {
+    "group": "Team and learning",
+    "phrase": "training examples of fake messages",
+    "primary": "/learn/phishing-guide",
+    "secondary": "/threats/phishing"
+  },
+  {
+    "group": "Team and learning",
+    "phrase": "how to recognise fake email",
+    "primary": "/learn/phishing-guide",
+    "secondary": "/threats/phishing"
+  },
+  {
+    "group": "Team and learning",
+    "phrase": "phishing staff exercise",
+    "primary": "/learn/phishing-guide",
+    "secondary": "/threats/phishing"
+  },
+  {
+    "group": "Team and learning",
+    "phrase": "cybersecurity for beginners",
+    "primary": "/learn/cybersecurity-basics",
+    "secondary": "/resources/security-checklist"
+  },
+  {
+    "group": "Team and learning",
+    "phrase": "where to start with cybersecurity",
+    "primary": "/learn/cybersecurity-basics",
+    "secondary": "/resources/security-checklist"
+  },
+  {
+    "group": "Team and learning",
+    "phrase": "small business cybersecurity basics",
+    "primary": "/learn/cybersecurity-basics",
+    "secondary": "/resources/security-checklist"
+  },
+  {
+    "group": "Team and learning",
+    "phrase": "how can i protect my shop",
+    "primary": "/learn/cybersecurity-basics",
+    "secondary": "/resources/security-checklist"
+  },
+  {
+    "group": "Practical resources",
+    "phrase": "security self check",
+    "primary": "/resources/security-checklist",
+    "secondary": "/resources/downloads"
+  },
+  {
+    "group": "Practical resources",
+    "phrase": "check my business security",
+    "primary": "/resources/security-checklist",
+    "secondary": "/resources/downloads"
+  },
+  {
+    "group": "Practical resources",
+    "phrase": "15 questions",
+    "primary": "/resources/security-checklist",
+    "secondary": "/resources/downloads"
+  },
+  {
+    "group": "Practical resources",
+    "phrase": "security checklist online",
+    "primary": "/resources/security-checklist",
+    "secondary": "/resources/downloads"
+  },
+  {
+    "group": "Practical resources",
+    "phrase": "security action plan",
+    "primary": "/resources/security-checklist",
+    "secondary": "/resources/downloads"
+  },
+  {
+    "group": "Practical resources",
+    "phrase": "download printable checklist",
+    "primary": "/resources/downloads",
+    "secondary": "/resources/security-checklist"
+  },
+  {
+    "group": "Practical resources",
+    "phrase": "payment verification card",
+    "primary": "/resources/downloads",
+    "secondary": "/resources/security-checklist"
+  },
+  {
+    "group": "Practical resources",
+    "phrase": "incident record template",
+    "primary": "/resources/downloads",
+    "secondary": "/resources/security-checklist"
+  },
+  {
+    "group": "Practical resources",
+    "phrase": "staff security poster",
+    "primary": "/resources/downloads",
+    "secondary": "/resources/security-checklist"
+  },
+  {
+    "group": "Practical resources",
+    "phrase": "download backup log",
+    "primary": "/resources/downloads",
+    "secondary": "/resources/security-checklist"
+  },
+  {
+    "group": "Practical resources",
+    "phrase": "access register pdf",
+    "primary": "/resources/downloads",
+    "secondary": "/resources/security-checklist"
+  },
+  {
+    "group": "Practical resources",
+    "phrase": "free antivirus",
+    "primary": "/resources/tools",
+    "secondary": "/learn/password-security"
+  },
+  {
+    "group": "Practical resources",
+    "phrase": "free cybersecurity tools",
+    "primary": "/resources/tools",
+    "secondary": "/learn/password-security"
+  },
+  {
+    "group": "Practical resources",
+    "phrase": "microsoft authenticator",
+    "primary": "/resources/tools",
+    "secondary": "/learn/password-security"
+  },
+  {
+    "group": "Practical resources",
+    "phrase": "google play protect",
+    "primary": "/resources/tools",
+    "secondary": "/learn/password-security"
+  },
+  {
+    "group": "Practical resources",
+    "phrase": "security tools for Nigerian SMEs",
+    "primary": "/resources/tools",
+    "secondary": "/learn/password-security"
+  },
+  {
+    "group": "Practical resources",
+    "phrase": "official cybersecurity guides",
+    "primary": "/resources/external",
+    "secondary": "/learn/cybersecurity-basics"
+  },
+  {
+    "group": "Practical resources",
+    "phrase": "free cyber security training resources",
+    "primary": "/resources/external",
+    "secondary": "/learn/cybersecurity-basics"
+  },
+  {
+    "group": "Practical resources",
+    "phrase": "government security learning links",
+    "primary": "/resources/external",
+    "secondary": "/learn/cybersecurity-basics"
+  },
+  {
+    "group": "Practical resources",
+    "phrase": "external cybersecurity resources",
+    "primary": "/resources/external",
+    "secondary": "/learn/cybersecurity-basics"
+  }
+]

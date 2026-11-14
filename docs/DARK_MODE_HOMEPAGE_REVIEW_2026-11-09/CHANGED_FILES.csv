@@ -1,0 +1,7 @@
+path,change_type,summary
+public/assets/css/site.css,modified,Refreshed homepage threat-card icon styling and card-header appearance
+public/assets/js/site.js,modified,Removed homepage tip pause control handling and changed interval to 5000 ms
+tools/assets/theme.css,modified,Added dark-mode refinements for pills, threat cards, related cards, email interactive and malware hero
+tools/content/approved/home.html,modified,Removed homepage Spot the Scam card; moved Cyber Tips higher; removed pause button; replaced homepage threat-card icons
+tools/content/approved/cybersecurity-basics.html,modified,Corrected self-check label from 16-point to 15-question
+tools/content/approved/tools-nigeria.html,modified,Corrected self-check wording for consistency

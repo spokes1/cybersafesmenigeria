@@ -1,0 +1,92 @@
+✔ every message fits the compact-bubble copy budget and is plain text (1.126384ms)
+✔ the handoff contains the exact card and button strings exported to the widget (2.255812ms)
+✔ first invitation waits for 25 seconds of supplied visible time (5.328861ms)
+✔ dismissing the invitation keeps the peeker and does not automatically re-invite (0.355127ms)
+✔ visit serialization survives navigation without saving an open panel (0.365894ms)
+✔ a navigation away while the invitation is open does not repeat it automatically (0.228897ms)
+✔ already-played visitor gets a tip as the first automatic message (0.208315ms)
+✔ manual request selects a tip after game completion and invitation before it (0.176107ms)
+✔ due automatic tips defer during interaction, then open once the page is available (0.348116ms)
+✔ open panel suppresses automatic tips and closing grants a quiet interval (0.408257ms)
+✔ automatic tips respect five-minute cooldown and explicit three-tip session cap (1.080745ms)
+✔ manual tips do not consume automatic allowance and postpone the next automatic tip (1.624107ms)
+✔ hide for this visit persists across navigation and suppresses every automatic panel (0.252392ms)
+✔ saved input cannot forge an open panel or non-finite counters (0.18484ms)
+✔ automatic tips can be disabled independently of the initial invitation (0.203278ms)
+✔ invalid timing is rejected instead of silently producing timer loops (0.623664ms)
+✔ default automatic tips are unlimited; explicit finite cap and zero remain available (2.490478ms)
+✔ unplayed initial invitation never repeats automatically; later automatic messages are tips (0.318211ms)
+✔ explicit unseen first-message state survives played navigation before25seconds (0.261686ms)
+✔ tucked state survives visit serialization and explicit peek clears it (0.247775ms)
+✔ functional retreat is smooth and remains tucked past600ms, including reduced motion (0.288836ms)
+✔ ignored first automatic invitation expires after7readingseconds, tucks, then later offers only tips (68.29331ms)
+✔ played visitor first automatic message is a six-second tip and never an invitation (16.894577ms)
+✔ manual tips also expire after six seconds and automatic close does not move focus (2.886126ms)
+✔ invitation and tip reading timers pause during hover and resume afterward (11.100733ms)
+✔ hidden tabs pause message lifetime and functional retreat (5.606111ms)
+✔ reduced-motion close instantly tucks but keeps a clickable peeker and click reopens (0.744842ms)
+✔ remounting the actual widget preserves the tucked state instead of showing a full character (1.866905ms)
+✔ Play calls the host game hook without recording completion (0.577414ms)
+✔ a valid loaded image still blinks when decode rejects (0.908685ms)
+✔ each emergence has a readable blink and another blink before retreat (0.904769ms)
+✔ retreat follows both blinks and the next return repeats the same blink timing (0.346143ms)
+✔ all timeline poses are finite, bounded and continuous through emergence and retreat (6.054008ms)
+✔ a focused button or an open bubble keeps Kenny visible without suppressing blinking (0.247154ms)
+✔ reduced-motion preference freezes all image changes and retreat movement (0.417592ms)
+✔ actual peeker image changes half → closed → half → open after a manual peek (7.016544ms)
+✔ invitation panel leaves the blinking peek image active rather than selecting a static wave (2.003901ms)
+✔ minimal invitation has Play and X, and tips have only their message and X (1.188047ms)
+✔ actual emerge and return show reach → touch → folded grip before the first blink (5.908749ms)
+✔ Close X persistently tucks Kenny instead of restarting the decorative cycle (9.590307ms)
+✔ hidden tab freezes foreground time and image changes, then resumes without a time jump (1.713523ms)
+✔ closing a long-read invitation retreats smoothly from its current visible pose (3.577192ms)
+✔ reduced-motion runtime remains on the open frame throughout a full cycle (6.155872ms)
+✔ an unavailable closed frame never replaces the image with a failed URL (3.610872ms)
+✔ an unavailable reaching frame falls back to a loaded grip without using its failed URL (1.269069ms)
+✔ the widget does not enter a closed-eye sequence if its open frame cannot decode (2.348162ms)
+✔ completion updates survive subsequent ticks and change the click response to a tip (0.50254ms)
+✔ the actual bubble displays the supplied invitation and all cyber tips without encouragement substitution (0.869696ms)
+✔ destroy cancels animation scheduling and removes event listeners and host (0.640178ms)
+✔ descriptive labels preserve verified destinations, tab behaviour and accessible names (2.452009ms)
+✖ related cards preserve deep links and section anchors while using short descriptive titles (1.599529ms)
+✔ presentation numbering disappears without changing interaction identities or factual numbers (0.626848ms)
+✔ source markup that needs no change survives byte-for-byte (0.503922ms)
+✔ related reading preserves a separate primary action instead of turning it into another guide card (1.327848ms)
+✔ device identity distinguishes phones/tablets from narrow or touch desktops (0.801583ms)
+✔ ownership guard accepts one home per published topic (0.367185ms)
+✔ ownership guard rejects cross-menu duplicates, including URL variants (1.14406ms)
+✔ ownership guard catches misclassification and omitted live topics (0.330149ms)
+✔ page notice does not consume the initial invitation or tip rotation (1.017429ms)
+✔ notice closes after eight reading seconds and gives the initial invitation priority only after its quiet gap (15.937519ms)
+✔ completion and page notices use session storage only; reading returns reject outside origins (2.22842ms)
+ℹ tests 61
+ℹ suites 0
+ℹ pass 60
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 652.868709
+
+✖ failing tests:
+
+test at tests/editorial.test.mjs:8:1
+✖ related cards preserve deep links and section anchors while using short descriptive titles (1.599529ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /<h2 id="related-title">Keep learning<\/h2>/. Input:
+  
+  '<section class="cs-keep-learning wrap" id="related-guides"><div class="cs-learning-heading"><span class="ic"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#arrow"/></svg></span><h2>Keep learning</h2></div><div class="grid cs-learning-grid"><a class="card cs-learning-card" href="/learn/mobile-security?source=guide&amp;topic=lost#what-to-do"><span class="ci"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#phone"/></svg></span><h3>Mobile Security</h3><p>Protect work phones, review permissions and prepare for loss or theft.</p><span class="tag">Learn</span></a></div></section>'
+  
+      at TestContext.<anonymous> (file:///workspace/work/website-integration/cybersafesmenigeria-agent-sme-nigeria-4a94/tests/editorial.test.mjs:10:177)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '<section class="cs-keep-learning wrap" id="related-guides"><div class="cs-learning-heading"><span class="ic"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#arrow"/></svg></span><h2>Keep learning</h2></div><div class="grid cs-learning-grid"><a class="card cs-learning-card" href="/learn/mobile-security?source=guide&amp;topic=lost#what-to-do"><span class="ci"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#phone"/></svg></span><h3>Mobile Security</h3><p>Protect work phones, review permissions and prepare for loss or theft.</p><span class="tag">Learn</span></a></div></section>',
+    expected: /<h2 id="related-title">Keep learning<\/h2>/,
+    operator: 'match',
+    diff: 'simple'
+  }

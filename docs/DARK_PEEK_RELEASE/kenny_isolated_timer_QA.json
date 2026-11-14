@@ -1,0 +1,202 @@
+{
+  "initial": {
+    "curious": true,
+    "open": false,
+    "state": {
+      "appearance": 0,
+      "declines": 0,
+      "played": false,
+      "completed": false,
+      "checkinShown": false,
+      "activeMs": 0,
+      "globalActiveMs": 0,
+      "pendingOffer": false,
+      "acceptedWithoutPlay": false
+    },
+    "peekBox": {
+      "x": 346,
+      "y": 700,
+      "width": 44,
+      "height": 48,
+      "top": 700,
+      "right": 390,
+      "bottom": 748,
+      "left": 346
+    }
+  },
+  "after11s": {
+    "curious": false,
+    "open": false,
+    "state": {
+      "appearance": 0,
+      "declines": 0,
+      "played": false,
+      "completed": false,
+      "checkinShown": false,
+      "activeMs": 11000,
+      "globalActiveMs": 0,
+      "pendingOffer": false,
+      "acceptedWithoutPlay": false
+    },
+    "peekBox": {
+      "x": 346,
+      "y": 700,
+      "width": 44,
+      "height": 48,
+      "top": 700,
+      "right": 390,
+      "bottom": 748,
+      "left": 346
+    }
+  },
+  "after20s": {
+    "curious": false,
+    "open": true,
+    "state": {
+      "appearance": 1,
+      "declines": 0,
+      "played": false,
+      "completed": false,
+      "checkinShown": false,
+      "activeMs": 0,
+      "globalActiveMs": 0,
+      "pendingOffer": true,
+      "acceptedWithoutPlay": false
+    },
+    "peekBox": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    }
+  },
+  "dismissed": {
+    "curious": true,
+    "open": false,
+    "state": {
+      "appearance": 1,
+      "declines": 1,
+      "played": false,
+      "completed": false,
+      "checkinShown": false,
+      "activeMs": 0,
+      "globalActiveMs": 0,
+      "pendingOffer": false,
+      "acceptedWithoutPlay": false
+    },
+    "peekBox": {
+      "x": 346,
+      "y": 700,
+      "width": 44,
+      "height": 48,
+      "top": 700,
+      "right": 390,
+      "bottom": 748,
+      "left": 346
+    }
+  },
+  "afterDismiss12s": {
+    "curious": false,
+    "open": false,
+    "state": {
+      "appearance": 1,
+      "declines": 1,
+      "played": false,
+      "completed": false,
+      "checkinShown": false,
+      "activeMs": 0,
+      "globalActiveMs": 0,
+      "pendingOffer": false,
+      "acceptedWithoutPlay": false
+    },
+    "peekBox": {
+      "x": 346,
+      "y": 700,
+      "width": 44,
+      "height": 48,
+      "top": 700,
+      "right": 390,
+      "bottom": 748,
+      "left": 346
+    }
+  },
+  "manualInv": {
+    "curious": false,
+    "open": true,
+    "state": {
+      "appearance": 1,
+      "declines": 1,
+      "played": false,
+      "completed": false,
+      "checkinShown": false,
+      "activeMs": 0,
+      "globalActiveMs": 0,
+      "pendingOffer": true,
+      "acceptedWithoutPlay": false
+    },
+    "peekBox": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    }
+  },
+  "manualAfterPlay": {
+    "curious": true,
+    "open": true,
+    "state": {
+      "appearance": 1,
+      "declines": 2,
+      "played": true,
+      "completed": true,
+      "checkinShown": false,
+      "activeMs": 0,
+      "globalActiveMs": 0,
+      "pendingOffer": false,
+      "acceptedWithoutPlay": false
+    },
+    "peekBox": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    }
+  },
+  "after5m": {
+    "curious": false,
+    "open": true,
+    "state": {
+      "appearance": 1,
+      "declines": 2,
+      "played": true,
+      "completed": true,
+      "checkinShown": true,
+      "activeMs": 0,
+      "globalActiveMs": 300000,
+      "pendingOffer": false,
+      "acceptedWithoutPlay": false
+    },
+    "peekBox": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    }
+  }
+}

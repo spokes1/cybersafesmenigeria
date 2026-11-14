@@ -1,0 +1,160 @@
+[
+  {
+    "section": "Learn",
+    "href": "/learn",
+    "topics": [
+      {
+        "label": "Cybersecurity Basics",
+        "href": "/learn/cybersecurity-basics"
+      },
+      {
+        "label": "Password Security",
+        "href": "/learn/password-security"
+      },
+      {
+        "label": "Email Security",
+        "href": "/learn/email-security"
+      },
+      {
+        "label": "WhatsApp Security",
+        "href": "/learn/whatsapp-security"
+      },
+      {
+        "label": "Mobile Security",
+        "href": "/learn/mobile-security"
+      },
+      {
+        "label": "Business Wi-Fi",
+        "href": "/learn/business-wifi"
+      },
+      {
+        "label": "Social Media Security",
+        "href": "/learn/social-media-security"
+      },
+      {
+        "label": "Employee Security",
+        "href": "/learn/employee-security"
+      },
+      {
+        "label": "Data Protection",
+        "href": "/learn/data-protection"
+      },
+      {
+        "label": "Backup & Recovery",
+        "href": "/learn/backup-and-recovery"
+      },
+      {
+        "label": "Phishing Guide",
+        "href": "/learn/phishing-guide"
+      },
+      {
+        "label": "Cyber Practice",
+        "href": "/learn/spot-the-scam"
+      }
+    ]
+  },
+  {
+    "section": "Threats",
+    "href": "/threats",
+    "topics": [
+      {
+        "label": "Phishing",
+        "href": "/threats/phishing"
+      },
+      {
+        "label": "Fake Bank Alerts",
+        "href": "/threats/fake-bank-alerts"
+      },
+      {
+        "label": "SIM Swap Fraud",
+        "href": "/threats/sim-swap-fraud"
+      },
+      {
+        "label": "Malware",
+        "href": "/threats/malware"
+      },
+      {
+        "label": "WhatsApp Hijacking",
+        "href": "/threats/whatsapp-hijacking"
+      },
+      {
+        "label": "Social Engineering",
+        "href": "/threats/social-engineering"
+      },
+      {
+        "label": "Ransomware",
+        "href": "/threats/ransomware"
+      },
+      {
+        "label": "Business Email Compromise",
+        "href": "/threats/business-email-compromise"
+      }
+    ]
+  },
+  {
+    "section": "Protect Your Business",
+    "href": "/protect-your-business",
+    "topics": [
+      {
+        "label": "Account Security",
+        "href": "/protect-your-business/account-security"
+      },
+      {
+        "label": "Payment Security",
+        "href": "/protect-your-business/payment-security"
+      },
+      {
+        "label": "Device Security",
+        "href": "/protect-your-business/device-security"
+      },
+      {
+        "label": "Incident Response",
+        "href": "/protect-your-business/incident-response"
+      }
+    ]
+  },
+  {
+    "section": "Resources",
+    "href": "/resources",
+    "topics": [
+      {
+        "label": "Security Self-Check",
+        "href": "/resources/security-checklist"
+      },
+      {
+        "label": "Downloads",
+        "href": "/resources/downloads"
+      },
+      {
+        "label": "Cybersecurity Organisations",
+        "href": "/resources/organisations"
+      },
+      {
+        "label": "External Resources",
+        "href": "/resources/external"
+      },
+      {
+        "label": "Tools",
+        "href": "/resources/tools"
+      }
+    ]
+  },
+  {
+    "section": "About",
+    "href": "/about",
+    "topics": [
+      {
+        "label": "Our Mission",
+        "href": "/about/mission"
+      },
+      {
+        "label": "Meet the Team",
+        "href": "/about/team"
+      },
+      {
+        "label": "Contact",
+        "href": "/about/contact"
+      }
+    ]
+  }
+]

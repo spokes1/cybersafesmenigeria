@@ -1,0 +1,15 @@
+{
+  "generatedPages": 40,
+  "staticPagesIncluding404": 41,
+  "keepLearningSections": 28,
+  "editorialBrowserCaptures": 1452,
+  "gameOverlayCaptures": 220,
+  "navigationDeviceCases": 85,
+  "noticeDeadlineCases": 15,
+  "unitTestsPassed": 61,
+  "rawLinkLabels": 0,
+  "linkDestinationsPreserved": true,
+  "presentationNumberingRemoved": true,
+  "factsAndScoresPreserved": true,
+  "pageErrors": []
+}

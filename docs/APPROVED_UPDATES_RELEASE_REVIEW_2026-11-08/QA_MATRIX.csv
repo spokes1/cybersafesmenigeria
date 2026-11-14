@@ -1,0 +1,10 @@
+work_id,test,status,measured_evidence,remaining_gate
+CSN-UI-101,Grey strip,OPEN,"Not reproducible locally, source not identified",Netlify clean-browser Inspector
+CSN-NAV-102,Desktop and mobile menu,PASS isolated,981+ desktop; 980- hamburger; mobile opens,Verify on Netlify
+CSN-KEN-103,Kenny invitation + 5min checkin,PRESERVED; live pending,Controller SHA-256 unchanged; previous timer QA logs,Real-origin time/storage on staging
+CSN-TIP-104,Cyber Tips,PASS isolated/manual,Manual advancement updates hero tip; underlying timer unchanged,Seven real seconds staging
+CSN-VIS-105,Light theme,PASS isolated,"Screenshots at 390,1366",Owner visual review
+CSN-THEME-106,Dark theme,PASS isolated,"40-page 390px audit, no overflow",Physical devices & a11y
+CSN-HEAD-107,Topic labels,PASS static,40 single H1; 32 topic strips,Editorial glance
+CSN-SC-108,Selfcheck guide titles,PASS isolated,15-answer full report; no raw URLs; white print,Staging native print/PDF
+CSN-QA-109,Build/routes/asset preservation,PASS static,"40+404,159 phrases, six PDFs, 74 protected files",Netlify CSP/console/network and senior review
