@@ -31,8 +31,10 @@ for f in sorted((ROOT/'public').rglob('*.html')):
  assert len(new.ids)==len(set(new.ids)),rel+' duplicate IDs'
  missing=set(new.refs)-set(new.ids);assert not missing,(rel,missing)
  before={re.sub(r'^/about/(mission|team|contact)/?(?:#.*)?$',r'/about#\1',h) for h in before}
+ # Owner-approved email, Privacy retirement and promotional-game-link changes.
+ before={h.replace('mailto:hello@cybersafesmenigeria.ng','mailto:learn@cybersafesme.org') for h in before if h!='/privacy' and not h.startswith('/learn/spot-the-scam?')}
  # The owner replaced four About documents with one page and three redirect shells.
- if rel.startswith('public/about/'):before=set()
+ if rel.startswith('public/about/') or rel=='public/privacy/index.html':before=set()
  after={h for h,t in new.links};assert not before-after,(rel,'destinations removed',before-after)
  raw=[(h,t)for h,t in new.links if re.match(r'^(https?://|www\.|/[a-z])',t)];assert not raw,(rel,raw)
  assert not new.badges,(rel,new.badges)

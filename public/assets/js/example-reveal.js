@@ -3,6 +3,7 @@
 (() => {
   'use strict';
   const SPECS = {
+    responses: ['#already-clicked', '.b2-response-link', '[data-ph-response-panel]', 'href', 'data-ph-response-panel', '.ph-response-panel'],
     phishing: ['#worked-examples', '.b2-example-nav a', '.ph-example-card', 'href', 'id', '.b2-example-nav'],
     engineering: ['[data-se-call]', '[data-se-pick]', '[data-se-moment]', 'data-se-pick', 'data-se-moment', '.se-call-controls'],
     malware: ['[data-mw-desk]', '[data-mw-pick]', '[data-mw-signal]', 'data-mw-pick', 'data-mw-signal', '.mw-desk-controls'],
@@ -43,7 +44,7 @@
     root.append(status);
     // Replace old automatic-selection messages with the shared instruction.
     root.querySelectorAll('[data-tr-feedback],[data-cb-map-announcement],[data-ds-current],[data-ir-status],[data-ws-message],[data-rw-status]').forEach(el=>{el.hidden=true;});
-    const labels = choices.map(choice => clean(choice.getAttribute('aria-label') || choice.querySelector('span')?.textContent || choice.textContent).replace(/^Focus on /i,''));
+    const labels = choices.map(choice => clean(choice.getAttribute('aria-label') || choice.querySelector('strong')?.textContent || choice.querySelector('span')?.textContent || choice.textContent).replace(/^Focus on /i,''));
     const viewed = new Set();
     const badges = choices.map((choice,i) => {
       const item = items.find(item => item.key === keys[i]);
@@ -82,7 +83,7 @@
       choice.addEventListener('click',event => {
         event.preventDefault();show(keys[i]);
         const panel=items.find(item=>item.key===keys[i]).panel;
-        if (choice.tagName==='A') history.replaceState(null,'','#'+panel.id);
+        if (choice.tagName==='A') history.replaceState(null,'',choice.getAttribute('href'));
       });
       choice.addEventListener('keydown',event => {
         if(event.key===' '&&choice.tagName==='A'){event.preventDefault();choice.click();return;}

@@ -71,4 +71,12 @@ Both owner-supplied team portraits are now included, and Kenny's decorative one-
 
 The primary website address is **https://www.cybersafesme.org**. It is configured in `tools/content/site-config.json`, shared by the website and downloadable PDFs. Run `python tools/generate_downloads.py` followed by `node tools/build.mjs` after an address change. The production-domain report is [here](docs/DOMAIN_UPDATE_2026-11-14/DOMAIN_UPDATE_REPORT.md).
 
-Netlify redirects from the bare domain and former Netlify hostname are prepared in `netlify.toml`. Add/verify `www.cybersafesme.org` in the production site's Netlify domain settings, make it the primary domain, and apply the DNS records Netlify supplies for that specific site; complete TLS provisioning before rollout. This repository update does not change DNS or the Netlify account. The owner-private Sites review remains at its existing review URL. Contact email is unchanged.
+Netlify redirects from the bare domain and former Netlify hostname are prepared in `netlify.toml`. Add/verify `www.cybersafesme.org` in the production site's Netlify domain settings, make it the primary domain, and apply the DNS records Netlify supplies for that specific site; complete TLS provisioning before rollout. This repository update does not change DNS or the Netlify account. The owner-private Sites review remains at its existing review URL. Contact email is now learn@cybersafesme.org.
+
+## Homepage and interaction cleanup (15 November 2026)
+
+Contact email is `learn@cybersafesme.org`. The Privacy Policy is retired to About, homepage topic cards use compact icon tiles, repeated disclaimer/social-status blocks are removed, and thirteen information selectors reveal details on request. See [the cleanup report](docs/CLEANUP_UPDATE_2026-11-15/CLEANUP_UPDATE_REPORT.md).
+
+## Game, typography and PDF branding (16 November 2026)
+
+See [the current update report](docs/GAME_FONT_PDF_UPDATE_2026-11-16/GAME_FONT_PDF_UPDATE_REPORT.md). Animation replay controls are removed; first-attempt correct answers get positive feedback. Optional ligatures are disabled across pages, game controls and Kenny's shadow UI. All six PDFs now use the original full logo PNG without duplicate typeset branding, preserving approved body content and links. The release passed 104 automated tests, 12 gameplay paths and PDF/font checks; browser visual QA was unavailable.

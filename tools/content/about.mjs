@@ -56,39 +56,7 @@ export function aboutIndexBody() {
 <div class="card"><div class="ci">${icon('mail')}</div><h3>Email us</h3><p>For corrections, questions about the content, or a topic you would like covered.</p><a class="mail" href="mailto:${SITE.email}">Email CyberSafe SME Nigeria</a></div>
 <div class="card"><div class="ci o">${icon('bolt')}</div><h3>Reporting an incident</h3><p>If you suspect a security incident, start with our <a href="/protect-your-business/incident-response">Incident Response guide</a>. For suspected payment fraud, contact your bank or payment provider immediately through an official channel. Use our <a href="/resources/organisations">Cybersecurity Organisations directory</a> to find the right reporting route for your situation.</p><p>CyberSafe does not receive or investigate incident reports. Please do not send us sensitive information.</p></div>
 </div>
-<p class="fine">Please do not send passwords, OTPs, BVN details, card numbers or customer records to us. We never need them, and no legitimate organisation will ask you for them by email.</p>
-<h3>Social channels are not live yet</h3><p>When LinkedIn, X and Instagram accounts are set up, they will be linked in the footer. Until then, email is the reliable route.</p>
 </div></section>`;
-}
-
-export function privacyBody() {
-  return articlePage({
-    section: 'Legal',
-    title: 'Privacy Policy',
-    lede: 'CyberSafe is a static website. It has no accounts, no forms and no analytics, so there is very little to tell you.',
-    trail: [{ label: 'Home', href: '/' }, { label: 'Privacy Policy' }],
-    blocks: [
-      ['h2', 'What we collect'],
-      ['p', 'We do not require a visitor account and we do not use analytics or advertising scripts. The site has no online contact-submission form. The Security Self-Check is an optional assessment that works in your browser. We do not set tracking cookies or create behavioural profiles. Ordinary hosting and font requests still involve technical data such as IP addresses, as explained below.'],
-      ['h2', 'The security checklist'],
-      ['p', 'The [15-question Business Security Self-Check](/resources/security-checklist) stores your selected answers and any optional business or team name in this browser using local storage (`cybersafe.selfcheck.v2`) so you can return to your assessment. These responses are processed locally to display your self-reported checklist-practice progress and printable action plan; they are not submitted to CyberSafe. The page has a "Clear my answers on this device" button, or you can remove the data through browser storage settings. The earlier 16-item checklist used a separate v1 storage entry: it is not imported into the new assessment or automatically deleted. If browser storage is disabled, the assessment still works during the open page session but will not be saved. Do not enter passwords, verification codes or private customer details.'],
-      ['h2', 'Games and Kenny'],
-      ['p', 'The games keep answers and practice scores in the open page. Kenny uses session storage in this browser tab to remember whether an activity was completed, invitation and tip timing, page notices, and the page to return to. These records are not sent to CyberSafe and are not used to identify or track you. If session storage is unavailable, the companion uses temporary page memory. Closing the tab ends this stored visit.'],
-      ['h2', 'Fonts and hosting'],
-      ['p', 'Typefaces are loaded from Google Fonts, which means your browser makes a request to Google\'s servers and they will see your IP address as part of serving that file. The site is hosted on Netlify, whose servers process standard request logs. Neither is used by us for tracking.'],
-      ['h2', 'Links out'],
-      ['p', 'We link to government agencies, security bodies and tools. Once you follow a link, that organisation\'s own privacy policy applies. We are not affiliated with any of them.'],
-      ['h2', 'Email'],
-      ['p', 'If you email us, we will have your message and your address, and we will use them only to reply. Please do not send passwords, OTPs, BVN details, card numbers or customer records.'],
-      ['h2', 'Questions'],
-      ['p', 'Write to [' + SITE.email + '](mailto:' + SITE.email + '). If this policy changes, the updated version will appear on this page.'],
-    ],
-    related: [
-      { label: 'Terms of use', href: '/terms' },
-      { label: 'Contact', href: '/about/contact' },
-    ],
-    relatedTitle: 'Also see',
-  });
 }
 
 export function termsBody() {
@@ -114,7 +82,6 @@ export function termsBody() {
       ['p', 'Questions about these terms: [' + SITE.email + '](mailto:' + SITE.email + ').'],
     ],
     related: [
-      { label: 'Privacy policy', href: '/privacy' },
       { label: 'Contact', href: '/about/contact' },
     ],
     relatedTitle: 'Also see',

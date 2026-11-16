@@ -105,3 +105,27 @@
   status = 301
   force = true
 
+# Production primary domain. Activate www.cybersafesme.org in Netlify's
+# domain settings and configure DNS separately before production rollout.
+[[redirects]]
+  from = "https://cybersafesme.org/*"
+  to = "https://www.cybersafesme.org/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://cybersafesmenigeria.netlify.app/*"
+  to = "https://www.cybersafesme.org/:splat"
+  status = 301
+  force = true
+
+# Retired Privacy Policy: the owner requested removal; preserve old bookmarks.
+[[redirects]]
+  from = "/privacy"
+  to = "/about"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/privacy/"
+  to = "/about"
+  status = 301
+  force = true

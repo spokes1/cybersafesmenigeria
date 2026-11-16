@@ -5,7 +5,7 @@ import test from 'node:test';import assert from 'node:assert/strict';import fs f
 import {ABOUT_REDIRECTS,updateAboutLinks} from '../tools/lib/about-routes.mjs';
 const require=createRequire(import.meta.url);const {parseHTML}=require(process.env.CS_TEST_DEPS || 'linkedom');
 const ROOT=new URL('../',import.meta.url).pathname;const code=fs.readFileSync(ROOT+'tools/assets/example-reveal.js','utf8');
-const groups=[['phishing','learn/phishing-guide',4],['engineering','threats/social-engineering',3],['malware','threats/malware',4],['bec','threats/business-email-compromise',2],['social','learn/social-media-security',2],['tools','resources/tools',4],['basics','learn/cybersecurity-basics',5],['device','protect-your-business/device-security',6],['organisations','resources/organisations',5],['incident','protect-your-business/incident-response',4],['whatsapp','learn/whatsapp-security',3],['ransomware','threats/ransomware',4]];
+const groups=[['responses','threats/phishing',4],['phishing','learn/phishing-guide',4],['engineering','threats/social-engineering',3],['malware','threats/malware',4],['bec','threats/business-email-compromise',2],['social','learn/social-media-security',2],['tools','resources/tools',4],['basics','learn/cybersecurity-basics',5],['device','protect-your-business/device-security',6],['organisations','resources/organisations',5],['incident','protect-your-business/incident-response',4],['whatsapp','learn/whatsapp-security',3],['ransomware','threats/ransomware',4]];
 function load(route,hash='') {
  const {document,window}=parseHTML(fs.readFileSync(ROOT+'public/'+route+'/index.html','utf8'));
  const location={hash};const history={replaceState(_s,_t,value){location.hash=value;}};let focused;
@@ -49,7 +49,7 @@ test('About has one hero, three sections, two correct team cards, and original c
  const {document}=parseHTML(fs.readFileSync(ROOT+'public/about/index.html','utf8'));assert.equal(document.querySelectorAll('h1').length,1);
  for(const id of ['mission','team','contact'])assert.ok(document.getElementById(id));
  const cards=[...document.querySelectorAll('.about-person')];assert.equal(cards.length,2);assert.match(cards[0].textContent,/Coker Kehinde.*Founder & Project Lead/s);assert.match(cards[1].textContent,/Collins Eyetu.*Content & Design/s);
- assert.match(document.querySelector('#contact').textContent,/contact your bank or payment provider immediately/);assert.match(document.querySelector('#contact').textContent,/Please do not send passwords/);
+ assert.match(document.querySelector('#contact').textContent,/contact your bank or payment provider immediately/);assert.doesNotMatch(document.querySelector('#contact').textContent,/Please do not send passwords|Social channels are not live yet/);
  assert.equal(document.querySelectorAll('.main .dd').length,4);assert.ok(document.querySelector('.main a[href="/about"]'));assert.equal(document.querySelector('.main a[href="/about"]').getAttribute('aria-current'),'page');
 });
 test('legacy About URLs are redirect shells and excluded from search and sitemap',()=>{
@@ -108,7 +108,26 @@ test('all published canonical/sharing URLs, sitemap and robots use the approved 
   for(const el of document.querySelectorAll('meta[property="og:url"],meta[property="og:image"],meta[name="twitter:image"]'))assert.ok(el.getAttribute('content').startsWith(origin+'/'),file);
  }
  assert.equal(htmlCount,41);assert.equal(canonicalCount,40);
- const sitemap=fs.readFileSync(ROOT+'public/sitemap.xml','utf8');const locations=[...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]);assert.equal(locations.length,37);assert.ok(locations.every(url=>url.startsWith(origin+'/')));
+ const sitemap=fs.readFileSync(ROOT+'public/sitemap.xml','utf8');const locations=[...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]);assert.equal(locations.length,36);assert.ok(locations.every(url=>url.startsWith(origin+'/')));
  assert.ok(fs.readFileSync(ROOT+'public/robots.txt','utf8').includes('Sitemap: '+origin+'/sitemap.xml'));
  const {document}=parseHTML(fs.readFileSync(ROOT+'public/about/index.html','utf8'));assert.ok(document.querySelector('#team').textContent.includes('CyberSafe is written and maintained by a small team working on cybersecurity awareness for SMEs.'));assert.ok(!document.querySelector('#team').textContent.includes('small Nigerian team'));
+});
+test('approved contact, Privacy retirement and footer/About removals apply across the generated site',()=>{
+ function walk(p){return fs.readdirSync(p,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(p,e.name)):[path.join(p,e.name)]);}
+ for(const file of walk(ROOT+'public').filter(f=>f.endsWith('.html'))){const text=fs.readFileSync(file,'utf8');const {document}=parseHTML(text);assert.ok(!text.includes('hello@cybersafesmenigeria.ng'),file);assert.ok(!document.querySelector('a[href="/privacy"]'),file);assert.ok(!/CyberSafe SME Nigeria provides (?:general )?cybersecurity awareness/.test(document.querySelector('footer')?.textContent||''),file);
+  if(document.querySelector('footer'))assert.ok(document.querySelector('footer a[href="mailto:learn@cybersafesme.org"]'),file);
+ }
+ const {document}=parseHTML(fs.readFileSync(ROOT+'public/about/index.html','utf8'));assert.doesNotMatch(document.querySelector('#contact').textContent,/Social channels are not live yet|Please do not send passwords/);
+ const retired=fs.readFileSync(ROOT+'public/privacy/index.html','utf8');assert.ok(retired.includes('content="0;url=/about"'));assert.ok(!retired.includes('What we collect'));assert.ok(!fs.readFileSync(ROOT+'public/sitemap.xml','utf8').includes('/privacy'));
+ const index=JSON.parse(fs.readFileSync(ROOT+'public/assets/search-index.json','utf8'));assert.ok(index.every(row=>row.url!='/privacy'&&row.url!='/learn/spot-the-scam'));
+});
+test('homepage topics use shared icon cards and the only static game entrypoints are the Learn menus',()=>{
+ function walk(p){return fs.readdirSync(p,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(p,e.name)):[path.join(p,e.name)]);}
+ for(const file of walk(ROOT+'public').filter(f=>f.endsWith('.html'))){const {document}=parseHTML(fs.readFileSync(file,'utf8'));for(const a of document.querySelectorAll('a[href^="/learn/spot-the-scam"]'))assert.ok(a.closest('header.top'),file+' duplicate game promotion');}
+ const {document}=parseHTML(fs.readFileSync(ROOT+'public/index.html','utf8'));const cards=[...document.querySelectorAll('.home-topic-card')];assert.equal(cards.length,6);assert.ok(cards.every(card=>card.querySelector('.ci')&&card.querySelector('h3')&&card.querySelector('p')&&card.querySelector('.more')));assert.ok(!document.querySelector('.th-ring,.home-topic-card .th'));assert.ok(document.querySelector('.main .dd .panel a[href="/learn/spot-the-scam"]'));
+});
+test('phishing response headings retain original deep links without a pale target rule',()=>{
+ const {document}=load('threats/phishing','#credentials-response');const panels=[...document.querySelectorAll('[data-ph-response-panel]')];assert.equal(panels.length,4);assert.equal(panels.filter(p=>!p.hidden).length,1);assert.equal(document.getElementById('credentials-response').closest('.cs-reveal-panel').hidden,false);assert.ok(panels.every(p=>p.querySelector('h3[id]')));
+ const {document:closed}=parseHTML(fs.readFileSync(ROOT+'public/threats/phishing/index.html','utf8'));assert.ok([...closed.querySelectorAll('[data-ph-response-panel]')].every(p=>!p.hidden),'without JavaScript all approved reference advice remains readable');
+ const css=fs.readFileSync(ROOT+'public/assets/css/site.css','utf8');assert.ok(!css.includes('background:#e8f6f2; box-shadow:0 0 0 9px #e8f6f2'));assert.ok(css.includes('.ph-response-detail > h3[id]:target { background:transparent;'));
 });

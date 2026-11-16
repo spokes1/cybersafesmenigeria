@@ -11,32 +11,8 @@
     return b;
   };
 
-  // Threat: native links navigate to the full, unchanged response; JS only marks the choice.
-  const threat = document.querySelector('.ph-hero-threat');
-  const response = threat && document.getElementById('already-clicked');
-  if (response && !response.dataset.b2Initialised) {
-    response.dataset.b2Initialised = 'true';
-    const links = all(response, '.b2-response-link');
-    function markResponse() {
-      const hash = decodeURIComponent(location.hash || '');
-      links.forEach(link => {
-        const current = hash === link.getAttribute('href');
-        link.classList.toggle('b2-chosen', current);
-        if (current) link.setAttribute('aria-current','location');
-        else link.removeAttribute('aria-current');
-      });
-    }
-    window.addEventListener('hashchange', markResponse);
-    links.forEach(link => link.addEventListener('click', () => {
-      // Native anchor handles scrolling and focus; mark selection immediately.
-      links.forEach(other => {
-        other.classList.toggle('b2-chosen', other === link);
-        if (other === link) other.setAttribute('aria-current','location');
-        else other.removeAttribute('aria-current');
-      });
-    }));
-    markResponse();
-  }
+  // The phishing response routes share the one-panel reveal workflow.
+  window.CyberSafeExamples?.mount('responses');
 
   // One example at a time; native deep links stay valid.
   window.CyberSafeExamples?.mount('phishing');

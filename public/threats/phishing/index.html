@@ -29,6 +29,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap">
 <link rel="stylesheet" href="/assets/css/site.css">
 <link rel="stylesheet" href="/assets/css/theme.css">
+<link rel="stylesheet" href="/assets/css/typography.css">
 <script type="module" src="/assets/js/kenny-website.js"></script>
 <script src="/assets/js/site.js" defer></script>
 <script src="/assets/js/example-reveal.js" defer></script>
@@ -143,11 +144,11 @@
 <p>Use your email service's phishing-reporting feature where available.</p>
 <p>Make it easy for staff to raise concerns. Reporting a suspicious message should be treated as a useful security action, not a reason for blame.</p></section>
 <section id="already-clicked" class="rv ph-section"><div class="eyebrow"><span class="ic"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#shield"/></svg></span><div><h2>Already clicked or shared something? Here&#x27;s what to do.</h2></div></div><p>The right response depends on what happened.</p><div class="ph-response-panel" role="group" aria-label="What happened after the click? Four response routes"><div class="ph-panel-title"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#alert"/></svg><strong>What happened? Choose the relevant response.</strong></div><ul class="ph-response-grid"><li class="ph-response-card"><a class="b2-response-link" href="#clicked-only-response"><span class="ph-response-icon"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#alert"/></svg></span><div><strong>Clicked only</strong><p>Stop interacting, stay alert and report concerns.</p></div></a></li><li class="ph-response-card"><a class="b2-response-link" href="#credentials-response"><span class="ph-response-icon"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#key"/></svg></span><div><strong>Shared a password or code</strong><p>Secure the account and notify support.</p></div></a></li><li class="ph-response-card"><a class="b2-response-link" href="#file-response"><span class="ph-response-icon"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#file"/></svg></span><div><strong>Opened a harmful file</strong><p>Stop sensitive activity and arrange a device check.</p></div></a></li><li class="ph-response-card"><a class="b2-response-link" href="#banking-response"><span class="ph-response-icon"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#bank"/></svg></span><div><strong>Sent money or banking details</strong><p>Contact the bank immediately and preserve evidence.</p></div></a></li></ul></div>
-<h3 id="clicked-only-response" tabindex="-1">You clicked a link but entered nothing</h3>
+<div class="ph-response-details"><section class="ph-response-detail" data-ph-response-panel="clicked-only-response" aria-labelledby="clicked-only-response"><h3 id="clicked-only-response" tabindex="-1">You clicked a link but entered nothing</h3>
 <p>Close the suspicious page and do not interact with it further.</p>
 <p>If you did not enter information, download files or install software, the risk may be limited. Clicking alone does not prove that your account or device has been compromised.</p>
 <p>Nevertheless, remain alert for unusual activity. If the link was opened on a work device, inform the person responsible for IT or security. Consider running a scan using updated, trusted security software.</p>
-<h3 id="credentials-response" tabindex="-1">You entered a password or shared a login code</h3>
+</section><section class="ph-response-detail" data-ph-response-panel="credentials-response" aria-labelledby="credentials-response"><h3 id="credentials-response" tabindex="-1">You entered a password or shared a login code</h3>
 <p>Act promptly.</p>
 <ol class="cs-unumbered-list cs-plain-list">
 <li>Open the genuine service directly using a trusted device or app.</li>
@@ -159,12 +160,12 @@
 </ol>
 <p>For business email accounts, an administrator may also need to check recovery details, forwarding rules and connected applications.</p>
 <p>Do not assume that changing the password alone has resolved every form of account compromise.</p>
-<h3 id="file-response" tabindex="-1">You downloaded a file or installed software</h3>
+</section><section class="ph-response-detail" data-ph-response-panel="file-response" aria-labelledby="file-response"><h3 id="file-response" tabindex="-1">You downloaded a file or installed software</h3>
 <p>Stop opening the suspicious file or following further instructions.</p>
 <p>Avoid using the affected device for banking or sensitive business activities until it has been checked.</p>
 <p>Run an updated security scan where appropriate. If you suspect harmful software is running, disconnect the affected device from the network and seek qualified technical assistance.</p>
 <p>Tell your IT provider or the person responsible for the business's devices what happened. Preserve relevant evidence, including the original message, and avoid wiping the device without considering investigation and recovery needs.</p>
-<h3 id="banking-response" tabindex="-1">You shared banking details or sent money</h3>
+</section><section class="ph-response-detail" data-ph-response-panel="banking-response" aria-labelledby="banking-response"><h3 id="banking-response" tabindex="-1">You shared banking details or sent money</h3>
 <p>Contact your bank or payment provider immediately using an official support channel.</p>
 <p>Explain what happened and ask about available account-protection, investigation and recovery measures.</p>
 <p>Keep transaction references, the suspicious messages and other relevant records.</p>
@@ -172,7 +173,7 @@
 <p><a class="article-link" href="https://nccc.npf.gov.ng/ereport/" target="_blank" rel="noopener noreferrer">NPF–NCCC reporting portal<span class="sr-only"> (opens in a new tab)</span></a></p>
 <p>You can also report a cybersecurity incident to the Nigeria Computer Emergency Response Team through its official website:</p>
 <p><a class="article-link" href="https://cert.gov.ng/" target="_blank" rel="noopener noreferrer">ngCERT website<span class="sr-only"> (opens in a new tab)</span></a></p>
-<p>Reporting promptly is important, but recovery of lost funds or information cannot be guaranteed.</p></section>
+<p>Reporting promptly is important, but recovery of lost funds or information cannot be guaranteed.</p></section></div></section>
 <section id="how-can-a-small-business-reduce-phishing-risks" class="rv ph-section"><div class="eyebrow"><span class="ic"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#shield"/></svg></span><div><h2>How can a small business reduce phishing risks?</h2></div></div><p>You don't need to expect every employee to identify every fraudulent message. A few consistent protections can make mistakes less damaging.</p>
 <p><strong>Secure the accounts that matter most</strong></p>
 <p>Use strong, unique passwords for your business email, banking and administrator accounts. Enable multi-factor authentication where available, preferably a phishing-resistant method such as a passkey or security key when supported.</p>
@@ -205,14 +206,9 @@
 </div>
 
 <script src="/assets/js/batch2-interactions.js" defer></script>
-
-<section class="rv" aria-label="Optional phishing practice"><div class="wrap"><p class="eyebrow">Practise what you have learnt</p><p>Test your scam-spotting decisions with five fictional examples, including a suspicious delivery message. <a href="/learn/spot-the-scam">Play Spot the Scam with Kenny</a>.</p></div></section>
 </main>
-<footer><div class="wrap"><div class="fg"><div><span class="lg ft" role="img" aria-label="CyberSafe SME Nigeria"></span><p style="color:var(--muted);max-width:22em">Practical cybersecurity guidance for Nigerian SMEs.</p></div><div><h4>Explore</h4><ul><li><a href="/">Home</a></li><li><a href="/learn">Learn</a></li><li><a href="/threats">Threats</a></li><li><a href="/protect-your-business">Protect Your Business</a></li><li><a href="/resources">Resources</a></li></ul></div><div><h4>Resources</h4><ul><li><a href="/resources/security-checklist">Security Self-Check</a></li><li><a href="/resources/downloads">Downloads</a></li><li><a href="/resources/organisations">Organisations</a></li><li><a href="/resources/external">External Resources</a></li><li><a href="/resources/tools">Tools</a></li></ul></div><div><h4>Company</h4><ul><li><a href="/about">About</a></li><li><a href="/about#mission">Mission</a></li><li><a href="/about#team">Team</a></li><li><a href="/about#contact">Contact</a></li></ul></div><div><h4>Connect</h4><ul><li><a href="mailto:hello@cybersafesmenigeria.ng">Email CyberSafe SME Nigeria</a></li></ul></div></div>
-<div class="fnote"><p style="margin:0"><em>CyberSafe SME Nigeria provides general cybersecurity awareness and educational guidance. If you suspect an account compromise, harmful software or financial fraud, contact the relevant service provider, qualified technical support or appropriate authorities promptly.
-
-
----</em></p></div><div class="fb"><span>&copy; 2026 CyberSafe SME Nigeria</span><nav aria-label="Legal"><a href="/privacy">Privacy Policy</a><a href="/terms">Terms of Use</a><a href="/about#contact">Contact</a></nav></div></div></footer>
+<footer><div class="wrap"><div class="fg"><div><span class="lg ft" role="img" aria-label="CyberSafe SME Nigeria"></span><p style="color:var(--muted);max-width:22em">Practical cybersecurity guidance for Nigerian SMEs.</p></div><div><h4>Explore</h4><ul><li><a href="/">Home</a></li><li><a href="/learn">Learn</a></li><li><a href="/threats">Threats</a></li><li><a href="/protect-your-business">Protect Your Business</a></li><li><a href="/resources">Resources</a></li></ul></div><div><h4>Resources</h4><ul><li><a href="/resources/security-checklist">Security Self-Check</a></li><li><a href="/resources/downloads">Downloads</a></li><li><a href="/resources/organisations">Organisations</a></li><li><a href="/resources/external">External Resources</a></li><li><a href="/resources/tools">Tools</a></li></ul></div><div><h4>Company</h4><ul><li><a href="/about">About</a></li><li><a href="/about#mission">Mission</a></li><li><a href="/about#team">Team</a></li><li><a href="/about#contact">Contact</a></li></ul></div><div><h4>Connect</h4><ul><li><a href="mailto:learn@cybersafesme.org">Email CyberSafe SME Nigeria</a></li></ul></div></div>
+<div class="fb"><span>&copy; 2026 CyberSafe SME Nigeria</span><nav aria-label="Legal"><a href="/terms">Terms of Use</a><a href="/about#contact">Contact</a></nav></div></div></footer>
 <div class="sr" id="sr" role="dialog" aria-modal="true" aria-label="Search CyberSafe SME Nigeria" aria-hidden="true"><div class="sd"><div class="si"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#search"/></svg><input id="q" type="search" placeholder="Search topics, scams or problems…" autocomplete="off" spellcheck="false" aria-label="Search CyberSafe SME Nigeria" aria-controls="sb"><button id="sx" type="button" aria-label="Close search"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#close"/></svg></button></div>
 <div id="sr-status" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div><div class="sb" id="sb"></div></div></div>
 

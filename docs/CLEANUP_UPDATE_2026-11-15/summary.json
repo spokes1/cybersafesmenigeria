@@ -1,0 +1,17 @@
+{
+  "canonicalPages": 36,
+  "htmlFilesIncluding404AndRedirects": 41,
+  "searchEntries": 34,
+  "visitorPhrases": 159,
+  "contactEmail": "learn@cybersafesme.org",
+  "selectorGroups": 13,
+  "choices": 50,
+  "testsPassed": 99,
+  "cascadeStates": 880,
+  "htmlTextSamples": 157954,
+  "cascadeFailures": 0,
+  "negativeControlDetected": true,
+  "privacyPolicyRetired": true,
+  "productionDNSChanged": false,
+  "browserVisualQA": "unavailable"
+}

@@ -55,7 +55,7 @@ ${section({
       copy: 'Four worked business examples and a short exercise for recognising and verifying suspicious requests.',
       href: '/learn/phishing-guide',
       more: 'Read',
-    })}${iconCard({ iconName: 'shield', tone: 'g', tag: 'Interactive practice', title: 'Cyber Practice', copy: 'Choose scam-spotting questions or a ransomware mission, then follow real CyberSafe guides. No timer or sign-in.', href: '/learn/spot-the-scam', more: 'Play' })}${live.map((t, i) => card(t, i, 'Read')).join('')}</div>`,
+    })}${live.map((t, i) => card(t, i, 'Read')).join('')}</div>`,
   })}
 ${section({
     heading: 'New to cybersecurity? Start here.',

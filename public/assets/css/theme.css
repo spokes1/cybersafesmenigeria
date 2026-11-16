@@ -783,3 +783,33 @@ body #main .cs-panel-selected {opacity:1;filter:none;}
  body #main .cs-reveal-panel[hidden] {display:block!important;}
  .cs-reveal-choice,.cs-reveal-instruction,.cs-viewed {display:none!important;}
 }
+
+/* 15 November: shared homepage topic cards and response headings. */
+.pg-home #main .home-topic-card {display:flex;flex-direction:column;align-items:flex-start;min-width:0;height:100%;padding:24px;background:var(--card);color:var(--ink);}
+.pg-home #main .home-topic-card .ci {flex:none;width:54px;height:54px;margin:0 0 16px;background:linear-gradient(135deg,#087d79,#0b968e);color:#fff;}
+.pg-home #main .home-topic-card .ci.b {background:linear-gradient(135deg,#0b7491,#0e8eaa);}
+.pg-home #main .home-topic-card .ci.g {background:linear-gradient(135deg,#118044,#189150);}
+.pg-home #main .home-topic-card .ci.o {background:linear-gradient(135deg,#bc4d0a,#cf6111);}
+.pg-home #main .home-topic-card h3 {font-size:21px;line-height:1.4;margin:0 0 10px;color:var(--ink);}
+.pg-home #main .home-topic-card p {font-size:15.5px;line-height:1.65;margin:0 0 12px;color:var(--muted);}
+.pg-home #main .home-topic-card .more {margin-top:auto;padding-top:8px;color:var(--brand);}
+.pg-home #main .home-topic-card:is(:hover,:focus-visible) {background:var(--tint);color:var(--ink);border-color:var(--brand);}
+.pg-home #main .home-topic-card:focus-visible {outline:3px solid var(--brand);outline-offset:4px;}
+body #main .ph-response-details {margin-top:20px;}
+body #main .ph-response-detail {padding:22px;border:1px solid var(--line);border-radius:16px;background:var(--card);color:var(--ink);}
+body #main .ph-response-detail>h3 {margin:0 0 14px;font-size:22px;line-height:1.4;}
+body #main .cs-reveal-panel :is(h2,h3,h4):target {background:transparent;color:var(--ink);box-shadow:none;}
+@media(max-width:600px) {
+ .pg-home #main .home-topic-card {padding:21px;}
+ body #main .ph-response-detail {padding:18px;}
+}
+@media(prefers-color-scheme:dark) {
+ body #main .ph-example-card:target {border-color:#6db9b0;box-shadow:0 0 0 2px #6db9b040,var(--shadow);}
+}
+/* The business-map caption is also readable when scripting is unavailable. */
+body #main .cb-map-static-caption {color:var(--muted);}
+/* Keep hero text readable even against the strongest point of its light gradients. */
+@media(prefers-color-scheme:light) {
+ body #main .hero .lead,body #main .hero .crumbs,body #main .hero .crumbs :is(a,span) {color:#40586d;}
+ body #main h1 em {background:linear-gradient(90deg,#0f766e,#1d6fa5);-webkit-background-clip:text;background-clip:text;}
+}

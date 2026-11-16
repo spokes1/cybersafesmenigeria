@@ -17,3 +17,6 @@
    clickable edge immediately, so no CSS override cancels its translation. */
 
 @media(prefers-color-scheme:dark){:host{--kc-paper:#20394a;--kc-border:#607d8b;--kc-ink:#f0f8fb;--kc-muted:#d0e3eb;--kc-teal:#8be8d7;--kc-button-ink:#083c37}.close:hover{background:#2b4d5d}.primary:hover:not(:disabled){background:#b0f2e4}}
+
+/* Render ordinary letter forms, including f/i, without optional ligatures. */
+:host,:host *{font-variant-ligatures:none!important;font-feature-settings:"liga" 0,"clig" 0!important}

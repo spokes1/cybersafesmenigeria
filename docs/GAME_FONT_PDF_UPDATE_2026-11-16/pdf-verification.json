@@ -1,0 +1,89 @@
+[
+  {
+    "file": "account-device-access-register.pdf",
+    "pages": 1,
+    "approvedTextPreserved": true,
+    "uriAnnotations": 3,
+    "links": [
+      "https://www.cybersafesme.org",
+      "https://www.cybersafesme.org/protect-your-business/account-security",
+      "https://www.cybersafesme.org/protect-your-business/device-security"
+    ],
+    "sha256": "adfe5661573e1f60f9f21da13156fc3f2ee72777f95fcb445b57ce9c21d904b9"
+  },
+  {
+    "file": "backup-restore-test-log.pdf",
+    "pages": 1,
+    "approvedTextPreserved": true,
+    "uriAnnotations": 2,
+    "links": [
+      "https://www.cybersafesme.org",
+      "https://www.cybersafesme.org/learn/backup-and-recovery"
+    ],
+    "sha256": "ef13859eac5f1bf95f0c16342cc4930ed09252b399850ce91375135597cd192a"
+  },
+  {
+    "file": "business-security-self-check-blank.pdf",
+    "pages": 4,
+    "approvedTextPreserved": true,
+    "uriAnnotations": 19,
+    "links": [
+      "https://www.cybersafesme.org",
+      "https://www.cybersafesme.org/learn/password-security",
+      "https://www.cybersafesme.org/protect-your-business/account-security",
+      "https://www.cybersafesme.org/learn/whatsapp-security",
+      "https://www.cybersafesme.org/protect-your-business/payment-security",
+      "https://www.cybersafesme.org",
+      "https://www.cybersafesme.org/threats/business-email-compromise",
+      "https://www.cybersafesme.org/threats/social-engineering",
+      "https://www.cybersafesme.org/protect-your-business/device-security",
+      "https://www.cybersafesme.org/protect-your-business/device-security",
+      "https://www.cybersafesme.org/resources/tools",
+      "https://www.cybersafesme.org",
+      "https://www.cybersafesme.org/learn/data-protection",
+      "https://www.cybersafesme.org/learn/backup-and-recovery",
+      "https://www.cybersafesme.org/learn/backup-and-recovery",
+      "https://www.cybersafesme.org/learn/employee-security",
+      "https://www.cybersafesme.org/protect-your-business/incident-response",
+      "https://www.cybersafesme.org/learn/employee-security",
+      "https://www.cybersafesme.org"
+    ],
+    "sha256": "65ecdd8f0832fd484f37df28d9b05e93e6be3ce96f059590fb018a55da89adff"
+  },
+  {
+    "file": "first-hour-incident-record.pdf",
+    "pages": 1,
+    "approvedTextPreserved": true,
+    "uriAnnotations": 3,
+    "links": [
+      "https://www.cybersafesme.org",
+      "https://www.cybersafesme.org/protect-your-business/incident-response",
+      "https://www.cybersafesme.org/resources/organisations"
+    ],
+    "sha256": "299bd14928bed3a3b8f4e86521da6841f3223f22d9ccae965997ce1df16f1347"
+  },
+  {
+    "file": "payment-verification-desk-card.pdf",
+    "pages": 1,
+    "approvedTextPreserved": true,
+    "uriAnnotations": 3,
+    "links": [
+      "https://www.cybersafesme.org",
+      "https://www.cybersafesme.org/protect-your-business/payment-security",
+      "https://www.cybersafesme.org/threats/fake-bank-alerts"
+    ],
+    "sha256": "c70961d59020ab6608685dc67c7036de6bcd85d4ce4c1b1a41e0ebc23b6d73f3"
+  },
+  {
+    "file": "suspicious-message-staff-card.pdf",
+    "pages": 1,
+    "approvedTextPreserved": true,
+    "uriAnnotations": 3,
+    "links": [
+      "https://www.cybersafesme.org",
+      "https://www.cybersafesme.org/threats/phishing",
+      "https://www.cybersafesme.org/threats/social-engineering"
+    ],
+    "sha256": "97dac59fda638c5dfa6552a97d6e0b867dd4494e317c26c1139f93e12ac96c5c"
+  }
+]

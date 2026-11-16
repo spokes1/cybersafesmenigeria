@@ -38,9 +38,12 @@ def brand(c,doc):
  w,h=A4
  c.saveState()
  c.setFillColor(navy);c.rect(0,h-34*mm,w,34*mm,stroke=0,fill=1)
- c.drawImage(ImageReader(str(logo)),15*mm,h-28*mm,width=20*mm,height=19*mm,preserveAspectRatio=True,mask='auto')
- c.setFont('Helvetica-Bold',13);c.setFillColor(colors.white);c.drawString(39*mm,h-18.5*mm,'CyberSafe SME Nigeria')
- c.setFont('Helvetica',7.5);c.drawString(39*mm,h-24*mm,'Practical cybersecurity guidance for Nigerian SMEs')
+ logo_w=78*mm
+ logo_reader=ImageReader(str(logo))
+ logo_px_w,logo_px_h=logo_reader.getSize()
+ logo_h=logo_w*logo_px_h/logo_px_w
+ logo_y=h-(34*mm+logo_h)/2
+ c.drawImage(logo_reader,15*mm,logo_y,width=logo_w,height=logo_h,preserveAspectRatio=True,mask='auto')
  c.setStrokeColor(line);c.line(15*mm,17*mm,w-15*mm,17*mm)
  prefix='Free educational resource  |  Keep completed forms private  |  '
  c.setFillColor(muted);c.setFont('Helvetica',7);c.drawString(15*mm,12*mm,prefix)
@@ -99,4 +102,4 @@ doc('business-security-self-check-blank.pdf',story)
 for x in sorted(out.glob('*.pdf')):
  from pypdf import PdfReader
  reader=PdfReader(str(x));texts=[page.extract_text() for page in reader.pages]
- print(x.name,'bytes',x.stat().st_size,'pages',len(texts),'brand',all('CyberSafe SME Nigeria' in t for t in texts),'textchars',sum(map(len,texts)))
+ print(x.name,'bytes',x.stat().st_size,'pages',len(texts),'full-logo',all(any(ref.get_object().get('/Width')==640 and ref.get_object().get('/Height')==176 for ref in page['/Resources'].get('/XObject',{}).values()) for page in reader.pages),'textchars',sum(map(len,texts)))

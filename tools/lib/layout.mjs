@@ -108,6 +108,7 @@ ${canonical ? `<link rel="canonical" href="${url}">\n` : ''}<link rel="icon" typ
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap">
 <link rel="stylesheet" href="/assets/css/site.css">
 <link rel="stylesheet" href="/assets/css/theme.css">
+<link rel="stylesheet" href="/assets/css/typography.css">
 ${preload}${kennyHead}
 <script src="/assets/js/site.js" defer></script>
 <script src="/assets/js/example-reveal.js" defer></script>

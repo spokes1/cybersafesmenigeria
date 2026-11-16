@@ -50,7 +50,7 @@ export function mountKenny(options = {}) {
   // This markup is constant. Configurable text always uses textContent.
   shadow.innerHTML = '<link rel="stylesheet"><div class="companion"><button type="button" class="peeker" aria-label="Open Kenny’s game invitation" aria-expanded="false"><img alt="" draggable="false"></button><section class="panel" role="region" aria-label="A message from Kenny" hidden><button type="button" class="close" aria-label="Close Kenny’s message">×</button><p class="body"></p><button type="button" class="primary"></button></section><div class="sr-only announcer" role="status" aria-live="polite" aria-atomic="true"></div></div>';
   const stylesheet = new URL('./kenny-companion.css', import.meta.url);
-  stylesheet.searchParams.set('v', '4');
+  stylesheet.searchParams.set('v', '5');
   shadow.querySelector('link').href = stylesheet.href;
   const $ = selector => shadow.querySelector(selector);
   const root = $('.companion'), peeker = $('.peeker'), image = $('.peeker img'), panel = $('.panel');
