@@ -1,0 +1,11 @@
+{
+  "textSamples": 157954,
+  "states": 880,
+  "unknown": 0,
+  "negativeControlDetected": true,
+  "negativeControlRatio": 1.03,
+  "canonicalPages": 36,
+  "failures": [],
+  "selectorParseIssues": [],
+  "scriptIssues": []
+}

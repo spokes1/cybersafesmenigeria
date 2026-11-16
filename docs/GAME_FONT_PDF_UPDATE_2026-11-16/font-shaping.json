@@ -1,0 +1,188 @@
+[
+  {
+    "weight": "400",
+    "word": "files",
+    "default": [
+      "fi",
+      "l",
+      "e",
+      "s"
+    ],
+    "separate": [
+      "f",
+      "i",
+      "l",
+      "e",
+      "s"
+    ]
+  },
+  {
+    "weight": "400",
+    "word": "first",
+    "default": [
+      "fi",
+      "r",
+      "s",
+      "t"
+    ],
+    "separate": [
+      "f",
+      "i",
+      "r",
+      "s",
+      "t"
+    ]
+  },
+  {
+    "weight": "400",
+    "word": "confirm",
+    "default": [
+      "c",
+      "o",
+      "n",
+      "fi",
+      "r",
+      "m"
+    ],
+    "separate": [
+      "c",
+      "o",
+      "n",
+      "f",
+      "i",
+      "r",
+      "m"
+    ]
+  },
+  {
+    "weight": "400",
+    "word": "office",
+    "default": [
+      "o",
+      "f_f_i",
+      "c",
+      "e"
+    ],
+    "separate": [
+      "o",
+      "f",
+      "f",
+      "i",
+      "c",
+      "e"
+    ]
+  },
+  {
+    "weight": "400",
+    "word": "offline",
+    "default": [
+      "o",
+      "f_f_l",
+      "i",
+      "n",
+      "e"
+    ],
+    "separate": [
+      "o",
+      "f",
+      "f",
+      "l",
+      "i",
+      "n",
+      "e"
+    ]
+  },
+  {
+    "weight": "700",
+    "word": "files",
+    "default": [
+      "fi",
+      "l",
+      "e",
+      "s"
+    ],
+    "separate": [
+      "f",
+      "i",
+      "l",
+      "e",
+      "s"
+    ]
+  },
+  {
+    "weight": "700",
+    "word": "first",
+    "default": [
+      "fi",
+      "r",
+      "s",
+      "t"
+    ],
+    "separate": [
+      "f",
+      "i",
+      "r",
+      "s",
+      "t"
+    ]
+  },
+  {
+    "weight": "700",
+    "word": "confirm",
+    "default": [
+      "c",
+      "o",
+      "n",
+      "fi",
+      "r",
+      "m"
+    ],
+    "separate": [
+      "c",
+      "o",
+      "n",
+      "f",
+      "i",
+      "r",
+      "m"
+    ]
+  },
+  {
+    "weight": "700",
+    "word": "office",
+    "default": [
+      "o",
+      "f_f_i",
+      "c",
+      "e"
+    ],
+    "separate": [
+      "o",
+      "f",
+      "f",
+      "i",
+      "c",
+      "e"
+    ]
+  },
+  {
+    "weight": "700",
+    "word": "offline",
+    "default": [
+      "o",
+      "f_f_l",
+      "i",
+      "n",
+      "e"
+    ],
+    "separate": [
+      "o",
+      "f",
+      "f",
+      "l",
+      "i",
+      "n",
+      "e"
+    ]
+  }
+]

@@ -15,7 +15,7 @@ import { fileURLToPath } from 'node:url';
 
 import { document_ } from './lib/layout.mjs';
 import { refineEditorial } from './lib/editorial.mjs';
-import { ABOUT_REDIRECTS, updateAboutLinks, aboutRedirectDocument } from './lib/about-routes.mjs';
+import { PAGE_REDIRECTS, updateAboutLinks, aboutRedirectDocument } from './lib/about-routes.mjs';
 import { assertNavigationOwnership } from './lib/navigation-check.mjs';
 import { hubHero, section, btn } from './lib/components.mjs';
 import { icon } from './lib/icons.mjs';
@@ -33,7 +33,7 @@ import {
   externalBody,
   toolsBody,
 } from './content/resources.mjs';
-import { aboutIndexBody, privacyBody, termsBody } from './content/about.mjs';
+import { aboutIndexBody, termsBody } from './content/about.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = join(ROOT, 'public');
@@ -347,7 +347,6 @@ const pages = [
 
   /* About and legal */
   hub('/about', 'About | CyberSafe SME Nigeria', 'CyberSafe is a free cybersecurity knowledge hub for Nigerian SMEs. It is not a consultancy, MSSP or security vendor.', 'About', aboutIndexBody()),
-  art('/privacy', 'Privacy Policy | CyberSafe SME Nigeria', 'How browser-only Self-Check answers, local storage and normal website hosting requests are handled.', 'Legal', 'Privacy Policy', privacyBody()),
   art('/terms', 'Terms of Use | CyberSafe SME Nigeria', 'What CyberSafe is for, and the limits of what to rely on it for.', 'Legal', 'Terms of Use', termsBody()),
 ];
 
@@ -449,6 +448,7 @@ async function build() {
   // Shared palette: authored in tools/, published as a local static asset.
   await writeFile(join(OUT, 'assets/css/theme.css'),
     await readFile(join(ROOT, 'tools/assets/theme.css'), 'utf8'));
+  await cp(join(ROOT,'tools/assets/typography.css'),join(OUT,'assets/css/typography.css'));
   // Compile browser interaction from the same canonical 15 questions used by the paper PDF.
   const checkData = JSON.parse(await readFile(join(ROOT, 'tools/content/selfcheck-v2.json'), 'utf8'));
   const checkTemplate = await readFile(join(ROOT, 'tools/templates/selfcheck-v2.js.template'), 'utf8');
@@ -489,7 +489,7 @@ ${section({
     await writeFile(file, html, 'utf8');
   }
   await writeFile(join(OUT, '404.html'), notFound, 'utf8');
-  for (const [oldPath, target] of Object.entries(ABOUT_REDIRECTS)) {
+  for (const [oldPath, target] of Object.entries(PAGE_REDIRECTS)) {
     const file = outputPath(oldPath);
     await mkdir(dirname(file), {recursive:true});
     await writeFile(file, aboutRedirectDocument(target), 'utf8');

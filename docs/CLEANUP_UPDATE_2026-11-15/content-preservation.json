@@ -1,0 +1,36 @@
+{
+  "allFourResponseTextsPreserved": true,
+  "allSixHomepageTopicsAndDestinationsPreserved": true,
+  "topics": [
+    [
+      "/threats/phishing",
+      "Phishing",
+      "A message that looks genuine but is designed to trick you into revealing information, opening a harmful link or sending money."
+    ],
+    [
+      "/threats/fake-bank-alerts",
+      "Fake bank alerts",
+      "A false payment notification can persuade staff to release goods before the money has actually arrived. Confirm payments through your normal banking channel before releasing goods or services."
+    ],
+    [
+      "/threats/whatsapp-hijacking",
+      "WhatsApp hijacking",
+      "Once an account is taken over, attackers can use familiar conversations to ask customers, suppliers or colleagues for money or codes."
+    ],
+    [
+      "/threats/sim-swap-fraud",
+      "SIM swap fraud",
+      "Someone takes control of your phone number and tries to use it to reach your bank, email or other accounts."
+    ],
+    [
+      "/threats/malware",
+      "Malware",
+      "Malicious software can steal information, damage systems or interrupt business operations."
+    ],
+    [
+      "/threats/social-engineering",
+      "Social engineering",
+      "Instead of breaking into a system, criminals may simply convince someone to act, such as sharing a code or paying into a “new” supplier account."
+    ]
+  ]
+}

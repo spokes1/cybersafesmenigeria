@@ -9,7 +9,7 @@ export const SITE = {
   name: 'CyberSafe SME Nigeria',
   short: 'CyberSafe',
   tagline: 'Practical cybersecurity guidance for Nigerian SMEs.',
-  email: 'hello@cybersafesmenigeria.ng',
+  email: 'learn@cybersafesme.org',
   ctaLabel: 'Check Your Business Security',
   ctaHref: '/resources/security-checklist',
   origin,
@@ -125,7 +125,6 @@ export const FOOTER = [
 ];
 
 export const LEGAL = [
-  { label: 'Privacy Policy', href: '/privacy' },
   { label: 'Terms of Use', href: '/terms' },
   { label: 'Contact', href: '/about#contact' },
 ];

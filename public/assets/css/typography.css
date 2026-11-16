@@ -1,0 +1,6 @@
+/* Ordinary, separate letter forms across site pages, games and form controls.
+   Required script shaping and the existing typeface/kerning remain intact. */
+:root,:root * {
+  font-variant-ligatures:none!important;
+  font-feature-settings:"liga" 0,"clig" 0!important;
+}

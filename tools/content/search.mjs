@@ -2,7 +2,6 @@
 // Order and wording follow the approved homepage. The build fails if any
 // url here is not a generated page.
 export const SEARCH = [
-  { title: "Cyber Practice", section: "Learn", url: "/learn/spot-the-scam", keywords: "cyber practice games with kenny interactive scam spotting practice game fake bank alerts whatsapp supplier invoice phishing payment approval five challenges ransomware locked laptop mission games backup recovery", summary: "Choose Spot the Scam or The Shop Laptop Is Locked, and explore related CyberSafe guides." },
   { title: "Cybersecurity Basics", section: "Learn", url: "/learn/cybersecurity-basics", keywords: "basics beginner start digital business map accounts payments information devices people first-week cybersecurity definitions frequently asked questions", summary: "Explore the five parts of your digital business and follow five manageable first-week security improvements." },
   { title: "Password Security", section: "Learn", url: "/learn/password-security", keywords: "password passphrase reuse credential stuffing manager 2fa two-factor login", summary: "Use a unique password for every important account." },
   { title: "Email Security", section: "Learn", url: "/learn/email-security", keywords: "email security gmail google workspace outlook microsoft 365 inbox rules mailbox forwarding account recovery SPF DKIM DMARC MFA phishing breach", summary: "Five ways to protect business email, review suspicious forwarding rules and respond to account compromise." },
@@ -36,6 +35,5 @@ export const SEARCH = [
   { title: "Threats (all)", section: "Hub", url: "/threats", keywords: "threats scams attacks all", summary: "How common scams and attacks work." },
   { title: "Protect Your Business", section: "Hub", url: "/protect-your-business", keywords: "protect secure steps", summary: "Practical steps that reduce everyday risk." },
   { title: "Resources (all)", section: "Hub", url: "/resources", keywords: "resources downloads printable PDFs nigeria incident reporting organisations learning tools", summary: "Six printable downloads, official Nigerian contacts, external learning resources and security tools." },
-  { title: "Privacy Policy", section: "Legal", url: "/privacy", keywords: "privacy policy data cookies tracking local storage", summary: "How local Self-Check answers, optional business name and normal hosting requests are handled." },
   { title: "Terms of Use", section: "Legal", url: "/terms", keywords: "terms of use legal disclaimer liability", summary: "What CyberSafe is for, and its limits." },
 ];

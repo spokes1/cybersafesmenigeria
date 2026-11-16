@@ -79,11 +79,26 @@ Embedded model textures require local blob image/fetch permission. Preserve `scr
 - `/about` is the single canonical About page, with `#mission`, `#team` and `#contact`. Old subpages are redirect shells plus Netlify 301 rules, excluded from sitemap/search. Keep menu, footer, search and Kenny notice scope consistent.
 - Team roles are Coker Kehinde, Founder & Project Lead; Collins Eyetu, Content & Design. Do not invent biographies or portraits. Both original portraits are now supplied in `pics.zip` and used at `/assets/photos/coker-kehinde.png` and `/assets/photos/collins-eyetu.jpg`. Preserve their identity and correct name mapping.
 - Kenny’s decorative one-pixel `.edge` element was removed after owner review. Keep the peeker and its accessible focus indicator; do not restore the decorative line.
-- `tools/assets/example-reveal.js` owns the twelve example/guidance selector groups. One detail is visible after an explicit choice (or valid deep link); no detail is selected initially. Keep approved text readable with JavaScript off and all details visible when printing. Viewed markers mean opened during this page only, without analytics or persistence. Ransomware keeps all choices accessible while revealing the selected card's body.
+- `tools/assets/example-reveal.js` owns thirteen example/guidance selector groups, including the phishing threat response routes. One detail is visible after an explicit choice (or valid deep link); no detail is selected initially. Keep approved text readable with JavaScript off and all details visible when printing. Viewed markers mean opened during this page only, without analytics or persistence. Ransomware keeps all choices accessible while revealing the selected card's body.
 
 ## Production domain (14 November 2026)
 
 - Primary origin is `https://www.cybersafesme.org`, including `www`. `tools/content/site-config.json` is shared by the site and PDF generators. Keep canonical/share URLs, sitemap, robots and PDF footers/URI links in sync. Internal relative links retain same-origin navigation in reviews and production.
 - The Our Team introduction says “a small team”; do not restore “a small Nigerian team”. Country-specific educational content and brand remain unchanged.
 - Domain updates authorise PDF regeneration, not question/content changes. `tests/domain-pdfs.py` checks all nine pages against approved text and validates URI targets and bounds. The PDF digests were refreshed only after this content-preservation check.
-- Existing contact email remains `hello@cybersafesmenigeria.ng`; a new website domain does not establish a replacement mailbox. Netlify hostname redirects are prepared in `netlify.toml`; DNS, TLS and primary-domain settings require production hosting configuration outside this source update.
+- The owner-supplied contact email is `learn@cybersafesme.org` (15 November 2026). Netlify hostname redirects are prepared in `netlify.toml`; DNS, TLS and primary-domain settings require production hosting configuration outside this source update.
+
+## Approved homepage/content cleanup (15 November 2026)
+
+- Homepage threat topics use compact coloured icon tiles and the shared card treatment. Keep all six topics and destinations, responsive grids, equal-height cards and aligned Read more links.
+- Game entrypoints are Kenny’s invitation and Learn → Cyber Practice. Do not restore homepage/article promotions or a separate search/Hub promotion. Keep the canonical game route and runtime working.
+- Privacy Policy content and links are removed by owner request; `/privacy` and `/privacy/` redirect to `/about`. Keep the retired URL out of sitemap/search.
+- The About bottom sensitive-information warning and unavailable-social-channels block are removed. Keep the main Mission, Team and Contact content. Repeated educational disclaimer footer paragraphs are removed; the password page’s genuine sources/further-reading footer is retained.
+- Phishing response details are wrapped panels with original heading IDs. Keep details initially hidden under normal JS, reveal one chosen response, preserve deep links, keyboard controls and print/no-JS reading. Never restore a pale `h3:target` highlight behind dark-mode white text.
+
+## Game feedback, typography and PDF branding (16 November 2026)
+
+- Do not restore animation-only replay controls. Automatic reactions and normal activity Play again remain. First-attempt correct feedback uses GOOD DECISION and the approved positive mission headings; preserve wrong/guided feedback and first-attempt scoring.
+- `tools/assets/typography.css` disables optional liga/clig ligatures on full page shells. The companion repeats this inside its shadow root. Keep the current font and required script shaping.
+- All six PDFs use the original full `cybersafe-logo-white.png` lockup in the navy header, without a separately written brand name/tagline. Preserve proportions and all nine page headers. Approved body content and 33 URI annotations remain unchanged. `tests/domain-pdfs.py` verifies the original PNG channels, drawing operations and preserved body text.
+- Current evidence: `docs/GAME_FONT_PDF_UPDATE_2026-11-16/GAME_FONT_PDF_UPDATE_REPORT.md` (104 automated tests, font shaping, six PDFs). Earlier reports are historical.

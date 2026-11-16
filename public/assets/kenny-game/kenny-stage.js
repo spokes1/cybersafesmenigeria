@@ -50,8 +50,6 @@ function applyCue(){if(!runtime||paused||failed)return;try{nextQueue=[...cueSequ
 export function placeKenny(host,{clip='Wave',calm=false,settle=false,sequence=[]}={}){stop();cue=clip;cueSequence=sequence;reading=calm;quietAfter=settle;host.append(root);root.classList.toggle('motion-paused',paused);if(paused){status('Motion paused');}else{status(failed?'Kenny’s illustration is available.':runtime?'':'Kenny is getting ready…');if(runtime)applyCue();else load();}resize();}
 export function setPaused(value){paused=value;root.classList.toggle('motion-paused',paused);if(paused){stop();status('Motion paused');}else{status(failed?'Kenny’s illustration is available.':runtime?'':'Kenny is getting ready…');if(runtime)applyCue();else load();}return paused;}
 export const isPaused=()=>paused;
-export function replayCue(){if(paused)setPaused(false);else if(runtime)applyCue();else load();}
-export function previewClip(name){cue=name;cueSequence=[];nextQueue=[];reading=false;quietAfter=false;replayCue();}
 new ResizeObserver(resize).observe(root);
 if('IntersectionObserver'in window)new IntersectionObserver(entries=>{visible=Boolean(entries[0]?.isIntersecting);visible?refresh():stop();}).observe(root);
 document.addEventListener('visibilitychange',()=>document.hidden?stop():refresh());
